@@ -1,42 +1,132 @@
-.red{
-    color: red;
+body{
+margin: 0px 0px 0px 0px;
+font-size: 14px;
+display: block;
+font-family: 'Ubuntu', sans-serif;
 }
-.bg{
-    color: white;
-    background-color: blue;
-    width: 100px;
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
 }
-h2{
-    color:white;
-    background-color: green;
+/* header */
+.wraper{
+    display: flex;
 }
-.big{
-    padding: 20px 10px;
+.offer{
+    margin-top: 170px;
 }
-.margin{
-    margin: 10px 0;
+.header{
+    background: rgba(77,189,254,1);
+background: -moz-linear-gradient(left, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(left, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(left, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(left, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(to right, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1 );
+    
 }
-.center{
-    margin-left: 100px;
+.logo{
+    padding: 50px 0 0 0;
 }
-.list{
+.header__title{
+    font-size: 37px;
+    font-weight: 700;
+    color: #fff;
+}
+.header__span{
+    font-size: 59px;
+}
+.header__text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color:#fff;
+    width: 400px;
+}
+.btn{
+    color: #2e2a1b;
+    width: 220px;
+    padding: 20px 30px;
+    background-color: #ffd429;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    display: block;
+    text-align: center;
+}
+.desktop{
+    margin-top: 60px;
+}
+/* learn */
+.learn{
+    padding-top: 110px;
+    padding-bottom: 125px;
+}
+.section__title{
+    font-family: 'Ubuntu';
+    font-weight: 700;
     font-size: 30px;
-    position: relative;
+    text-align: center;
 }
-li{
-    position: relative;
+.blocks{
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    width: 300px;
+    text-align: center;
+}
+.block__text{
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    margin-top: 7px;
+}
+.block__title{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 19px;
+}
+.icon{
+    display: block;
+    margin-left: 115px;
+    padding-top: 75px;
+}
+.iconn{
+    margin-top: 10px;
+}
+/* form */
+.from{
+    background-color: #ecf3f8;
+    padding: 110px 0 100px 0;
+}
+form{
+    display: block;
     width: 100%;
-    top: 0;
-    left: 0;
-    margin: 2px;
 }
-.border{  
-    border: 2px solid black;
-    position: block;
-    width: 96vw;
-    margin: 0px 0px 0px 0px;
-    top: 0;
-    }
-img{
-    width: 150px;
+.input{
+    font-family: 'Ubuntu';
+    display: block;
+    height: 50px;
+    width: 345px;
+    font-size: 15px;
+    padding-left: 25px;
+    margin: 0 auto;
+    margin-bottom:15px ;
+}
+.btn2{
+    margin: 0 auto;
+    width: 317px;
+}
+/* footer */
+footer{
+
+    background-color: #164d7a;
+}
+.footer{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #fff;
 }
