@@ -1,49 +1,55 @@
-body{
-margin: 0px 0px 0px 0px;
-font-size: 14px;
-display: block;
-font-family: 'Ubuntu', sans-serif;
+body {
+    margin: 0px 0px 0px 0px;
+    font-size: 14px;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
 }
-.container{
-    max-width: 1180px;
+
+.container {
+    max-width: 1170px;
     margin: 0 auto;
 }
+
 /* header */
-.wraper{
+.wrapper {
     display: flex;
+    align-items:center;
 }
-.offer{
-    margin-top: 170px;
+
+.header {
+    background: rgba(77, 189, 254, 1);
+    background: -moz-linear-gradient(left, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77, 189, 254, 1)), color-stop(100%, rgba(55, 144, 217, 1)));
+    background: -webkit-linear-gradient(left, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -o-linear-gradient(left, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: linear-gradient(to right, rgba(77, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1);
+
 }
-.header{
-    background: rgba(77,189,254,1);
-background: -moz-linear-gradient(left, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
-background: -webkit-linear-gradient(left, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
-background: -o-linear-gradient(left, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
-background: -ms-linear-gradient(left, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
-background: linear-gradient(to right, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1 );
-    
-}
-.logo{
+
+.logo {
     padding: 50px 0 0 0;
 }
-.header__title{
+
+.header__title {
     font-size: 37px;
     font-weight: 700;
     color: #fff;
 }
-.header__span{
+
+.header__span {
     font-size: 59px;
 }
-.header__text{
+
+.header__text {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    color:#fff;
+    color: #fff;
     width: 400px;
 }
-.btn{
+
+.btn {
     color: #2e2a1b;
     width: 220px;
     padding: 20px 30px;
@@ -53,57 +59,71 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', end
     font-weight: 900;
     display: block;
     text-align: center;
+    border: none;
 }
-.desktop{
+
+.desktop {
     margin-top: 60px;
 }
+
 /* learn */
-.learn{
+.learn {
     padding-top: 110px;
     padding-bottom: 125px;
 }
-.section__title{
+
+.section__title {
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 30px;
     text-align: center;
 }
-.blocks{
+
+.blocks {
     display: flex;
     justify-content: space-between;
 }
-.block{
-    width: 300px;
+
+.block {
+    width: 289px;
     text-align: center;
 }
-.block__text{
+
+.block__text {
     font-family: 'Ubuntu';
     font-size: 15px;
     margin-top: 7px;
 }
-.block__title{
+
+.block__title {
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 19px;
 }
-.icon{
+
+.icon {
     display: block;
     margin-left: 115px;
     padding-top: 75px;
+    align-items:center;
 }
-.iconn{
+
+.iconn {
     margin-top: 10px;
 }
+
 /* form */
-.from{
+.from {
     background-color: #ecf3f8;
     padding: 110px 0 100px 0;
 }
-form{
+
+form {
     display: block;
     width: 100%;
 }
-.input{
+
+.input {
     font-family: 'Ubuntu';
     display: block;
     height: 50px;
@@ -111,19 +131,22 @@ form{
     font-size: 15px;
     padding-left: 25px;
     margin: 0 auto;
-    margin-bottom:15px ;
+    margin-bottom: 15px;
 }
-.btn2{
+
+.btn2 {
     margin: 0 auto;
-    width: 317px;
+    width: 375px;
 }
+
 /* footer */
-footer{
+footer {
 
     background-color: #164d7a;
 }
-.footer{
-    padding-top: 50px ;
+
+.footer {
+    padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     font-family: 'Open Sans';
