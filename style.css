@@ -136,7 +136,7 @@ form {
 
 .btn2 {
     margin: 0 auto;
-    width: 375px;
+    width: 376px;
 }
 
 /* footer */
@@ -152,4 +152,85 @@ footer {
     font-family: 'Open Sans';
     font-size: 14px;
     color: #fff;
+}
+/* responsive */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+    .header{
+        width: 100%;
+    }
+    .desktop{
+        display: block;
+	    width: 549px;
+	    margin: 72px auto 0;
+    }
+}
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+	.desktop {
+		display: block;
+	    width: 549px;
+	    margin: 72px auto 0;
+	}
+	.blocks {
+		flex-direction: column;
+	}
+	.block {
+		width: auto;
+		margin-bottom: 30px;
+	}
+    .icon{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.desktop {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn {
+		margin-left: 0;
+        margin-top: 15px;
+        width: 105.743%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.desktop {
+		width: 100%;
+	}
+	.input {
+		width: 90%;
+	}
+	.btn {
+		margin-left: 0;
+        margin-top: 15px;
+        width: 99.1%;
+	}
+
+    .header__text{
+        width: 100%;
+    }
 }
