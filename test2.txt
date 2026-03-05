@@ -1,0 +1,1982 @@
+{
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "direct"
+      },
+	{
+      "type": "field",
+      "domain": [
+        "domain:youtube.com",
+        "domain:googlevideo.com",
+        "domain:ytimg.com",
+        "domain:youtu.be"
+      ],
+      "balancerTag": "youtube-balance"
+    },
+  {
+    "type": "field",
+    "domain": [
+      "domain:vk.com",
+      "domain:vk.ru",
+      "domain:ozon.ru",
+      "domain:wildberries.ru",
+      "domain:wb.ru",
+      "domain:alfabank.ru",
+      "domain:alfa.ru",
+      "domain:yandex.ru",
+      "domain:ya.ru",
+      "domain:yandex.net"
+    ],
+    "outboundTag": "direct"
+  },
+,
+      {
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "balancerTag": "Balancer"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "Balancer",
+        "selector": [
+          "proxy"
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "maxRTT": "1500ms",
+            "expected": 2,
+            "baselines": [
+              "800ms"
+            ],
+            "tolerance": 0.05
+          }
+        },
+        "fallbackTag": "proxy"
+      },
+{
+      "tag": "youtube-balance",
+      "selector": [
+        "proxy-14",
+        "proxy-5",
+        "proxy-6",
+        "proxy"
+      ],
+      "strategy": {
+        "type": "leastLoad"
+      }
+    }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "thaelen.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ads.x5.ru",
+          "show": false,
+          "publicKey": "YkVdWkLd10nJI-V8xVlTSUP74H78nu95TsoGuve-IRo",
+          "shortId": "dc4aa6635008a9ae",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "proxy-2",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cze.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "cze.kaguya.sbs",
+          "show": false,
+          "publicKey": "i1Me-EQAgOlwGFIwD-av4N00G9XdhxKtDXVtFsKaTms"
+        }
+      }
+    },
+    {
+      "tag": "proxy-3",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "lit.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "lit.kaguya.sbs",
+          "show": false,
+          "publicKey": "BGRGsf9yW8qtQRHLcmnH6xUPPbWXSpZsQhEtmXmGhmQ"
+        }
+      }
+    },
+    {
+      "tag": "proxy-4",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "lat.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "lat.kaguya.sbs",
+          "show": false,
+          "publicKey": "UQTXpHnx8Fa-zdXFl6JmzkGC6iSTdgN-dEj8a8_gJF8"
+        }
+      }
+    },
+    {
+      "tag": "proxy-5",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "nor.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "nor.kaguya.sbs",
+          "show": false,
+          "publicKey": "EwV8kwx1WFnfETSL1xbbjwGT-IQCX0L40uHK0S8lZ2w"
+        }
+      }
+    },
+    {
+      "tag": "proxy-6",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "aus.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "aus.kaguya.sbs",
+          "show": false,
+          "publicKey": "Qs6nQ5izUE6XqmJ50Ado9WHMYCFiUH9WEKojrvYorX8"
+        }
+      }
+    },
+    {
+      "tag": "proxy-7",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tur.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "tur.kaguya.sbs",
+          "show": false,
+          "publicKey": "G1iN0F9ai9lXX-xBoQFhVamWsgbGznVLKjqEMx2-UDQ"
+        }
+      }
+    },
+    {
+      "tag": "proxy-8",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "bel.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "bel.kaguya.sbs",
+          "show": false,
+          "publicKey": "iZv8zOCY2Rt9R5VsT2PQhaDAT7g4__XLm_z3lrcJ0Vk"
+        }
+      }
+    },
+    {
+      "tag": "proxy-9",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "fra.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "fra.kaguya.sbs",
+          "show": false,
+          "publicKey": "0jMimRYQJnLmLMFNL8Ar3hb9AWNIPzksv1UbzBnFxkY",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "proxy-10",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ita.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ita.kaguya.sbs",
+          "show": false,
+          "publicKey": "UkvYX8wokSjLlQgSshvFk9hPlM3Dx1e1RG7d6GL9DXQ"
+        }
+      }
+    },
+    {
+      "tag": "proxy-11",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "wai.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "wai.kaguya.sbs",
+          "show": false,
+          "publicKey": "AFGYSgtCvJ8IGvzrj7Yhc7hX1HHuhh9aAXqxd11wW24",
+          "shortId": "40edde2eb2e90ea2"
+        }
+      }
+    },
+    {
+      "tag": "proxy-12",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "swe.whitevpn.top",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "swe.whitevpn.top",
+          "show": false,
+          "publicKey": "R1EqV8xQFbsnNuFLi4dpWQ1Q8EqP8ukqdOMswG6ZNCY",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "proxy-13",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "usa.xwhiteness.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "usa.xwhiteness.sbs",
+          "show": false,
+          "publicKey": "-N1YGPdgNdNlXGwJ4-KGCRucS-B7F7dfI5KCXaiBrBI",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "proxy-14",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "gb.idealvpn.lol",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "gb.idealvpn.lol",
+          "show": false,
+          "publicKey": "AZk9EFYnqMtzbG7IWeh2mO6GES7ASe14oGNAeGKJ8lI",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "proxy-15",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "node13.whitevpn.site",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "node13.whitevpn.site",
+          "show": false,
+          "publicKey": "zErLkJUKp1XJerLsOfC38cVp-7XRS1yt2ErzKxAheV8",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "proxy-16",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "alb.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "alb.kaguya.sbs",
+          "show": false,
+          "publicKey": "hEPSO7LyGmkw2tWGfU-TrnW4sLeCl8WSaGGdVOg7bCw"
+        }
+      }
+    },
+    {
+      "tag": "proxy-17",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "by.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "by.kaguya.sbs",
+          "show": false,
+          "publicKey": "BnrA7tgidNAv3Ho6Db-oZ8sY7ZUyT0bipjNK6qENzW4"
+        }
+      }
+    },
+    {
+      "tag": "proxy-18",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "nether.xwhiteness.top",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "nether.xwhiteness.top",
+          "show": false,
+          "publicKey": "4z8KrOiFHg5QzwtOwkalFYBfKv4oTasbvBRY_2yu9ic",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "proxy-19",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "funk.xwhiteness.site",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "funk.xwhiteness.site",
+          "show": false,
+          "publicKey": "MNEiAk09KK_1MM9a7IGFbQwyaQFPgPDob1gBf3IDQX8",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "proxy-20",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "pl.kaguya.sbs",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pl.kaguya.sbs",
+          "show": false,
+          "publicKey": "PsUYkVzRwr5l6yu8Btf0qLL3P2EQUTDVIs88OiUG-0M"
+        }
+      }
+    },
+    {
+      "tag": "proxy-21",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "pro.whitenessx.top",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pro.whitenessx.top",
+          "show": false,
+          "publicKey": "E47Mv8MGIQU5Eo9yu3FMetLJQbN0XZmu8yDER0LE-EA",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "proxy-22",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "es.xwhiteness.top",
+            "port": 443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "es.xwhiteness.top",
+          "show": false,
+          "publicKey": "3y1zWT1ZJFArlDAHwx-3WbE4wmHNO7CSITTnRBQ6yAQ",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "proxy-23",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "most.whitenessx.top",
+            "port": 1443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "most.whitenessx.top",
+          "show": false,
+          "publicKey": "zLWMhiltnfklLWAmwHRgS_s0WVp4I4hcgzOT18mgUDE",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "proxy-24",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "most.whitenessx.top",
+            "port": 3443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "most.whitenessx.top",
+          "show": false,
+          "publicKey": "zLWMhiltnfklLWAmwHRgS_s0WVp4I4hcgzOT18mgUDE",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "proxy-25",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "spb.kaguya.sbs",
+            "port": 1443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+           "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "spb.kaguya.sbs",
+          "show": false,
+          "publicKey": "OxwSDgstMCNR75xx6u0Efzc6lUcHE7HVNVauVHp01Qw",
+          "shortId": "f516ec3a856e1999"
+        }
+      }
+    },
+    {
+      "tag": "proxy-26",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "most.whitenessx.top",
+            "port": 2443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "most.whitenessx.top",
+          "show": false,
+          "publicKey": "zLWMhiltnfklLWAmwHRgS_s0WVp4I4hcgzOT18mgUDE",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "proxy-27",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "spb.kaguya.sbs",
+            "port": 10443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "spb.kaguya.sbs",
+          "show": false,
+          "publicKey": "OxwSDgstMCNR75xx6u0Efzc6lUcHE7HVNVauVHp01Qw",
+          "shortId": "03dd42ff0ddddc4f"
+        }
+      }
+    },
+    {
+      "tag": "proxy-28",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "spb.kaguya.sbs",
+            "port": 2443,
+            "users": [
+              {
+                "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "spb.kaguya.sbs",
+          "show": false,
+          "publicKey": "OxwSDgstMCNR75xx6u0Efzc6lUcHE7HVNVauVHp01Qw",
+          "shortId": "f516ec3a856e1999"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "burstObservatory": {
+    "pingConfig": {
+      "timeout": "3s",
+      "interval": "3m",
+      "sampling": 5,
+      "destination": "http://www.gstatic.com/generate_204",
+      "connectivity": ""
+    },
+    "subjectSelector": [
+      "proxy-"
+    ]
+  },
+  "remarks": "💎 Авто | Быстрый ⚡️"
+}
+      
+
+{
+    "mixed-port": 7890,
+    "socks-port": 7891,
+    "redir-port": 7892,
+    "allow-lan": true,
+    "mode": "global",
+    "log-level": "info",
+    "external-controller": "127.0.0.1:9090",
+    "dns": {
+        "enable": true,
+        "use-hosts": true,
+        "enhanced-mode": "fake-ip",
+        "fake-ip-range": "198.18.0.1/16",
+        "default-nameserver": [
+            "1.1.1.1",
+            "8.8.8.8"
+        ],
+        "nameserver": [
+            "1.1.1.1",
+            "8.8.8.8"
+        ],
+        "fake-ip-filter": [
+            "*.lan",
+            "stun.*.*.*",
+            "stun.*.*",
+            "time.windows.com",
+            "time.nist.gov",
+            "time.apple.com",
+            "time.asia.apple.com",
+            "*.openwrt.pool.ntp.org",
+            "pool.ntp.org",
+            "ntp.ubuntu.com",
+            "time1.apple.com",
+            "time2.apple.com",
+            "time3.apple.com",
+            "time4.apple.com",
+            "time5.apple.com",
+            "time6.apple.com",
+            "time7.apple.com",
+            "time1.google.com",
+            "time2.google.com",
+            "time3.google.com",
+            "time4.google.com",
+            "api.joox.com",
+            "joox.com",
+            "*.xiami.com",
+            "*.msftconnecttest.com",
+            "*.msftncsi.com",
+            "+.xboxlive.com",
+            "*.*.stun.playstation.net",
+            "xbox.*.*.microsoft.com",
+            "*.ipv6.microsoft.com",
+            "speedtest.cros.wr.pvp.net"
+        ]
+    },
+    "proxies": [
+        {
+            "name": "🇪🇪 Эстония • ⚡",
+            "type": "vless",
+            "server": "es.xwhiteness.top",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "es.xwhiteness.top",
+            "reality-opts": {
+                "public-key": "3y1zWT1ZJFArlDAHwx-3WbE4wmHNO7CSITTnRBQ6yAQ",
+                "short-id": ""
+            },
+            "client-fingerprint": "qq",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇪🇪 Эстония • MOST • ⚡",
+            "type": "vless",
+            "server": "most.whitenessx.top",
+            "port": 2443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "most.whitenessx.top",
+            "reality-opts": {
+                "public-key": "zLWMhiltnfklLWAmwHRgS_s0WVp4I4hcgzOT18mgUDE",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇦🇱 Албания ⭐",
+            "type": "vless",
+            "server": "alb.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "alb.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "hEPSO7LyGmkw2tWGfU-TrnW4sLeCl8WSaGGdVOg7bCw",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇵🇱 Польша • ⭐",
+            "type": "vless",
+            "server": "pl.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "pl.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "PsUYkVzRwr5l6yu8Btf0qLL3P2EQUTDVIs88OiUG-0M",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇵🇱 Польша • MOST • ⭐",
+            "type": "vless",
+            "server": "spb.kaguya.sbs",
+            "port": 10443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "spb.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "OxwSDgstMCNR75xx6u0Efzc6lUcHE7HVNVauVHp01Qw",
+                "short-id": "40edde2eb2e90ea2"
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇧🇾 Беларусь • ⭐",
+            "type": "vless",
+            "server": "by.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "by.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "BnrA7tgidNAv3Ho6Db-oZ8sY7ZUyT0bipjNK6qENzW4",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇧🇾 Беларусь • MOST • ⭐",
+            "type": "vless",
+            "server": "spb.kaguya.sbs",
+            "port": 2443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "spb.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "OxwSDgstMCNR75xx6u0Efzc6lUcHE7HVNVauVHp01Qw",
+                "short-id": "f516ec3a856e1999"
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇫🇮 Финляндия • ⭐",
+            "type": "vless",
+            "server": "funk.xwhiteness.site",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "funk.xwhiteness.site",
+            "reality-opts": {
+                "public-key": "MNEiAk09KK_1MM9a7IGFbQwyaQFPgPDob1gBf3IDQX8",
+                "short-id": ""
+            },
+            "client-fingerprint": "qq",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇫🇮 Финляндия • MOST • ⭐",
+            "type": "vless",
+            "server": "spb.kaguya.sbs",
+            "port": 1443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "spb.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "OxwSDgstMCNR75xx6u0Efzc6lUcHE7HVNVauVHp01Qw",
+                "short-id": "40edde2eb2e90ea2"
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇳🇱 Нидерланды • ⚡",
+            "type": "vless",
+            "server": "nether.xwhiteness.top",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "nether.xwhiteness.top",
+            "reality-opts": {
+                "public-key": "4z8KrOiFHg5QzwtOwkalFYBfKv4oTasbvBRY_2yu9ic",
+                "short-id": ""
+            },
+            "client-fingerprint": "qq",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇳🇱 Нидерланды • MOST • ⚡",
+            "type": "vless",
+            "server": "most.whitenessx.top",
+            "port": 3443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "most.whitenessx.top",
+            "reality-opts": {
+                "public-key": "zLWMhiltnfklLWAmwHRgS_s0WVp4I4hcgzOT18mgUDE",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇩🇪 Германия • ❤️",
+            "type": "vless",
+            "server": "wai.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "wai.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "AFGYSgtCvJ8IGvzrj7Yhc7hX1HHuhh9aAXqxd11wW24",
+                "short-id": "03dd42ff0ddddc4f"
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇩🇪 Германия • ⚡",
+            "type": "vless",
+            "server": "pro.whitenessx.top",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "pro.whitenessx.top",
+            "reality-opts": {
+                "public-key": "E47Mv8MGIQU5Eo9yu3FMetLJQbN0XZmu8yDER0LE-EA",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇩🇪 Германия 🔥",
+            "type": "vless",
+            "server": "ger.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ger.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "_3H4EpXne75gy4ugGAGVyNarmZ5_-ycnlcRQKRTbElQ",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇩🇪 Германия • MOST • ⚡",
+            "type": "vless",
+            "server": "most.whitenessx.top",
+            "port": 1443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "most.whitenessx.top",
+            "reality-opts": {
+                "public-key": "zLWMhiltnfklLWAmwHRgS_s0WVp4I4hcgzOT18mgUDE",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇨🇭 Швейцария • ⚡",
+            "type": "vless",
+            "server": "node13.whitevpn.site",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "node13.whitevpn.site",
+            "reality-opts": {
+                "public-key": "zErLkJUKp1XJerLsOfC38cVp-7XRS1yt2ErzKxAheV8",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇬🇧 Великобритания • ⚡",
+            "type": "vless",
+            "server": "gb.idealvpn.lol",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "gb.idealvpn.lol",
+            "reality-opts": {
+                "public-key": "AZk9EFYnqMtzbG7IWeh2mO6GES7ASe14oGNAeGKJ8lI",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇸🇪 Швеция • ⚡",
+            "type": "vless",
+            "server": "swe.whitevpn.top",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "swe.whitevpn.top",
+            "reality-opts": {
+                "public-key": "R1EqV8xQFbsnNuFLi4dpWQ1Q8EqP8ukqdOMswG6ZNCY",
+                "short-id": ""
+            },
+            "client-fingerprint": "qq",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇺🇸 США • ⚡ • 🤖 ИИ",
+            "type": "vless",
+            "server": "usa.xwhiteness.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "usa.xwhiteness.sbs",
+            "reality-opts": {
+                "public-key": "-N1YGPdgNdNlXGwJ4-KGCRucS-B7F7dfI5KCXaiBrBI",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇫🇷  Франция • ⚡",
+            "type": "vless",
+            "server": "fra.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "fra.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "0jMimRYQJnLmLMFNL8Ar3hb9AWNIPzksv1UbzBnFxkY",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇧🇪 Бельгия • ⚡",
+            "type": "vless",
+            "server": "bel.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "bel.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "iZv8zOCY2Rt9R5VsT2PQhaDAT7g4__XLm_z3lrcJ0Vk",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇹🇷 Турция • ⚡",
+            "type": "vless",
+            "server": "tur.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "tur.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "G1iN0F9ai9lXX-xBoQFhVamWsgbGznVLKjqEMx2-UDQ",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇦🇹 Австрия • ⚡",
+            "type": "vless",
+            "server": "aus.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "aus.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "Qs6nQ5izUE6XqmJ50Ado9WHMYCFiUH9WEKojrvYorX8",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇳🇴 Норвегия • ⚡",
+            "type": "vless",
+            "server": "nor.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "nor.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "EwV8kwx1WFnfETSL1xbbjwGT-IQCX0L40uHK0S8lZ2w",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇱🇻 Латвия • ⚡",
+            "type": "vless",
+            "server": "lat.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "lat.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "UQTXpHnx8Fa-zdXFl6JmzkGC6iSTdgN-dEj8a8_gJF8",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇱🇹 Литва • ⚡",
+            "type": "vless",
+            "server": "lit.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "lit.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "BGRGsf9yW8qtQRHLcmnH6xUPPbWXSpZsQhEtmXmGhmQ",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇨🇿 Чехия • ⚡",
+            "type": "vless",
+            "server": "cze.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "cze.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "i1Me-EQAgOlwGFIwD-av4N00G9XdhxKtDXVtFsKaTms",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇮🇹 Италия • ⚡",
+            "type": "vless",
+            "server": "ita.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ita.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "UkvYX8wokSjLlQgSshvFk9hPlM3Dx1e1RG7d6GL9DXQ",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇰🇿 Казахстан • ⚡",
+            "type": "vless",
+            "server": "nether.xwhiteness.top",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "nether.xwhiteness.top",
+            "reality-opts": {
+                "public-key": "4z8KrOiFHg5QzwtOwkalFYBfKv4oTasbvBRY_2yu9ic",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "⬇️【🛡 ОБХОД ГЛУШИЛОК】 ниже ↓",
+            "type": "vless",
+            "server": "thaelen.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ads.x5.ru",
+            "reality-opts": {
+                "public-key": "YkVdWkLd10nJI-V8xVlTSUP74H78nu95TsoGuve-IRo",
+                "short-id": "dc4aa6635008a9ae"
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇷🇺 Россия • 🛡 Новый обход",
+            "type": "vless",
+            "server": "thaelen.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ads.x5.ru",
+            "reality-opts": {
+                "public-key": "YkVdWkLd10nJI-V8xVlTSUP74H78nu95TsoGuve-IRo",
+                "short-id": "dc4aa6635008a9ae"
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇷🇺 • 🛡 Новый обход |Без Рекламы|",
+            "type": "vless",
+            "server": "thaelen.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ads.x5.ru",
+            "reality-opts": {
+                "public-key": "YkVdWkLd10nJI-V8xVlTSUP74H78nu95TsoGuve-IRo",
+                "short-id": "dc4aa6635008a9ae"
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇩🇪 • 📶 LTE • 🛡 Обход • Всe операторы",
+            "type": "vless",
+            "server": "max.whitevpn.top",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ads.x5.ru",
+            "reality-opts": {
+                "public-key": "cvj7qNEMVgPPPVOliwx76088EumaJuMDjy1tJe74wHM",
+                "short-id": "dc4aa6635008a9ae"
+            },
+            "client-fingerprint": "qq",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇪🇪 • 📶 LTE • 🛡 Обход • Все опeраторы",
+            "type": "vless",
+            "server": "max.whitevpn.top",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ads.x5.ru",
+            "reality-opts": {
+                "public-key": "cvj7qNEMVgPPPVOliwx76088EumaJuMDjy1tJe74wHM",
+                "short-id": "dc4aa6635008a9ae"
+            },
+            "client-fingerprint": "qq",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇸🇪 • 📶 LTE • 🛡 Обход • Все оператoры",
+            "type": "vless",
+            "server": "max.whitevpn.top",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ads.x5.ru",
+            "reality-opts": {
+                "public-key": "cvj7qNEMVgPPPVOliwx76088EumaJuMDjy1tJe74wHM",
+                "short-id": "dc4aa6635008a9ae"
+            },
+            "client-fingerprint": "qq",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇳🇱 • 📶 LTE • 🛡 Обход • Все операторы",
+            "type": "vless",
+            "server": "whiteness.idealvpn.top",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ads.x5.ru",
+            "reality-opts": {
+                "public-key": "cvj7qNEMVgPPPVOliwx76088EumaJuMDjy1tJe74wHM",
+                "short-id": "dc4aa6635008a9ae"
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇷🇺 Россия • 🛡 Обход",
+            "type": "vless",
+            "server": "whiteness.idealvpn.top",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ads.x5.ru",
+            "reality-opts": {
+                "public-key": "cvj7qNEMVgPPPVOliwx76088EumaJuMDjy1tJe74wHM",
+                "short-id": "dc4aa6635008a9ae"
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇷🇺 Россия • 🛡 Обход • №2",
+            "type": "vless",
+            "server": "polina.whitevpn.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ads.x5.ru",
+            "reality-opts": {
+                "public-key": "cvj7qNEMVgPPPVOliwx76088EumaJuMDjy1tJe74wHM",
+                "short-id": "dc4aa6635008a9ae"
+            },
+            "client-fingerprint": "qq",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇷🇺 Россия • 🛡 Обход • №3",
+            "type": "vless",
+            "server": "whiteness.idealvpn.top",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "max.ru",
+            "reality-opts": {
+                "public-key": "cvj7qNEMVgPPPVOliwx76088EumaJuMDjy1tJe74wHM",
+                "short-id": "dc4aa6635008a9ae"
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "⬇️【Ютуб • БЕЗ РЕКЛАМЫ】 ниже ↓",
+            "type": "vless",
+            "server": "z4r.xwhiteness.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "z4r.xwhiteness.sbs",
+            "reality-opts": {
+                "public-key": "CUTWxgXX2unQs9nGHIUYFu7KVcyrExcF2xCS8JQCOBk",
+                "short-id": ""
+            },
+            "client-fingerprint": "qq",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇫🇷  Франция |Без рекламы|",
+            "type": "vless",
+            "server": "fra.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "fra.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "0jMimRYQJnLmLMFNL8Ar3hb9AWNIPzksv1UbzBnFxkY",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇬🇧 Великобритания |Без рекламы|",
+            "type": "vless",
+            "server": "gb.idealvpn.lol",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "gb.idealvpn.lol",
+            "reality-opts": {
+                "public-key": "AZk9EFYnqMtzbG7IWeh2mO6GES7ASe14oGNAeGKJ8lI",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇳🇱 Нидерланды |Без рекламы|",
+            "type": "vless",
+            "server": "ned.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ned.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "dGHqrrlWHWUmOj6nXWR8mKUnK5V8rQKTIjqQLx9IeRo",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇦🇱 Албания |Без рекламы|",
+            "type": "vless",
+            "server": "thaelen.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "ads.x5.ru",
+            "reality-opts": {
+                "public-key": "YkVdWkLd10nJI-V8xVlTSUP74H78nu95TsoGuve-IRo",
+                "short-id": "dc4aa6635008a9ae"
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇦🇹 Австрия | Без Рекламы |",
+            "type": "vless",
+            "server": "aus.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "aus.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "Qs6nQ5izUE6XqmJ50Ado9WHMYCFiUH9WEKojrvYorX8",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇳🇴 Норвегия | Без Рекламы |",
+            "type": "vless",
+            "server": "nor.kaguya.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "nor.kaguya.sbs",
+            "reality-opts": {
+                "public-key": "EwV8kwx1WFnfETSL1xbbjwGT-IQCX0L40uHK0S8lZ2w",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇷🇺 Россия • 🎥 YouTube • №1 • Москва",
+            "type": "vless",
+            "server": "z4r.xwhiteness.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "z4r.xwhiteness.sbs",
+            "reality-opts": {
+                "public-key": "CUTWxgXX2unQs9nGHIUYFu7KVcyrExcF2xCS8JQCOBk",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇷🇺 Россия | YouTube #1 | Новосибирск",
+            "type": "vless",
+            "server": "z4r.xwhiteness.sbs",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "z4r.xwhiteness.sbs",
+            "reality-opts": {
+                "public-key": "CUTWxgXX2unQs9nGHIUYFu7KVcyrExcF2xCS8JQCOBk",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        },
+        {
+            "name": "🇪🇪 Эстония |Без рекламы|",
+            "type": "vless",
+            "server": "gb.idealvpn.lol",
+            "port": 443,
+            "network": "tcp",
+            "udp": true,
+            "tls": true,
+            "servername": "gb.idealvpn.lol",
+            "reality-opts": {
+                "public-key": "AZk9EFYnqMtzbG7IWeh2mO6GES7ASe14oGNAeGKJ8lI",
+                "short-id": ""
+            },
+            "client-fingerprint": "chrome",
+            "uuid": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+            "packet-encoding": "xudp",
+            "flow": "xtls-rprx-vision"
+        }
+    ],
+    "proxy-groups": [
+        {
+            "name": "→ Remnawave",
+            "type": "select",
+            "proxies": [
+                "🇪🇪 Эстония • ⚡",
+                "🇪🇪 Эстония • MOST • ⚡",
+                "🇦🇱 Албания ⭐",
+                "🇵🇱 Польша • ⭐",
+                "🇵🇱 Польша • MOST • ⭐",
+                "🇧🇾 Беларусь • ⭐",
+                "🇧🇾 Беларусь • MOST • ⭐",
+                "🇫🇮 Финляндия • ⭐",
+                "🇫🇮 Финляндия • MOST • ⭐",
+                "🇳🇱 Нидерланды • ⚡",
+                "🇳🇱 Нидерланды • MOST • ⚡",
+                "🇩🇪 Германия • ❤️",
+                "🇩🇪 Германия • ⚡",
+                "🇩🇪 Германия 🔥",
+                "🇩🇪 Германия • MOST • ⚡",
+                "🇨🇭 Швейцария • ⚡",
+                "🇬🇧 Великобритания • ⚡",
+                "🇸🇪 Швеция • ⚡",
+                "🇺🇸 США • ⚡ • 🤖 ИИ",
+                "🇫🇷  Франция • ⚡",
+                "🇧🇪 Бельгия • ⚡",
+                "🇹🇷 Турция • ⚡",
+                "🇦🇹 Австрия • ⚡",
+                "🇳🇴 Норвегия • ⚡",
+                "🇱🇻 Латвия • ⚡",
+                "🇱🇹 Литва • ⚡",
+                "🇨🇿 Чехия • ⚡",
+                "🇮🇹 Италия • ⚡",
+                "🇰🇿 Казахстан • ⚡",
+                "⬇️【🛡 ОБХОД ГЛУШИЛОК】 ниже ↓",
+                "🇷🇺 Россия • 🛡 Новый обход",
+                "🇷🇺 • 🛡 Новый обход |Без Рекламы|",
+                "🇩🇪 • 📶 LTE • 🛡 Обход • Всe операторы",
+                "🇪🇪 • 📶 LTE • 🛡 Обход • Все опeраторы",
+                "🇸🇪 • 📶 LTE • 🛡 Обход • Все оператoры",
+                "🇳🇱 • 📶 LTE • 🛡 Обход • Все операторы",
+                "🇷🇺 Россия • 🛡 Обход",
+                "🇷🇺 Россия • 🛡 Обход • №2",
+                "🇷🇺 Россия • 🛡 Обход • №3",
+                "⬇️【Ютуб • БЕЗ РЕКЛАМЫ】 ниже ↓",
+                "🇫🇷  Франция |Без рекламы|",
+                "🇬🇧 Великобритания |Без рекламы|",
+                "🇳🇱 Нидерланды |Без рекламы|",
+                "🇦🇱 Албания |Без рекламы|",
+                "🇦🇹 Австрия | Без Рекламы |",
+                "🇳🇴 Норвегия | Без Рекламы |",
+                "🇷🇺 Россия • 🎥 YouTube • №1 • Москва",
+                "🇷🇺 Россия | YouTube #1 | Новосибирск",
+                "🇪🇪 Эстония |Без рекламы|"
+            ]
+        }
+    ],
+    "rules": [
+        "MATCH,→ Remnawave"
+    ]
+}
