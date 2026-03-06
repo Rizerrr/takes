@@ -4,7 +4,7 @@
         "pingConfig": {
             "connectivity": "",
             "destination": "https://www.google.com/generate_204",
-            "interval": "5s",
+            "interval": "2s",
             "sampling": 5,
             "timeout": "3s"
         },
@@ -6922,6 +6922,7 @@
     }
 }
 ]
+
 
 
 
