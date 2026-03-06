@@ -1040,10 +1040,12 @@
     "RU-Youtube2",
     "RU-Youtube3"
   ],
-  "probeURL": "https://www.google.com/generate_204",
-  "interval": "1m",
-  "sampling": 5,
-  "timeout": "3s"
+  "pingConfig": {
+    "url": "https://www.google.com/generate_204",
+    "timeout": "3s",
+    "interval": "10s",
+    "count": 3
+  }
 },
  "routing": {
   "balancers": [
@@ -6917,4 +6919,5 @@
     }
 }
 ]
+
       
