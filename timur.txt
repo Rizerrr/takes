@@ -1021,7 +1021,7 @@
             "tag": "block"
         }
     ],
-    "remarks": "💎 Авто | Быстрый ⚡️",
+    "remarks": "Авто сервер",
 "observatory": {
   "subjectSelector": [
     "proxy",
@@ -6924,4 +6924,5 @@
     }
 }
 ]
+
 
