@@ -1082,7 +1082,9 @@
     "wb.ru",
     "gosuslugi.ru",
     "kultura.gov.ru",
-    "avito.ru"
+    "rostics.ru",
+    "avito.ru",
+    "wildberries.ru"
   ],
   "outboundTag": "direct"
 },
@@ -6924,5 +6926,6 @@
     }
 }
 ]
+
 
 
