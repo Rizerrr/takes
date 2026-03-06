@@ -4,7 +4,7 @@
         "pingConfig": {
             "connectivity": "",
             "destination": "http://www.gstatic.com/generate_204",
-            "interval": "3m",
+            "interval": "10s",
             "sampling": 5,
             "timeout": "3s"
         },
@@ -6921,3 +6921,4 @@
 ]
 
       
+
