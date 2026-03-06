@@ -4,7 +4,7 @@
         "pingConfig": {
             "connectivity": "",
             "destination": "http://www.gstatic.com/generate_204",
-            "interval": "10s",
+            "interval": "7s",
             "sampling": 5,
             "timeout": "3s"
         },
@@ -1030,7 +1030,7 @@
     "RU-Youtube3"
   ],
   "probeURL": "https://www.google.com/generate_204",
-  "probeInterval": "10s",
+  "probeInterval": "5s",
   "enableConcurrency": true
 },
  "routing": {
@@ -1067,6 +1067,25 @@
   "domainMatcher": "hybrid",
   "domainStrategy": "IPIfNonMatch",
   "rules": [
+{
+  "type": "field",
+  "domain": [
+    "vk.com",
+    "vk.me",
+    "alfabank.ru",
+    "vkusnoitochka.ru",
+    "rostiks.ru",
+    "yandex.ru",
+    "ya.ru",
+    "vtb.ru",
+    "ozon.ru",
+    "wb.ru",
+    "gosuslugi.ru",
+    "kultura.gov.ru",
+    "avito.ru"
+  ],
+  "outboundTag": "direct"
+},
     {
       "type": "field",
       "domain": ["youtube.com", "youtu.be", "googlevideo.com"],
@@ -6905,3 +6924,4 @@
     }
 }
 ]
+
