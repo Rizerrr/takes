@@ -4,7 +4,7 @@
         "pingConfig": {
             "connectivity": "",
             "destination": "https://www.google.com/generate_204",
-            "interval": "7s",
+            "interval": "5s",
             "sampling": 5,
             "timeout": "3s"
         },
@@ -1030,7 +1030,7 @@
     "RU-Youtube3"
   ],
   "probeURL": "https://www.google.com/generate_204",
-  "probeInterval": "5s",
+  "probeInterval": "2s",
   "enableConcurrency": true
 },
  "routing": {
@@ -1070,13 +1070,9 @@
 {
   "type": "field",
   "domain": [
-    "vk.com",
-    "vk.me",
     "alfabank.ru",
     "vkusnoitochka.ru",
     "rostiks.ru",
-    "yandex.ru",
-    "ya.ru",
     "vtb.ru",
     "ozon.ru",
     "wb.ru",
@@ -6926,6 +6922,7 @@
     }
 }
 ]
+
 
 
 
