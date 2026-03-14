@@ -3825,6 +3825,64 @@
         "queryStrategy": "UseIPv4",
         "servers": [
             "1.1.1.1",
+            "8.8.8.8"
+        ]
+    },
+
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": 10808,
+            "protocol": "socks",
+            "settings": {
+                "auth": "noauth",
+                "udp": true
+            },
+            "tag": "socks"
+        }
+    ],
+
+    "outbounds": [
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "142.91.109.84",
+                        "port": 443,
+                        "users": [
+                            {
+                                "id": "4e0a67d4-c2b9-4ccb-b1bb-2f982504ed5e",
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "reality",
+                "realitySettings": {
+                    "serverName": "cloudrynth.com",
+                    "publicKey": "G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y",
+                    "fingerprint": "chrome"
+                }
+            },
+            "tag": "proxy"
+        }
+    ],
+
+    "remarks": "🇯🇵 Япония"
+},
+{
+    "dns": {
+        "hosts": {
+            "domain:googleapis.cn": "googleapis.com"
+        },
+        "queryStrategy": "UseIPv4",
+        "servers": [
+            "1.1.1.1",
             {
                 "address": "1.1.1.1",
                 "domains": [
@@ -6848,51 +6906,7 @@
             },
             "tag": "proxy"
         },
-{
-    "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-    },
-    "protocol": "vless",
-    "settings": {
-        "vnext": [
-            {
-                "address": "142.91.109.84",
-                "port": 443,
-                "users": [
-                    {
-                        "encryption": "none",
-                        "flow": "",
-                        "id": "4e0a67d4-c2b9-4ccb-b1bb-2f982504ed5e",
-                        "level": 8,
-                        "security": "auto"
-                    }
-                ]
-            }
-        ]
-    },
-    "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
-            "allowInsecure": false,
-            "fingerprint": "chrome",
-            "publicKey": "G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y",
-            "serverName": "cloudrynth.com",
-            "shortId": "",
-            "show": false,
-            "spiderX": "/"
-        },
-        "security": "reality",
-        "tcpSettings": {
-            "header": {
-                "type": "none"
-            }
-        }
-    },
-    "tag": "japan"
-},
+    
         {
             "protocol": "freedom",
             "settings": {
