@@ -3825,10 +3825,16 @@
         "queryStrategy": "UseIPv4",
         "servers": [
             "1.1.1.1",
-            "8.8.8.8"
+            {
+                "address": "1.1.1.1",
+                "port": 53
+            },
+            {
+                "address": "8.8.8.8",
+                "port": 53
+            }
         ]
     },
-
     "inbounds": [
         {
             "listen": "127.0.0.1",
@@ -3836,12 +3842,40 @@
             "protocol": "socks",
             "settings": {
                 "auth": "noauth",
-                "udp": true
+                "udp": true,
+                "userLevel": 8
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls",
+                    "quic"
+                ]
             },
             "tag": "socks"
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 10809,
+            "protocol": "http",
+            "settings": {
+                "userLevel": 8
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls",
+                    "quic"
+                ]
+            },
+            "tag": "http"
         }
     ],
-
+    "log": {
+        "loglevel": "warning"
+    },
     "outbounds": [
         {
             "protocol": "vless",
@@ -3854,7 +3888,8 @@
                             {
                                 "id": "4e0a67d4-c2b9-4ccb-b1bb-2f982504ed5e",
                                 "encryption": "none",
-                                "flow": "xtls-rprx-vision"
+                                "flow": "",
+                                "level": 8
                             }
                         ]
                     }
@@ -3864,16 +3899,45 @@
                 "network": "tcp",
                 "security": "reality",
                 "realitySettings": {
-                    "serverName": "cloudrynth.com",
+                    "fingerprint": "chrome",
                     "publicKey": "G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y",
-                    "fingerprint": "chrome"
+                    "serverName": "cloudrynth.com",
+                    "shortId": "",
+                    "spiderX": "/"
                 }
             },
             "tag": "proxy"
+        },
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIP"
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
         }
     ],
-
-    "remarks": "🇯🇵 Япония"
+    "remarks": "🇯🇵 Japan",
+    "routing": {
+        "domainStrategy": "IPIfNonMatch",
+        "rules": [
+            {
+                "inboundTag": [
+                    "socks"
+                ],
+                "outboundTag": "direct",
+                "port": "53"
+            }
+        ]
+    }
 },
 {
     "dns": {
