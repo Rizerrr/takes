@@ -1,3 +1,7 @@
+vless://76e765e2-41b0-4533-a9e8-c9b66f5d02b7@jp1.xxee.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=getjp1in.xxee.ru&fp=random&pbk=YuoGdr15Uk4bC2SftVnMiBMOrE1x5rz8jLrN_j7mcHE&sid=64c82d931cda17c5&packetEncoding=xudp#🇯🇵Япония,%20Токио
+vless://76e765e2-41b0-4533-a9e8-c9b66f5d02b7@jp1.xxee.ru:443?encryption=none&security=tls&type=ws&host=jp1.xxee.ru&path=/49548/ah8rizweb_path&packetEncoding=xudp#🇯🇵Япония,%20Токио
+vless://76e765e2-41b0-4533-a9e8-c9b66f5d02b7@jp1.xxee.ru:443?encryption=none&security=tls&type=xhttp&path=/imdw54pYafpo&mode=packet-up&packetEncoding=xudp#🇯🇵Япония,%20Токио
+
 vless://4e0a67d4-c2b9-4ccb-b1bb-2f982504ed5e@142.91.109.84:443?encryption=none&security=reality&sni=cloudrynth.com&fp=chrome&pbk=G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y&sid=&packetEncoding=xudp#🇯🇵Япония
 vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@es.xwhiteness.top:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=es.xwhiteness.top&fp=qq&pbk=3y1zWT1ZJFArlDAHwx-3WbE4wmHNO7CSITTnRBQ6yAQ&sid=&packetEncoding=xudp#%F0%9F%87%AA%F0%9F%87%AA%20%D0%AD%D1%81%D1%82o%D0%BD%D0%B8%D1%8F%E2%9A%A1%EF%B8%8F
 vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@most.whitenessx.top:10443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=most.whitenessx.top&fp=chrome&pbk=adokq05K55cbn79EoJ62IlSiBf_wVBQUPVipe91Xmn8&sid=40edde2eb2e90ea2&packetEncoding=xudp#%F0%9F%87%AA%F0%9F%87%AA%20%D0%AD%D1%81%D1%82o%D0%BD%D0%B8%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%B7%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%E2%9A%A1%EF%B8%8F
