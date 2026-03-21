@@ -51,4 +51,4 @@ vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@nor.kaguya.sbs:443?security=reality
 vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@z4r.xwhiteness.sbs:443?security=reality&flow=xtls-rprx-vision&type=tcp&sni=z4r.xwhiteness.sbs&fp=chrome&pbk=CUTWxgXX2unQs9nGHIUYFu7KVcyrExcF2xCS8JQCOBk&encryption=none&headerType=none#🇷🇺 Россия • 🎥 YouTube • №1 • Москва
 vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@z4r.xwhiteness.sbs:443?security=reality&flow=xtls-rprx-vision&type=tcp&sni=z4r.xwhiteness.sbs&fp=chrome&pbk=CUTWxgXX2unQs9nGHIUYFu7KVcyrExcF2xCS8JQCOBk&encryption=none&headerType=none#🇷🇺 Россия | YouTube #1 | Новосибирск
 vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@gb.idealvpn.lol:443?security=reality&flow=xtls-rprx-vision&type=tcp&sni=gb.idealvpn.lol&fp=chrome&pbk=AZk9EFYnqMtzbG7IWeh2mO6GES7ASe14oGNAeGKJ8lI&encryption=none&headerType=none#🇪🇪 Эстония |Без рекламы|
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXbnh5Y2dYWkFUV21mWHVjZU1ENWtBMm9hUENKRjNKQQ==@alb.kaguya.sbs:8388#🎮 SS
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXbnh5Y2dYWkFUV21mWHVjZU1ENWtBMm9hUENKRjNKQQ==@alb.kaguya.sbs:8388#SS
