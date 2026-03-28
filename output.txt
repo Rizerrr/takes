@@ -1,7 +1,7 @@
 === ⬇️ ОБХОДЫ ⬇️ ===
 
 --- UNKNOWN ⬇️【🛡 ОБХОД ГЛУШИЛОК】 ниже ↓ ---
-vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@thaelen.kaguya.sbs:443?type=tcp&security=reality&encryption=none&sni=ads.x5.ru&pbk=2p_Otz_1vbBD1hB5GxPf95XQdeQf-d51IKvnBaa7uSc&sid=dc4aa6635008a9ae&fp=qq&flow=xtls-rprx-vision#UNKNOWN ⬇️【🛡 ОБХОД ГЛУШИЛОК】 ниже ↓ 1
+vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@thaelen.kaguya.sbs:443?type=tcp&security=reality&encryption=none&sni=ads.x5.ru&pbk=2p_Otz_1vbBD1hB5GxPf95XQdeQf-d51IKvnBaa7uSc&sid=dc4aa6635008a9ae&fp=qq&flow=xtls-rprx-vision#⬇️ ОБХОДЫ ⬇️
 
 --- 🇨🇭 Швейцария ---
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@95.85.239.239:8443?type=grpc&security=reality&encryption=none&sni=github.com&pbk=flFgUuT_XNfhHeIKary4dXjIpfNPwhUBVlow3ozWiUo&sid=880e94ea9d8617b2&fp=qq&serviceName=api-maps.yandex.ru#🇨🇭 Швейцария 1
@@ -60,8 +60,7 @@ vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@77.110.109.251:8443?type=grpc&secur
 === ⬇️ ОБЫЧНЫЕ ⬇️ ===
 
 --- UNKNOWN 🔻Свежие Резервы (Обхoды) 🔻 ---
-vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@1.1.1.1:443?type=tcp&security=reality&encryption=none&sni=1&pbk=HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo&sid=ad7dab462a323acb&fp=chrome&flow=xtls-rprx-vision#UNKNOWN 🔻Свежие Резервы (Обхoды) 🔻 1
-vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@gb.idealvpn.lol:443?type=tcp&security=reality&encryption=none&sni=gb.idealvpn.lol&pbk=mw9Ycfw29YhkKbqAG11C84cRHKLdOiXQvsR4x5IpGA8&sid=&fp=qq&flow=xtls-rprx-vision#UNKNOWN 🔻Свежие Резервы (Обхoды) 🔻 2
+vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@1.1.1.1:443?type=tcp&security=reality&encryption=none&sni=1&pbk=HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo&sid=ad7dab462a323acb&fp=chrome&flow=xtls-rprx-vision#UNKNOWN ⬇️ ОБЫЧНЫЕ ⬇️
 
 --- 🇦🇱 Албания ---
 vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@alb.kaguya.sbs:443?type=tcp&security=reality&encryption=none&sni=alb.kaguya.sbs&pbk=RSedYX5gLVBD1YXvWoIqW6Hsvq5aWg3yAgJIK-j4oxQ&sid=4a51f19010d0a634&fp=chrome&flow=xtls-rprx-vision#🇦🇱 Албания 1
