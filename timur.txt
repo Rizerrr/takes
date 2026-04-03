@@ -16,7 +16,7 @@ vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@stas.whitevpn.lol:443?type=tcp&secu
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@51.250.109.196:7888?type=tcp&security=reality&encryption=none&sni=ads.x5.ru&pbk=NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw&sid=bad5722c72a038&fp=randomized&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%201
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@217.16.27.155:7888?type=tcp&security=reality&encryption=none&sni=ads.x5.ru&pbk=NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw&sid=bad5722c72a038&fp=randomized&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%202
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@51.250.21.69:7888?type=tcp&security=reality&encryption=none&sni=max.ru&pbk=NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw&sid=bad5722c72a038&fp=randomized&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%203
-vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@109.120.181.142:8445?type=tcp&security=reality&encryption=none&sni=max.ru&pbk=NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw&sid=bad5722c72a038&fp=random&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%204
+vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@217.16.24.76:8445?type=tcp&security=reality&encryption=none&sni=max.ru&pbk=NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw&sid=bad5722c72a038&fp=random&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%204
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@84.23.54.51:9445?type=tcp&security=reality&encryption=none&sni=ads.x5.ru&pbk=NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw&sid=bad5722c72a038&fp=qq&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%205
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@51.250.88.213:8445?type=tcp&security=reality&encryption=none&sni=ads.x5.ru&pbk=NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw&sid=bad5722c72a038&fp=qq&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%206
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@51.250.88.213:6445?type=grpc&security=reality&encryption=none&sni=ads.x5.ru&pbk=lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8&sid=bad5722c72a0&fp=qq&serviceName=grpc#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%207
@@ -58,6 +58,9 @@ vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?type=tcp&security=none#
 --- 🇦🇱 Албания ---
 vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@rualb.kaguya.sbs:443?type=tcp&security=reality&encryption=none&sni=rualb.kaguya.sbs&pbk=VCbyFOUof5hlvzRT3OF4EavYGR-yZh8r7ytSbk6UHWA&sid=dc4aa6635008a9ae&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%A6%F0%9F%87%B1%20%D0%90%D0%BB%D0%B1%D0%B0%D0%BD%D0%B8%D1%8F%201YouTube
 
+--- 🇧🇪 Бельгия ---¶
+vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@belru.kaguya.sbs:443?type=tcp&security=reality&encryption=none&sni=belru.kaguya.sbs&pbk=dshglgaNFRFazpLpqw32uXqSRNlfbIXyracNB9vFRSA&sid=dc4aa6635008a9ae&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%A7%F0%9F%87%AA%20%D0%91%D0%B5%D0%BB%D1%8C%D0%B3%D0%B8%D1%8F%201
+
 --- 🇧🇾 Беларусь ---
 vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@rubel.kaguya.sbs:443?type=tcp&security=reality&encryption=none&sni=rubel.kaguya.sbs&pbk=tyQJrdRyQS9Dr3PIth3djeR4NkltoPOe6ZdjtRmeOQU&sid=dc4aa6635008a9ae&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%A7%F0%9F%87%BE%20%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C%201
 
@@ -73,6 +76,7 @@ vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@45.151.183.203:443?type=tcp&securit
 
 --- 🇩🇪 Германия ---
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@104.167.24.108:443?type=tcp&security=tls&encryption=none&sni=de-three.cloudload.org&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%201
+vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@geru.kaguya.sbs:443?type=tcp&security=reality&encryption=none&sni=geru.kaguya.sbs&pbk=Q3Hio7ftM04N0pQLWVSuR-AHSad8eaUnUwGVIHsm5jQ&sid=dc4aa6635008a9ae&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%202
 
 --- 🇪🇪 Эстония ---
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@185.215.184.81:443?type=tcp&security=tls&encryption=none&sni=ee.cloudload.org&flow=xtls-rprx-vision#%F0%9F%87%AA%F0%9F%87%AA%20%D0%AD%D1%81%D1%82%D0%BE%D0%BD%D0%B8%D1%8F%201
@@ -89,9 +93,10 @@ vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@45.144.222.133:443?type=tcp&securit
 
 --- 🇬🇧 Великобритания ---
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@109.107.168.53:443?type=tcp&security=reality&encryption=none&sni=uk1.cloudload.org&pbk=gbdTiOCdzhUS9EOYC_ABKYENxtNPTw3dRIXM9qvbLhI&sid=a1ab5a56bc42a1&fp=qq&flow=xtls-rprx-vision#%F0%9F%87%AC%F0%9F%87%A7%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F%201
+vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@rugb.kaguya.sbs:443?type=tcp&security=reality&encryption=none&sni=rugb.kaguya.sbs&pbk=VCbyFOUof5hlvzRT3OF4EavYGR-yZh8r7ytSbk6UHWA&sid=dc4aa6635008a9ae&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%AC%F0%9F%87%A7%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F%202
 
---- 🇬🇺 Гуам ---
-vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@xlam.kaguya.sbs:443?type=tcp&security=reality&encryption=none&sni=xlam.kaguya.sbs&pbk=5H8IgNIil5-GLHIZjelfrt9la4I1dXeBW2Z4ogfyB24&sid=&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%AC%F0%9F%87%BA%20%D0%93%D1%83%D0%B0%D0%BC%201
+--- 🇬🇺 ---
+vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@xlam.kaguya.sbs:443?type=tcp&security=reality&encryption=none&sni=xlam.kaguya.sbs&pbk=5H8IgNIil5-GLHIZjelfrt9la4I1dXeBW2Z4ogfyB24&sid=&fp=chrome&flow=xtls-rprx-vision#test
 
 --- 🇭🇰 Гонконг ---
 vless://76e765e2-41b0-4533-a9e8-c9b66f5d02b7@hk1.xxee.ru:443?type=tcp&security=reality&encryption=none&sni=gethk1in.xxee.ru&pbk=2_Khsrqu0bQPW8gwdVKB6hYm6gd9IB-SZJpeSOXts0Y&sid=c6ee8b81c7bf1cc6&fp=random&flow=xtls-rprx-vision#%F0%9F%87%AD%F0%9F%87%B0%20%D0%93%D0%BE%D0%BD%D0%BA%D0%BE%D0%BD%D0%B3%201
