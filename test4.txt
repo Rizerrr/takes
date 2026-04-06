@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "AUTO1",
+    "remarks": "AUTO",
     "inbounds": [
       {
         "tag": "socks",
