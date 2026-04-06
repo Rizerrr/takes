@@ -139,6 +139,45 @@
   "outbounds": [
     {
       "tag": "cheap",
+      "protocol": "selector",
+      "settings": {
+        "actors": [
+          "cheap-1",
+          "cheap-2",
+          "cheap-3",
+          "cheap-4",
+          "cheap-5",
+          "cheap-6",
+          "cheap-7",
+          "cheap-8",
+          "cheap-9",
+          "cheap-10",
+          "cheap-11",
+          "cheap-12",
+          "cheap-13",
+          "cheap-14",
+          "cheap-15",
+          "cheap-16",
+          "cheap-17",
+          "cheap-18",
+          "cheap-19",
+          "cheap-20",
+          "cheap-21",
+          "cheap-22",
+          "cheap-23",
+          "cheap-24",
+          "cheap-25",
+          "cheap-26",
+          "cheap-27",
+          "cheap-28",
+          "cheap-29",
+          "cheap-30"
+        ],
+        "default": "cheap-1"
+      }
+    },
+    {
+      "tag": "cheap-1",
       "protocol": "vless",
       "settings": {
         "vnext": [
