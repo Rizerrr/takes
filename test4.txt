@@ -30,8 +30,21 @@
           ],
           "strategy": {
             "type": "leastPing"
-          }
+          },
+          "fallbackTag": "direct"
         }
+      ]
+    },
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "2s",
+        "interval": "10s",
+        "sampling": 2,
+        "httpMethod": "GET",
+        "destination": "https://www.gstatic.com/generate_204"
+      },
+      "subjectSelector": [
+        "cheap"
       ]
     },
     "outbounds": [
@@ -65,7 +78,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -94,7 +107,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -123,7 +136,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -152,7 +165,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -181,7 +194,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -210,7 +223,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-7",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -243,7 +256,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-8",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -272,7 +285,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-9",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -301,7 +314,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-10",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -330,7 +343,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-11",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -359,7 +372,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-12",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -388,7 +401,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-13",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -417,7 +430,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-14",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -446,7 +459,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-15",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -479,7 +492,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-16",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -512,7 +525,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-17",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -541,7 +554,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-18",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -570,7 +583,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-19",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -599,7 +612,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-20",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -628,7 +641,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-21",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -657,7 +670,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-22",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -686,7 +699,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-23",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -715,7 +728,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-24",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -744,7 +757,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-25",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -773,7 +786,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-26",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -802,7 +815,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-27",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -831,7 +844,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-28",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -860,7 +873,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-29",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -889,7 +902,7 @@
         }
       },
       {
-        "tag": "cheap",
+        "tag": "cheap-30",
         "protocol": "vless",
         "settings": {
           "vnext": [
