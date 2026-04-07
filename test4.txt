@@ -65,7 +65,7 @@
         }
       },
       {
-        "tag": "cheap-2",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -94,7 +94,7 @@
         }
       },
       {
-        "tag": "cheap-3",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -123,7 +123,7 @@
         }
       },
       {
-        "tag": "cheap-4",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -152,7 +152,7 @@
         }
       },
       {
-        "tag": "cheap-5",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -181,7 +181,7 @@
         }
       },
       {
-        "tag": "cheap-6",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -210,7 +210,7 @@
         }
       },
       {
-        "tag": "cheap-7",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -243,7 +243,7 @@
         }
       },
       {
-        "tag": "cheap-8",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -272,7 +272,7 @@
         }
       },
       {
-        "tag": "cheap-9",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -301,7 +301,7 @@
         }
       },
       {
-        "tag": "cheap-10",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -330,7 +330,7 @@
         }
       },
       {
-        "tag": "cheap-11",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -359,7 +359,7 @@
         }
       },
       {
-        "tag": "cheap-12",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -388,7 +388,7 @@
         }
       },
       {
-        "tag": "cheap-13",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -417,7 +417,7 @@
         }
       },
       {
-        "tag": "cheap-14",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -446,7 +446,7 @@
         }
       },
       {
-        "tag": "cheap-15",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -479,7 +479,7 @@
         }
       },
       {
-        "tag": "cheap-16",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -512,7 +512,7 @@
         }
       },
       {
-        "tag": "cheap-17",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -541,7 +541,7 @@
         }
       },
       {
-        "tag": "cheap-18",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -570,7 +570,7 @@
         }
       },
       {
-        "tag": "cheap-19",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -599,7 +599,7 @@
         }
       },
       {
-        "tag": "cheap-20",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -628,7 +628,7 @@
         }
       },
       {
-        "tag": "cheap-21",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -657,7 +657,7 @@
         }
       },
       {
-        "tag": "cheap-22",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -686,7 +686,7 @@
         }
       },
       {
-        "tag": "cheap-23",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -715,7 +715,7 @@
         }
       },
       {
-        "tag": "cheap-24",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -744,7 +744,7 @@
         }
       },
       {
-        "tag": "cheap-25",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -773,7 +773,7 @@
         }
       },
       {
-        "tag": "cheap-26",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -802,7 +802,7 @@
         }
       },
       {
-        "tag": "cheap-27",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -831,7 +831,7 @@
         }
       },
       {
-        "tag": "cheap-28",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -860,7 +860,7 @@
         }
       },
       {
-        "tag": "cheap-29",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -889,7 +889,7 @@
         }
       },
       {
-        "tag": "cheap-30",
+        "tag": "cheap",
         "protocol": "vless",
         "settings": {
           "vnext": [
