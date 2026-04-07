@@ -41,7 +41,7 @@
         "interval": "10s",
         "sampling": 2,
         "httpMethod": "GET",
-        "destination": "https://www.gstatic.com/generate_204"
+        "destination": "https://web.telegram.org"
       },
       "subjectSelector": [
         "cheap"
