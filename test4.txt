@@ -4757,6 +4757,104 @@
     ]
   },
   {
+    "remarks": "🇧🇬 Болгария 1",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "bg1.xxee.ru",
+              "port": 443,
+              "users": [
+                {
+                  "id": "76e765e2-41b0-4533-a9e8-c9b66f5d02b7",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "getbg1in.xxee.ru",
+            "publicKey": "CWYzhoFO6oRp2idZaO48eBk9jIn8nfLS7HpC-ET1cT0",
+            "shortId": "46ce4aec49b75797",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
+    "remarks": "🇧🇬 Болгария 2",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "bg1.xxee.ru",
+              "port": 443,
+              "users": [
+                {
+                  "id": "76e765e2-41b0-4533-a9e8-c9b66f5d02b7",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls"
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
     "remarks": "🇧🇷  Бразилия  1",
     "inbounds": [
       {
@@ -6681,6 +6779,104 @@
         },
         "streamSettings": {
           "network": "tcp",
+          "security": "tls"
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
+    "remarks": "🇯🇵 Япония 2",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "jp1.xxee.ru",
+              "port": 443,
+              "users": [
+                {
+                  "id": "76e765e2-41b0-4533-a9e8-c9b66f5d02b7",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "getjp1in.xxee.ru",
+            "publicKey": "YuoGdr15Uk4bC2SftVnMiBMOrE1x5rz8jLrN_j7mcHE",
+            "shortId": "326ead51fc244961",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
+    "remarks": "🇯🇵 Япония 3",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "jp1.xxee.ru",
+              "port": 443,
+              "users": [
+                {
+                  "id": "76e765e2-41b0-4533-a9e8-c9b66f5d02b7",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
           "security": "tls"
         }
       },
