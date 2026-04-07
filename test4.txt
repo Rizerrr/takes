@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "AUTO",
+    "remarks": "💎 Авто | Обход ",
     "inbounds": [
       {
         "tag": "socks",
