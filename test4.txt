@@ -54,6 +54,29 @@
         "settings": {
           "vnext": [
             {
+              "address": "0.0.0.0",
+              "port": 443,
+              "users": [
+                {
+                  "id": "00000000-0000-0000-0000-000000000000",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "none"
+        }
+      },
+      {
+        "tag": "cheap-2",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
               "address": "51.250.88.124",
               "port": 8445,
               "users": [
@@ -78,7 +101,7 @@
         }
       },
       {
-        "tag": "cheap-2",
+        "tag": "cheap-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -107,7 +130,7 @@
         }
       },
       {
-        "tag": "cheap-3",
+        "tag": "cheap-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -136,7 +159,7 @@
         }
       },
       {
-        "tag": "cheap-4",
+        "tag": "cheap-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -165,7 +188,7 @@
         }
       },
       {
-        "tag": "cheap-5",
+        "tag": "cheap-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -194,7 +217,7 @@
         }
       },
       {
-        "tag": "cheap-6",
+        "tag": "cheap-7",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -223,7 +246,7 @@
         }
       },
       {
-        "tag": "cheap-7",
+        "tag": "cheap-8",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -256,7 +279,7 @@
         }
       },
       {
-        "tag": "cheap-8",
+        "tag": "cheap-9",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -285,7 +308,7 @@
         }
       },
       {
-        "tag": "cheap-9",
+        "tag": "cheap-10",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -314,7 +337,7 @@
         }
       },
       {
-        "tag": "cheap-10",
+        "tag": "cheap-11",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -343,7 +366,7 @@
         }
       },
       {
-        "tag": "cheap-11",
+        "tag": "cheap-12",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -372,42 +395,13 @@
         }
       },
       {
-        "tag": "cheap-12",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "217.16.27.155",
-              "port": 7890,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
-            "shortId": "bad5722c72a038",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
         "tag": "cheap-13",
         "protocol": "vless",
         "settings": {
           "vnext": [
             {
-              "address": "5.188.140.245",
-              "port": 7888,
+              "address": "217.16.18.150",
+              "port": 7890,
               "users": [
                 {
                   "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
@@ -928,6 +922,52 @@
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
+    "remarks": "=== ↓ ОБХОДЫ ↓ === 07.04",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "0.0.0.0",
+              "port": 443,
+              "users": [
+                {
+                  "id": "00000000-0000-0000-0000-000000000000",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "none"
         }
       },
       {
@@ -1535,7 +1575,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "217.16.27.155",
+              "address": "217.16.18.150",
               "port": 7890,
               "users": [
                 {
@@ -1570,58 +1610,6 @@
   },
   {
     "remarks": "🇵🇱 Польша обход 3",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "5.188.140.245",
-              "port": 7888,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
-            "shortId": "bad5722c72a038",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇵🇱 Польша обход 4",
     "inbounds": [
       {
         "port": 10808,
