@@ -1,6 +1,6 @@
 [
   {
-    "remarks": "https://web.telegram.org",
+    "remarks": "💎 Авто | Обход TG",
     "inbounds": [
       {
         "tag": "socks",
@@ -848,7 +848,7 @@
     ]
   },
   {
-    "remarks": "https://www.tiktok.com/",
+    "remarks": "💎 Авто | Обход TT",
     "inbounds": [
       {
         "tag": "socks",
@@ -1696,7 +1696,7 @@
     ]
   },
   {
-    "remarks": "https://www.instagram.com/",
+    "remarks": "💎 Авто | Обход IG",
     "inbounds": [
       {
         "tag": "socks",
@@ -2544,6 +2544,1131 @@
     ]
   },
   {
+    "remarks": "=== ↓ ОБХОДЫ ↓ === 08.04",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "0.0.0.0",
+              "port": 443,
+              "users": [
+                {
+                  "id": "00000000-0000-0000-0000-000000000000",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "none"
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
+    "remarks": "🌍 Авто | 🇩🇪 Германия",
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "inboundTag": [
+            "socks"
+          ],
+          "balancerTag": "AUTO"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "AUTO",
+          "selector": [
+            "🇩🇪 Германия"
+          ],
+          "strategy": {
+            "type": "leastPing"
+          }
+        }
+      ]
+    },
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "2s",
+        "interval": "10s",
+        "sampling": 2,
+        "httpMethod": "GET",
+        "destination": "https://www.google.com"
+      },
+      "subjectSelector": [
+        "🇩🇪 Германия"
+      ]
+    },
+    "outbounds": [
+      {
+        "tag": "🇩🇪 Германия",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "51.250.88.124",
+              "port": 8445,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ads.x5.ru",
+            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
+            "shortId": "bad5722c72a038",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇩🇪 Германия-2",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "cudo.whitevpn.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "6AMbxKCLdUN-H_hA5GENWe9exjGYradpZkGmHsCTcwE",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
+    "remarks": "🇪🇪 Эстония обход 1",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "95.85.245.106",
+              "port": 443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "cdn.kwork.com",
+            "publicKey": "HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo",
+            "shortId": "ad7dab462a323acb",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
+    "remarks": "🌍 Авто | 🇫🇮 Финляндия",
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "inboundTag": [
+            "socks"
+          ],
+          "balancerTag": "AUTO"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "AUTO",
+          "selector": [
+            "🇫🇮 Финляндия"
+          ],
+          "strategy": {
+            "type": "leastPing"
+          }
+        }
+      ]
+    },
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "2s",
+        "interval": "10s",
+        "sampling": 2,
+        "httpMethod": "GET",
+        "destination": "https://www.google.com"
+      },
+      "subjectSelector": [
+        "🇫🇮 Финляндия"
+      ]
+    },
+    "outbounds": [
+      {
+        "tag": "🇫🇮 Финляндия",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "51.250.21.69",
+              "port": 7888,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "KqwJrFbgySFbm6C_1VcwQVRRGyUK24kCIBMEQna-5ws",
+            "shortId": "bad5722c72a0",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇫🇮 Финляндия-2",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "89.208.229.7",
+              "port": 7890,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
+            "shortId": "bad5722c72a038",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇫🇮 Финляндия-3",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "51.250.88.213",
+              "port": 8445,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ads.x5.ru",
+            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
+            "shortId": "bad5722c72a038",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇫🇮 Финляндия-4",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "51.250.88.213",
+              "port": 6445,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "grpcSettings": {
+            "serviceName": "grpc",
+            "multiMode": false
+          },
+          "realitySettings": {
+            "serverName": "ads.x5.ru",
+            "publicKey": "lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8",
+            "shortId": "bad5722c72a0",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇫🇮 Финляндия-5",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "146.185.211.162",
+              "port": 7443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
+            "shortId": "bad5722c72a038",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
+    "remarks": "🌍 Авто | 🇳🇱 Нидерланды",
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "inboundTag": [
+            "socks"
+          ],
+          "balancerTag": "AUTO"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "AUTO",
+          "selector": [
+            "🇳🇱 Нидерланды"
+          ],
+          "strategy": {
+            "type": "leastPing"
+          }
+        }
+      ]
+    },
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "2s",
+        "interval": "10s",
+        "sampling": 2,
+        "httpMethod": "GET",
+        "destination": "https://www.google.com"
+      },
+      "subjectSelector": [
+        "🇳🇱 Нидерланды"
+      ]
+    },
+    "outbounds": [
+      {
+        "tag": "🇳🇱 Нидерланды",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "45.137.198.19",
+              "port": 443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "cdn.kwork.com",
+            "publicKey": "HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo",
+            "shortId": "ad7dab462a323acb",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇳🇱 Нидерланды-2",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "cudo.whitevpn.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ads.x5.ru",
+            "publicKey": "6AMbxKCLdUN-H_hA5GENWe9exjGYradpZkGmHsCTcwE",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
+    "remarks": "🌍 Авто | 🇵🇱 Польша",
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "inboundTag": [
+            "socks"
+          ],
+          "balancerTag": "AUTO"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "AUTO",
+          "selector": [
+            "🇵🇱 Польша"
+          ],
+          "strategy": {
+            "type": "leastPing"
+          }
+        }
+      ]
+    },
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "2s",
+        "interval": "10s",
+        "sampling": 2,
+        "httpMethod": "GET",
+        "destination": "https://www.google.com"
+      },
+      "subjectSelector": [
+        "🇵🇱 Польша"
+      ]
+    },
+    "outbounds": [
+      {
+        "tag": "🇵🇱 Польша",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "51.250.109.196",
+              "port": 7890,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ads.x5.ru",
+            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
+            "shortId": "bad5722c72a038",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇵🇱 Польша-2",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "217.16.18.150",
+              "port": 7890,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ads.x5.ru",
+            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
+            "shortId": "bad5722c72a038",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
+    "remarks": "🌍 Авто | 🇷🇺 Россия",
+    "inbounds": [
+      {
+        "tag": "socks",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "routing": {
+      "rules": [
+        {
+          "type": "field",
+          "inboundTag": [
+            "socks"
+          ],
+          "balancerTag": "AUTO"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "AUTO",
+          "selector": [
+            "🇷🇺 Россия"
+          ],
+          "strategy": {
+            "type": "leastPing"
+          }
+        }
+      ]
+    },
+    "burstObservatory": {
+      "pingConfig": {
+        "timeout": "2s",
+        "interval": "10s",
+        "sampling": 2,
+        "httpMethod": "GET",
+        "destination": "https://www.google.com"
+      },
+      "subjectSelector": [
+        "🇷🇺 Россия"
+      ]
+    },
+    "outbounds": [
+      {
+        "tag": "🇷🇺 Россия",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "178.209.127.33",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "grpcSettings": {
+            "serviceName": "api-maps.yandex.ru",
+            "multiMode": false
+          },
+          "realitySettings": {
+            "serverName": "cdn.kwork.com",
+            "publicKey": "flFgUuT_XNfhHeIKary4dXjIpfNPwhUBVlow3ozWiUo",
+            "shortId": "880e94ea9d8617b2",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-2",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "84.252.100.250",
+              "port": 8443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": ""
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "grpc",
+          "security": "reality",
+          "grpcSettings": {
+            "serviceName": "api-maps.yandex.ru",
+            "multiMode": false
+          },
+          "realitySettings": {
+            "serverName": "cdn.kwork.com",
+            "publicKey": "flFgUuT_XNfhHeIKary4dXjIpfNPwhUBVlow3ozWiUo",
+            "shortId": "880e94ea9d8617b2",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-3",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "45.151.182.126",
+              "port": 5443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "cdn.kwork.com",
+            "publicKey": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
+            "shortId": "ad7dab462a323acb",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-4",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "109.120.189.170",
+              "port": 7888,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ads.x5.ru",
+            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
+            "shortId": "bad5722c72a038",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-5",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "ru.cloudload.org",
+              "port": 666,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "yandex.ru",
+            "publicKey": "HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo",
+            "shortId": "ad7dab462a323acb",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-6",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "5.188.89.22",
+              "port": 5443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "yandex.ru",
+            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
+            "shortId": "bad5722c72a038",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-7",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "nkptk.whitevpn.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ads.x5.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-8",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "nkptk.whitevpn.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-9",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "thaelen.kaguya.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ads.x5.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-10",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "thaelen.kaguya.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-11",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "mkdc.idealvpn.top",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ads.x5.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-12",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "mkdc.idealvpn.top",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-13",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "neon.kaguya.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "ads.x5.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "🇷🇺 Россия-14",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "neon.kaguya.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
     "remarks": "=== ↓ ОБЫЧНЫЕ ↓ ===",
     "inbounds": [
       {
@@ -2636,7 +3761,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇦🇱",
+    "remarks": "🌍 Авто | 🇦🇱 Албания",
     "inbounds": [
       {
         "tag": "socks",
@@ -2662,7 +3787,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇦🇱"
+            "🇦🇱 Албания"
           ],
           "strategy": {
             "type": "leastPing"
@@ -2679,12 +3804,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇦🇱"
+        "🇦🇱 Албания"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇦🇱",
+        "tag": "🇦🇱 Албания",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2713,7 +3838,7 @@
         }
       },
       {
-        "tag": "🇦🇱-2",
+        "tag": "🇦🇱 Албания-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2844,7 +3969,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇧🇪",
+    "remarks": "🌍 Авто | 🇧🇪 Бельгия",
     "inbounds": [
       {
         "tag": "socks",
@@ -2870,7 +3995,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇧🇪"
+            "🇧🇪 Бельгия"
           ],
           "strategy": {
             "type": "leastPing"
@@ -2887,12 +4012,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇧🇪"
+        "🇧🇪 Бельгия"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇧🇪",
+        "tag": "🇧🇪 Бельгия",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2921,7 +4046,7 @@
         }
       },
       {
-        "tag": "🇧🇪-2",
+        "tag": "🇧🇪 Бельгия-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2954,7 +4079,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇧🇬",
+    "remarks": "🌍 Авто | 🇧🇬 Болгария",
     "inbounds": [
       {
         "tag": "socks",
@@ -2980,7 +4105,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇧🇬"
+            "🇧🇬 Болгария"
           ],
           "strategy": {
             "type": "leastPing"
@@ -2997,12 +4122,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇧🇬"
+        "🇧🇬 Болгария"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇧🇬",
+        "tag": "🇧🇬 Болгария",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3031,7 +4156,7 @@
         }
       },
       {
-        "tag": "🇧🇬-2",
+        "tag": "🇧🇬 Болгария-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3162,7 +4287,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇨🇦",
+    "remarks": "🌍 Авто | 🇨🇦 Канада",
     "inbounds": [
       {
         "tag": "socks",
@@ -3188,7 +4313,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇨🇦"
+            "🇨🇦 Канада"
           ],
           "strategy": {
             "type": "leastPing"
@@ -3205,12 +4330,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇨🇦"
+        "🇨🇦 Канада"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇨🇦",
+        "tag": "🇨🇦 Канада",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3239,7 +4364,7 @@
         }
       },
       {
-        "tag": "🇨🇦-2",
+        "tag": "🇨🇦 Канада-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3272,7 +4397,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇨🇭",
+    "remarks": "🌍 Авто | 🇨🇭 Швейцария",
     "inbounds": [
       {
         "tag": "socks",
@@ -3298,7 +4423,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇨🇭"
+            "🇨🇭 Швейцария"
           ],
           "strategy": {
             "type": "leastPing"
@@ -3315,12 +4440,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇨🇭"
+        "🇨🇭 Швейцария"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇨🇭",
+        "tag": "🇨🇭 Швейцария",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3349,7 +4474,7 @@
         }
       },
       {
-        "tag": "🇨🇭-2",
+        "tag": "🇨🇭 Швейцария-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3382,7 +4507,7 @@
         }
       },
       {
-        "tag": "🇨🇭-3",
+        "tag": "🇨🇭 Швейцария-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3411,7 +4536,7 @@
         }
       },
       {
-        "tag": "🇨🇭-4",
+        "tag": "🇨🇭 Швейцария-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3444,7 +4569,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇨🇿",
+    "remarks": "🌍 Авто | 🇨🇿 Чехия",
     "inbounds": [
       {
         "tag": "socks",
@@ -3470,7 +4595,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇨🇿"
+            "🇨🇿 Чехия"
           ],
           "strategy": {
             "type": "leastPing"
@@ -3487,12 +4612,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇨🇿"
+        "🇨🇿 Чехия"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇨🇿",
+        "tag": "🇨🇿 Чехия",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3521,7 +4646,7 @@
         }
       },
       {
-        "tag": "🇨🇿-2",
+        "tag": "🇨🇿 Чехия-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3554,7 +4679,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇩🇪",
+    "remarks": "🌍 Авто | 🇩🇪 Германия",
     "inbounds": [
       {
         "tag": "socks",
@@ -3580,7 +4705,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇩🇪"
+            "🇩🇪 Германия"
           ],
           "strategy": {
             "type": "leastPing"
@@ -3597,12 +4722,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇩🇪"
+        "🇩🇪 Германия"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇩🇪",
+        "tag": "🇩🇪 Германия",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3625,7 +4750,7 @@
         }
       },
       {
-        "tag": "🇩🇪-2",
+        "tag": "🇩🇪 Германия-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3654,7 +4779,7 @@
         }
       },
       {
-        "tag": "🇩🇪-3",
+        "tag": "🇩🇪 Германия-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3677,7 +4802,7 @@
         }
       },
       {
-        "tag": "🇩🇪-4",
+        "tag": "🇩🇪 Германия-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3700,7 +4825,7 @@
         }
       },
       {
-        "tag": "🇩🇪-5",
+        "tag": "🇩🇪 Германия-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3723,7 +4848,7 @@
         }
       },
       {
-        "tag": "🇩🇪-6",
+        "tag": "🇩🇪 Германия-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3756,7 +4881,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇪🇪",
+    "remarks": "🌍 Авто | 🇪🇪 Эстония",
     "inbounds": [
       {
         "tag": "socks",
@@ -3782,7 +4907,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇪🇪"
+            "🇪🇪 Эстония"
           ],
           "strategy": {
             "type": "leastPing"
@@ -3799,12 +4924,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇪🇪"
+        "🇪🇪 Эстония"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇪🇪",
+        "tag": "🇪🇪 Эстония",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3827,7 +4952,7 @@
         }
       },
       {
-        "tag": "🇪🇪-2",
+        "tag": "🇪🇪 Эстония-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3856,7 +4981,7 @@
         }
       },
       {
-        "tag": "🇪🇪-3",
+        "tag": "🇪🇪 Эстония-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3879,7 +5004,7 @@
         }
       },
       {
-        "tag": "🇪🇪-4",
+        "tag": "🇪🇪 Эстония-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3902,7 +5027,7 @@
         }
       },
       {
-        "tag": "🇪🇪-5",
+        "tag": "🇪🇪 Эстония-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3981,7 +5106,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇫🇮",
+    "remarks": "🌍 Авто | 🇫🇮 Финляндия",
     "inbounds": [
       {
         "tag": "socks",
@@ -4007,7 +5132,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇫🇮"
+            "🇫🇮 Финляндия"
           ],
           "strategy": {
             "type": "leastPing"
@@ -4024,12 +5149,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇫🇮"
+        "🇫🇮 Финляндия"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇫🇮",
+        "tag": "🇫🇮 Финляндия",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4058,7 +5183,7 @@
         }
       },
       {
-        "tag": "🇫🇮-2",
+        "tag": "🇫🇮 Финляндия-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4091,7 +5216,7 @@
         }
       },
       {
-        "tag": "🇫🇮-3",
+        "tag": "🇫🇮 Финляндия-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4114,7 +5239,7 @@
         }
       },
       {
-        "tag": "🇫🇮-4",
+        "tag": "🇫🇮 Финляндия-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4143,7 +5268,7 @@
         }
       },
       {
-        "tag": "🇫🇮-5",
+        "tag": "🇫🇮 Финляндия-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4166,7 +5291,7 @@
         }
       },
       {
-        "tag": "🇫🇮-6",
+        "tag": "🇫🇮 Финляндия-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4189,7 +5314,7 @@
         }
       },
       {
-        "tag": "🇫🇮-7",
+        "tag": "🇫🇮 Финляндия-7",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4222,7 +5347,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇫🇷",
+    "remarks": "🌍 Авто | 🇫🇷 Франция",
     "inbounds": [
       {
         "tag": "socks",
@@ -4248,7 +5373,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇫🇷"
+            "🇫🇷 Франция"
           ],
           "strategy": {
             "type": "leastPing"
@@ -4265,12 +5390,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇫🇷"
+        "🇫🇷 Франция"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇫🇷",
+        "tag": "🇫🇷 Франция",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4293,7 +5418,7 @@
         }
       },
       {
-        "tag": "🇫🇷-2",
+        "tag": "🇫🇷 Франция-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4326,7 +5451,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇬🇧",
+    "remarks": "🌍 Авто | 🇬🇧 Великобритания",
     "inbounds": [
       {
         "tag": "socks",
@@ -4352,7 +5477,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇬🇧"
+            "🇬🇧 Великобритания"
           ],
           "strategy": {
             "type": "leastPing"
@@ -4369,12 +5494,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇬🇧"
+        "🇬🇧 Великобритания"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇬🇧",
+        "tag": "🇬🇧 Великобритания",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4403,7 +5528,7 @@
         }
       },
       {
-        "tag": "🇬🇧-2",
+        "tag": "🇬🇧 Великобритания-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4432,7 +5557,7 @@
         }
       },
       {
-        "tag": "🇬🇧-3",
+        "tag": "🇬🇧 Великобритания-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4517,7 +5642,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇭🇰",
+    "remarks": "🌍 Авто | 🇭🇰 Гонконг",
     "inbounds": [
       {
         "tag": "socks",
@@ -4543,7 +5668,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇭🇰"
+            "🇭🇰 Гонконг"
           ],
           "strategy": {
             "type": "leastPing"
@@ -4560,12 +5685,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇭🇰"
+        "🇭🇰 Гонконг"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇭🇰",
+        "tag": "🇭🇰 Гонконг",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4594,7 +5719,7 @@
         }
       },
       {
-        "tag": "🇭🇰-2",
+        "tag": "🇭🇰 Гонконг-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4719,7 +5844,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇯🇵",
+    "remarks": "🌍 Авто | 🇯🇵 Япония",
     "inbounds": [
       {
         "tag": "socks",
@@ -4745,7 +5870,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇯🇵"
+            "🇯🇵 Япония"
           ],
           "strategy": {
             "type": "leastPing"
@@ -4762,12 +5887,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇯🇵"
+        "🇯🇵 Япония"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇯🇵",
+        "tag": "🇯🇵 Япония",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4790,7 +5915,7 @@
         }
       },
       {
-        "tag": "🇯🇵-2",
+        "tag": "🇯🇵 Япония-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4819,7 +5944,7 @@
         }
       },
       {
-        "tag": "🇯🇵-3",
+        "tag": "🇯🇵 Япония-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4898,7 +6023,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇰🇿",
+    "remarks": "🌍 Авто | 🇰🇿 Казахстан",
     "inbounds": [
       {
         "tag": "socks",
@@ -4924,7 +6049,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇰🇿"
+            "🇰🇿 Казахстан"
           ],
           "strategy": {
             "type": "leastPing"
@@ -4941,12 +6066,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇰🇿"
+        "🇰🇿 Казахстан"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇰🇿",
+        "tag": "🇰🇿 Казахстан",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4975,7 +6100,7 @@
         }
       },
       {
-        "tag": "🇰🇿-2",
+        "tag": "🇰🇿 Казахстан-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5008,7 +6133,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇱🇹",
+    "remarks": "🌍 Авто | 🇱🇹 Литва",
     "inbounds": [
       {
         "tag": "socks",
@@ -5034,7 +6159,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇱🇹"
+            "🇱🇹 Литва"
           ],
           "strategy": {
             "type": "leastPing"
@@ -5051,12 +6176,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇱🇹"
+        "🇱🇹 Литва"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇱🇹",
+        "tag": "🇱🇹 Литва",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5085,7 +6210,7 @@
         }
       },
       {
-        "tag": "🇱🇹-2",
+        "tag": "🇱🇹 Литва-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5114,7 +6239,7 @@
         }
       },
       {
-        "tag": "🇱🇹-3",
+        "tag": "🇱🇹 Литва-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5147,7 +6272,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇱🇻",
+    "remarks": "🌍 Авто | 🇱🇻 Латвия",
     "inbounds": [
       {
         "tag": "socks",
@@ -5173,7 +6298,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇱🇻"
+            "🇱🇻 Латвия"
           ],
           "strategy": {
             "type": "leastPing"
@@ -5190,12 +6315,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇱🇻"
+        "🇱🇻 Латвия"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇱🇻",
+        "tag": "🇱🇻 Латвия",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5224,7 +6349,7 @@
         }
       },
       {
-        "tag": "🇱🇻-2",
+        "tag": "🇱🇻 Латвия-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5253,7 +6378,7 @@
         }
       },
       {
-        "tag": "🇱🇻-3",
+        "tag": "🇱🇻 Латвия-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5286,7 +6411,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇳🇱",
+    "remarks": "🌍 Авто | 🇳🇱 Нидерланды",
     "inbounds": [
       {
         "tag": "socks",
@@ -5312,7 +6437,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇳🇱"
+            "🇳🇱 Нидерланды"
           ],
           "strategy": {
             "type": "leastPing"
@@ -5329,12 +6454,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇳🇱"
+        "🇳🇱 Нидерланды"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇳🇱",
+        "tag": "🇳🇱 Нидерланды",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5363,7 +6488,7 @@
         }
       },
       {
-        "tag": "🇳🇱-2",
+        "tag": "🇳🇱 Нидерланды-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5392,7 +6517,7 @@
         }
       },
       {
-        "tag": "🇳🇱-3",
+        "tag": "🇳🇱 Нидерланды-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5421,7 +6546,7 @@
         }
       },
       {
-        "tag": "🇳🇱-4",
+        "tag": "🇳🇱 Нидерланды-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5450,7 +6575,7 @@
         }
       },
       {
-        "tag": "🇳🇱-5",
+        "tag": "🇳🇱 Нидерланды-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5473,7 +6598,7 @@
         }
       },
       {
-        "tag": "🇳🇱-6",
+        "tag": "🇳🇱 Нидерланды-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5506,7 +6631,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇳🇴",
+    "remarks": "🌍 Авто | 🇳🇴 Норвегия",
     "inbounds": [
       {
         "tag": "socks",
@@ -5532,7 +6657,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇳🇴"
+            "🇳🇴 Норвегия"
           ],
           "strategy": {
             "type": "leastPing"
@@ -5549,12 +6674,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇳🇴"
+        "🇳🇴 Норвегия"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇳🇴",
+        "tag": "🇳🇴 Норвегия",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5583,7 +6708,7 @@
         }
       },
       {
-        "tag": "🇳🇴-2",
+        "tag": "🇳🇴 Норвегия-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5616,7 +6741,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇵🇱",
+    "remarks": "🌍 Авто | 🇵🇱 Польша",
     "inbounds": [
       {
         "tag": "socks",
@@ -5642,7 +6767,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇵🇱"
+            "🇵🇱 Польша"
           ],
           "strategy": {
             "type": "leastPing"
@@ -5659,12 +6784,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇵🇱"
+        "🇵🇱 Польша"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇵🇱",
+        "tag": "🇵🇱 Польша",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5693,7 +6818,7 @@
         }
       },
       {
-        "tag": "🇵🇱-2",
+        "tag": "🇵🇱 Польша-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5722,7 +6847,7 @@
         }
       },
       {
-        "tag": "🇵🇱-3",
+        "tag": "🇵🇱 Польша-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5745,7 +6870,7 @@
         }
       },
       {
-        "tag": "🇵🇱-4",
+        "tag": "🇵🇱 Польша-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5824,7 +6949,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇷🇺",
+    "remarks": "🌍 Авто | 🇷🇺 Россия",
     "inbounds": [
       {
         "tag": "socks",
@@ -5850,7 +6975,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇷🇺"
+            "🇷🇺 Россия"
           ],
           "strategy": {
             "type": "leastPing"
@@ -5867,12 +6992,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇷🇺"
+        "🇷🇺 Россия"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇷🇺",
+        "tag": "🇷🇺 Россия",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5901,7 +7026,7 @@
         }
       },
       {
-        "tag": "🇷🇺-2",
+        "tag": "🇷🇺 Россия-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5934,7 +7059,7 @@
         }
       },
       {
-        "tag": "🇷🇺-3",
+        "tag": "🇷🇺 Россия-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5963,7 +7088,7 @@
         }
       },
       {
-        "tag": "🇷🇺-4",
+        "tag": "🇷🇺 Россия-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5986,7 +7111,7 @@
         }
       },
       {
-        "tag": "🇷🇺-5",
+        "tag": "🇷🇺 Россия-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6009,7 +7134,7 @@
         }
       },
       {
-        "tag": "🇷🇺-6",
+        "tag": "🇷🇺 Россия-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6032,7 +7157,7 @@
         }
       },
       {
-        "tag": "🇷🇺-7",
+        "tag": "🇷🇺 Россия-7",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6055,7 +7180,7 @@
         }
       },
       {
-        "tag": "🇷🇺-8",
+        "tag": "🇷🇺 Россия-8",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6078,7 +7203,7 @@
         }
       },
       {
-        "tag": "🇷🇺-9",
+        "tag": "🇷🇺 Россия-9",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6101,7 +7226,7 @@
         }
       },
       {
-        "tag": "🇷🇺-10",
+        "tag": "🇷🇺 Россия-10",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6124,7 +7249,7 @@
         }
       },
       {
-        "tag": "🇷🇺-11",
+        "tag": "🇷🇺 Россия-11",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6157,7 +7282,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇸🇪",
+    "remarks": "🌍 Авто | 🇸🇪 Швеция",
     "inbounds": [
       {
         "tag": "socks",
@@ -6183,7 +7308,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇸🇪"
+            "🇸🇪 Швеция"
           ],
           "strategy": {
             "type": "leastPing"
@@ -6200,12 +7325,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇸🇪"
+        "🇸🇪 Швеция"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇸🇪",
+        "tag": "🇸🇪 Швеция",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6228,7 +7353,7 @@
         }
       },
       {
-        "tag": "🇸🇪-2",
+        "tag": "🇸🇪 Швеция-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6257,7 +7382,7 @@
         }
       },
       {
-        "tag": "🇸🇪-3",
+        "tag": "🇸🇪 Швеция-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6388,7 +7513,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇹🇷",
+    "remarks": "🌍 Авто | 🇹🇷 Турция",
     "inbounds": [
       {
         "tag": "socks",
@@ -6414,7 +7539,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇹🇷"
+            "🇹🇷 Турция"
           ],
           "strategy": {
             "type": "leastPing"
@@ -6431,12 +7556,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇹🇷"
+        "🇹🇷 Турция"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇹🇷",
+        "tag": "🇹🇷 Турция",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6465,7 +7590,7 @@
         }
       },
       {
-        "tag": "🇹🇷-2",
+        "tag": "🇹🇷 Турция-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6488,7 +7613,7 @@
         }
       },
       {
-        "tag": "🇹🇷-3",
+        "tag": "🇹🇷 Турция-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6521,7 +7646,7 @@
     ]
   },
   {
-    "remarks": "🌍 Авто | 🇺🇸",
+    "remarks": "🌍 Авто | 🇺🇸 США",
     "inbounds": [
       {
         "tag": "socks",
@@ -6547,7 +7672,7 @@
         {
           "tag": "AUTO",
           "selector": [
-            "🇺🇸"
+            "🇺🇸 США"
           ],
           "strategy": {
             "type": "leastPing"
@@ -6564,12 +7689,12 @@
         "destination": "https://www.google.com"
       },
       "subjectSelector": [
-        "🇺🇸"
+        "🇺🇸 США"
       ]
     },
     "outbounds": [
       {
-        "tag": "🇺🇸",
+        "tag": "🇺🇸 США",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6598,7 +7723,7 @@
         }
       },
       {
-        "tag": "🇺🇸-2",
+        "tag": "🇺🇸 США-2",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6627,7 +7752,7 @@
         }
       },
       {
-        "tag": "🇺🇸-3",
+        "tag": "🇺🇸 США-3",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6660,7 +7785,7 @@
         }
       },
       {
-        "tag": "🇺🇸-4",
+        "tag": "🇺🇸 США-4",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6689,7 +7814,7 @@
         }
       },
       {
-        "tag": "🇺🇸-5",
+        "tag": "🇺🇸 США-5",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6712,7 +7837,7 @@
         }
       },
       {
-        "tag": "🇺🇸-6",
+        "tag": "🇺🇸 США-6",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -6732,1416 +7857,6 @@
         "streamSettings": {
           "network": "tcp",
           "security": "tls"
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "=== ↓ ОБХОДЫ ↓ === 08.04",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "0.0.0.0",
-              "port": 443,
-              "users": [
-                {
-                  "id": "00000000-0000-0000-0000-000000000000",
-                  "encryption": "none",
-                  "flow": ""
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "none"
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇩🇪 Германия обход 1",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "51.250.88.124",
-              "port": 8445,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
-            "shortId": "bad5722c72a038",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇩🇪 Германия обход 2",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "cudo.whitevpn.sbs",
-              "port": 443,
-              "users": [
-                {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "6AMbxKCLdUN-H_hA5GENWe9exjGYradpZkGmHsCTcwE",
-            "shortId": "dc4aa6635008a9ae",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇪🇪 Эстония обход 1",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "95.85.245.106",
-              "port": 443,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "cdn.kwork.com",
-            "publicKey": "HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo",
-            "shortId": "ad7dab462a323acb",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇫🇮 Финляндия обход 1",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "51.250.21.69",
-              "port": 7888,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "KqwJrFbgySFbm6C_1VcwQVRRGyUK24kCIBMEQna-5ws",
-            "shortId": "bad5722c72a0",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇫🇮 Финляндия обход 2",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "89.208.229.7",
-              "port": 7890,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
-            "shortId": "bad5722c72a038",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇫🇮 Финляндия обход 3",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "51.250.88.213",
-              "port": 8445,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
-            "shortId": "bad5722c72a038",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇫🇮 Финляндия обход 4",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "51.250.88.213",
-              "port": 6445,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": ""
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "grpcSettings": {
-            "serviceName": "grpc",
-            "multiMode": false
-          },
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8",
-            "shortId": "bad5722c72a0",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇫🇮 Финляндия обход 5",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "146.185.211.162",
-              "port": 7443,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
-            "shortId": "bad5722c72a038",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇳🇱 Нидерланды обход 1",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "45.137.198.19",
-              "port": 443,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "cdn.kwork.com",
-            "publicKey": "HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo",
-            "shortId": "ad7dab462a323acb",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇳🇱 Нидерланды обход 2",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "cudo.whitevpn.sbs",
-              "port": 443,
-              "users": [
-                {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "6AMbxKCLdUN-H_hA5GENWe9exjGYradpZkGmHsCTcwE",
-            "shortId": "dc4aa6635008a9ae",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇵🇱 Польша обход 1",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "51.250.109.196",
-              "port": 7890,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
-            "shortId": "bad5722c72a038",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇵🇱 Польша обход 2",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "217.16.18.150",
-              "port": 7890,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
-            "shortId": "bad5722c72a038",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 1",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "178.209.127.33",
-              "port": 8443,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": ""
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "grpcSettings": {
-            "serviceName": "api-maps.yandex.ru",
-            "multiMode": false
-          },
-          "realitySettings": {
-            "serverName": "cdn.kwork.com",
-            "publicKey": "flFgUuT_XNfhHeIKary4dXjIpfNPwhUBVlow3ozWiUo",
-            "shortId": "880e94ea9d8617b2",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 2",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "84.252.100.250",
-              "port": 8443,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": ""
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "reality",
-          "grpcSettings": {
-            "serviceName": "api-maps.yandex.ru",
-            "multiMode": false
-          },
-          "realitySettings": {
-            "serverName": "cdn.kwork.com",
-            "publicKey": "flFgUuT_XNfhHeIKary4dXjIpfNPwhUBVlow3ozWiUo",
-            "shortId": "880e94ea9d8617b2",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 3",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "45.151.182.126",
-              "port": 5443,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "cdn.kwork.com",
-            "publicKey": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
-            "shortId": "ad7dab462a323acb",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 4",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "109.120.189.170",
-              "port": 7888,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
-            "shortId": "bad5722c72a038",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 5",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "ru.cloudload.org",
-              "port": 666,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "yandex.ru",
-            "publicKey": "HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo",
-            "shortId": "ad7dab462a323acb",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 6",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "5.188.89.22",
-              "port": 5443,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "yandex.ru",
-            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
-            "shortId": "bad5722c72a038",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 7",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "nkptk.whitevpn.sbs",
-              "port": 443,
-              "users": [
-                {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 8",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "nkptk.whitevpn.sbs",
-              "port": 443,
-              "users": [
-                {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 9",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "thaelen.kaguya.sbs",
-              "port": 443,
-              "users": [
-                {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 10",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "thaelen.kaguya.sbs",
-              "port": 443,
-              "users": [
-                {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 11",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "mkdc.idealvpn.top",
-              "port": 443,
-              "users": [
-                {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 12",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "mkdc.idealvpn.top",
-              "port": 443,
-              "users": [
-                {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 13",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "neon.kaguya.sbs",
-              "port": 443,
-              "users": [
-                {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ]
-  },
-  {
-    "remarks": "🇷🇺 Россия обход 14",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "neon.kaguya.sbs",
-              "port": 443,
-              "users": [
-                {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
-            "fingerprint": "chrome"
-          }
         }
       },
       {
