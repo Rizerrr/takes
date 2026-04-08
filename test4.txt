@@ -582,11 +582,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "nkptk.whitevpn.sbs",
-              "port": 443,
+              "address": "79.174.90.129",
+              "port": 5443,
               "users": [
                 {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
                   "encryption": "none",
                   "flow": "xtls-rprx-vision"
                 }
@@ -598,9 +598,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "yandex.ru",
+            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -627,7 +627,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -640,7 +640,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "thaelen.kaguya.sbs",
+              "address": "nkptk.whitevpn.sbs",
               "port": 443,
               "users": [
                 {
@@ -656,7 +656,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
+            "serverName": "max.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -685,7 +685,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -698,7 +698,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mkdc.idealvpn.top",
+              "address": "thaelen.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -714,7 +714,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
+            "serverName": "max.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -743,7 +743,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -752,6 +752,35 @@
       },
       {
         "tag": "cheap-25",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "mkdc.idealvpn.top",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "cheap-26",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -780,7 +809,7 @@
         }
       },
       {
-        "tag": "cheap-26",
+        "tag": "cheap-27",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1401,11 +1430,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "nkptk.whitevpn.sbs",
-              "port": 443,
+              "address": "79.174.90.129",
+              "port": 5443,
               "users": [
                 {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
                   "encryption": "none",
                   "flow": "xtls-rprx-vision"
                 }
@@ -1417,9 +1446,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "yandex.ru",
+            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -1446,7 +1475,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -1459,7 +1488,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "thaelen.kaguya.sbs",
+              "address": "nkptk.whitevpn.sbs",
               "port": 443,
               "users": [
                 {
@@ -1475,7 +1504,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
+            "serverName": "max.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -1504,7 +1533,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -1517,7 +1546,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mkdc.idealvpn.top",
+              "address": "thaelen.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -1533,7 +1562,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
+            "serverName": "max.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -1562,7 +1591,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -1571,6 +1600,35 @@
       },
       {
         "tag": "cheap-25",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "mkdc.idealvpn.top",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "cheap-26",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1599,7 +1657,7 @@
         }
       },
       {
-        "tag": "cheap-26",
+        "tag": "cheap-27",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2220,11 +2278,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "nkptk.whitevpn.sbs",
-              "port": 443,
+              "address": "79.174.90.129",
+              "port": 5443,
               "users": [
                 {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
                   "encryption": "none",
                   "flow": "xtls-rprx-vision"
                 }
@@ -2236,9 +2294,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "yandex.ru",
+            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -2265,7 +2323,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -2278,7 +2336,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "thaelen.kaguya.sbs",
+              "address": "nkptk.whitevpn.sbs",
               "port": 443,
               "users": [
                 {
@@ -2294,7 +2352,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
+            "serverName": "max.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -2323,7 +2381,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -2336,7 +2394,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mkdc.idealvpn.top",
+              "address": "thaelen.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2352,7 +2410,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
+            "serverName": "max.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -2381,7 +2439,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -2390,6 +2448,35 @@
       },
       {
         "tag": "cheap-25",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "mkdc.idealvpn.top",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "cheap-26",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2418,7 +2505,7 @@
         }
       },
       {
-        "tag": "cheap-26",
+        "tag": "cheap-27",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -3417,11 +3504,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "nkptk.whitevpn.sbs",
-              "port": 443,
+              "address": "79.174.90.129",
+              "port": 5443,
               "users": [
                 {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
                   "encryption": "none",
                   "flow": "xtls-rprx-vision"
                 }
@@ -3433,9 +3520,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "yandex.ru",
+            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -3485,7 +3572,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -3521,7 +3608,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "thaelen.kaguya.sbs",
+              "address": "nkptk.whitevpn.sbs",
               "port": 443,
               "users": [
                 {
@@ -3537,7 +3624,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
+            "serverName": "max.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -3589,7 +3676,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -3625,7 +3712,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mkdc.idealvpn.top",
+              "address": "thaelen.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3641,7 +3728,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
+            "serverName": "max.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -3693,7 +3780,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
@@ -3712,6 +3799,58 @@
   },
   {
     "remarks": "🇷🇺 Россия обход 13",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "mkdc.idealvpn.top",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "dg2xoTnuNw7Y8CW000rDQAFRfxF1Ru2AmSinL_j6Mmk",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ]
+  },
+  {
+    "remarks": "🇷🇺 Россия обход 14",
     "inbounds": [
       {
         "port": 10808,
@@ -3763,7 +3902,7 @@
     ]
   },
   {
-    "remarks": "🇷🇺 Россия обход 14",
+    "remarks": "🇷🇺 Россия обход 15",
     "inbounds": [
       {
         "port": 10808,
