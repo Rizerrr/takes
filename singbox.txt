@@ -94,14 +94,14 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "1m",
@@ -112,35 +112,35 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
       "tag": "🌌 Google",
       "type": "selector",
       "outbounds": [
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
       "tag": "📟 Telegram",
       "type": "selector",
       "outbounds": [
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
       "tag": "🐦 Twitter",
       "type": "selector",
       "outbounds": [
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
       "tag": "👤 Facebook",
       "type": "selector",
       "outbounds": [
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
@@ -148,7 +148,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
@@ -156,7 +156,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
@@ -164,7 +164,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
@@ -172,7 +172,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
@@ -187,7 +187,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
@@ -195,7 +195,7 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "🇩🇪 Германия обход 1"
+        "🇪🇪 Эстония 1"
       ]
     },
     {
@@ -227,24 +227,15 @@
       "type": "dns"
     },
     {
-      "server": "146.185.211.225",
+      "server": "ee.cloudload.org",
       "server_port": 443,
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
-          "short_id": "bad5722c72a038"
-        }
+        "server_name": "ee.cloudload.org"
       },
       "uuid": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
       "flow": "xtls-rprx-vision",
-      "tag": "🇩🇪 Германия обход 1",
+      "tag": "🇪🇪 Эстония 1",
       "type": "vless"
     }
   ],
