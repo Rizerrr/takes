@@ -1,5 +1,6 @@
 #profile-update-interval: 1
 #providerid YDHAExuL
+#providerid: YDHAExuL
 #ping-result: icon
 === ⬇️ ОБХОДЫ ⬇️ ===
 
