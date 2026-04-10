@@ -1,9 +1,4 @@
-#profile-update-interval: 1
-#profile-title: Офигеть имя крутое
-#subscription-userinfo: upload=0; download=2153701362; total=0; expire=9999999
-#support-url: https://t.me/Rizerrr
-#profile-web-page-url: https://t.me/Rizerrr
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:443?type=tcp&security=none#%3D%3D%3D%20%E2%86%93%20%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%AB%20%E2%86%93%20%3D%3D%3D%2010.04
+#profile-update-interval%3A%201%23profile-title%3A%20%D0%9E%D1%84%D0%B8%D0%B3%D0%B5%D1%82%D1%8C%20%D0%B8%D0%BC%D1%8F%20%D0%BA%D1%80%D1%83%D1%82%D0%BE%D0%B5%23subscription-userinfo%3A%20upload%3D0%3B%20download%3D2153701362%3B%20total%3D0%3B%20expire%3D1775789339%23support-url%3A%20https%3A//t.me/Rizerrr%23profile-web-page-url%3A%20https%3A//t.me/Rizerrrvless%3A//00000000-0000-0000-0000-000000000000%400.0.0.0%3A443%3Ftype%3Dtcp%26security%3Dnone%23%3D%3D%3D%20%E2%86%93%20%D0%9E%D0%91%D0%A5%D0%9E%D0%94%D0%AB%20%E2%86%93%20%3D%3D%3D%2010.04
 
 === ⬇️ ОБХОДЫ ⬇️ ===
 
