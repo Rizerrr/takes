@@ -136,7 +136,7 @@ vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@swe.whitevpn.top:443?type=tcp&secur
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@103.83.86.116:443?type=tcp&security=reality&encryption=none&sni=tr.cloudload.org&pbk=6UOFyiNP8UuXiSZ1VP16k-hsaK-ZYpdNWWD03f0BaVI&sid=a1ab5a56bc&fp=qq&flow=xtls-rprx-vision#%F0%9F%87%B9%F0%9F%87%B7%20%D0%A2%D1%83%D1%80%D1%86%D0%B8%D1%8F%201
 
 --- 🇺🇸 США ---
-vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@91.193.19.52:443?type=tcp&security=reality&encryption=none&sni=usseatle.cloudload.org&pbk=E_7Qfsqz_I2Rx_5zQ8QC-dypweKswDWLdfCCQq05IUo&sid=a1ab5a56bc&fp=qq&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20%D0%A1%D0%A8%D0%90%201
+vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@193.42.38.164:443?type=tcp&security=reality&encryption=none&sni=usseatle.cloudload.org&pbk=E_7Qfsqz_I2Rx_5zQ8QC-dypweKswDWLdfCCQq05IUo&sid=a1ab5a56bc&fp=qq&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20%D0%A1%D0%A8%D0%90%201
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@77.110.109.251:5443?type=tcp&security=reality&encryption=none&sni=github.com&pbk=mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4&sid=ad7dab462a323acb&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20%D0%A1%D0%A8%D0%90%202
 vless://bb91dcce-035d-4759-b2d5-bd5bd63a283c@77.110.109.251:8443?type=grpc&security=reality&encryption=none&sni=raw.githubusercontent.com&pbk=flFgUuT_XNfhHeIKary4dXjIpfNPwhUBVlow3ozWiUo&sid=880e94ea9d8617b2&fp=chrome&serviceName=api-maps.yandex.ru#%F0%9F%87%BA%F0%9F%87%B8%20%D0%A1%D0%A8%D0%90%203
 vless://e0e8cb01-bfa7-4587-bc74-2eeacf703f03@usaru.kaguya.sbs:443?type=tcp&security=reality&encryption=none&sni=apple.com&pbk=GZVR8p0dSbjL0j_bBZJaoqYMtuzHXWfXfEaklKLq1WY&sid=dc4aa6635008a9ae&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20%D0%A1%D0%A8%D0%90%204
