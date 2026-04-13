@@ -5,7 +5,7 @@
 #subscription-userinfo: upload=0; download=2153701362; total=0; expire=1775789339
 
 #support-url: https://t.me/Rizerrr
-
+#new-url: https://supermegalastdep.ru/
 #profile-web-page-url: https://t.me/Rizerrr
 
 #providerid: YDHAExuL
