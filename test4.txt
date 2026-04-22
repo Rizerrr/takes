@@ -342,7 +342,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -371,7 +371,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -1277,7 +1277,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -1306,7 +1306,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2212,7 +2212,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2241,7 +2241,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3341,7 +3341,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3393,7 +3393,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -5379,7 +5379,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "lamb.kaguya.sbs",
+              "address": "limb.kaguya.sbs",
               "port": 443,
               "users": [
                 {
