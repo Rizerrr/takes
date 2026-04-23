@@ -483,8 +483,8 @@
     "burstObservatory": {
       "pingConfig": {
         "destination": "https://www.gstatic.com/generate_204",
-        "interval": "https://www.gstatic.com/generate_204",
-        "timeout": "10s",
+        "interval": "10s",
+        "timeout": "2s",
         "sampling": 2,
         "httpMethod": "GET"
       },
@@ -787,7 +787,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -816,7 +816,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -1862,9 +1862,9 @@
     },
     "burstObservatory": {
       "pingConfig": {
-        "destination": "https://www.gstatic.com/generate_204",
-        "interval": "https://api.telegram.org",
-        "timeout": "10s",
+        "destination": "https://api.telegram.org",
+        "interval": "1000s",
+        "timeout": "2s",
         "sampling": 2,
         "httpMethod": "GET"
       },
@@ -2167,7 +2167,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2196,7 +2196,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3242,9 +3242,9 @@
     },
     "burstObservatory": {
       "pingConfig": {
-        "destination": "https://www.gstatic.com/generate_204",
-        "interval": "https://www.tiktok.com/",
-        "timeout": "10s",
+        "destination": "https://www.tiktok.com/",
+        "interval": "1000s",
+        "timeout": "2s",
         "sampling": 2,
         "httpMethod": "GET"
       },
@@ -3547,7 +3547,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3576,7 +3576,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -4622,9 +4622,9 @@
     },
     "burstObservatory": {
       "pingConfig": {
-        "destination": "https://www.gstatic.com/generate_204",
-        "interval": "https://instagram.com/",
-        "timeout": "10s",
+        "destination": "https://instagram.com/",
+        "interval": "1000s",
+        "timeout": "2s",
         "sampling": 2,
         "httpMethod": "GET"
       },
@@ -4927,7 +4927,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -4956,7 +4956,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -6056,7 +6056,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -6108,7 +6108,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -8094,7 +8094,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "limb.kaguya.sbs",
+              "address": "lamb.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -11312,7 +11312,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "",
+              "address": "nor.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -11364,7 +11364,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "nor.kaguya.sbs",
+              "address": "nork.kaguya.sbs",
               "port": 443,
               "users": [
                 {
