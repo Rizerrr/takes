@@ -11364,7 +11364,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "",
+              "address": "nor.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -11416,7 +11416,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "nor.kaguya.sbs",
+              "address": "nors.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -11514,7 +11514,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "poleska.kaguya.sbs",
+              "address": "polska.kaguya.sbs",
               "port": 443,
               "users": [
                 {
