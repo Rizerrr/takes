@@ -787,7 +787,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -816,7 +816,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2167,7 +2167,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2196,7 +2196,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3547,7 +3547,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3576,7 +3576,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -4927,7 +4927,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -4956,7 +4956,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -10176,7 +10176,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -10640,7 +10640,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -28694,7 +28694,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "lamb.kaguya.sbs",
+              "address": "limb.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -42010,7 +42010,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "finak.kaguya.sbs",
+              "address": "fink.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -48002,7 +48002,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "france.kaguya.sbs",
+              "address": "frace.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -59980,7 +59980,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "nork.kaguya.sbs",
+              "address": "nor.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -60444,7 +60444,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "nors.kaguya.sbs",
+              "address": "nork.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -61366,7 +61366,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "poleska.kaguya.sbs",
+              "address": "polska.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -71492,7 +71492,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "64.188.81.9",
+              "address": "sw.cloudload.org",
               "port": 443,
               "users": [
                 {
@@ -71506,7 +71506,13 @@
         },
         "streamSettings": {
           "network": "tcp",
-          "security": "tls"
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "sw.cloudload.org",
+            "publicKey": "I_h51HYy1GxghdjFod51Wv4xIAeRh1ezYN-7vubv5zQ",
+            "shortId": "a1ab5a56bc11c2",
+            "fingerprint": "chrome"
+          }
         }
       },
       {
