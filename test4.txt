@@ -878,11 +878,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
-              "port": 443,
+              "address": "84.201.161.24",
+              "port": 6443,
               "users": [
                 {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
                   "encryption": "none",
                   "flow": "xtls-rprx-vision"
                 }
@@ -894,9 +894,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "max.ru",
+            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -923,8 +923,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -936,7 +936,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "api-maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -952,8 +952,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -981,8 +981,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -994,7 +994,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "api-maps.xwhiteness.site",
+              "address": "api-maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -1010,9 +1010,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
-            "shortId": "",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
+            "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
         }
@@ -1039,7 +1039,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
             "shortId": "",
             "fingerprint": "chrome"
@@ -1052,7 +1052,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "neon.kaguya.sbs",
+              "address": "api-maps.xwhiteness.site",
               "port": 443,
               "users": [
                 {
@@ -1068,9 +1068,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "max.ru",
+            "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
+            "shortId": "",
             "fingerprint": "chrome"
           }
         }
@@ -1097,8 +1097,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -1110,7 +1110,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "thaelen.kaguya.sbs",
+              "address": "neon.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -1126,8 +1126,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -1155,8 +1155,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -1168,7 +1168,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "cudo.whitevpn.sbs",
+              "address": "thaelen.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -1184,8 +1184,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "4M0MuipxxSEwmR8SP9abBXGaCjc1hc6nq6ozxrkmABo",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -1213,8 +1213,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "4M0MuipxxSEwmR8SP9abBXGaCjc1hc6nq6ozxrkmABo",
+            "serverName": "ads.x5.ru",
+            "publicKey": "OkTN1XcsqPmT-dOl88X-kmQRi7h9EC1URQ5AajoI1xo",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -1222,6 +1222,35 @@
       },
       {
         "tag": "cheap-26",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "cudo.whitevpn.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "OkTN1XcsqPmT-dOl88X-kmQRi7h9EC1URQ5AajoI1xo",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "cheap-27",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1243,14 +1272,14 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "yandex.ru",
-            "publicKey": "jcLIzdc9eggEZZTEjGQ1VEweAbh3EOxTDObZTjMXAlE",
+            "publicKey": "yobxzjAuXrFW41o44zC0_Z81_P9vvm_huDJdzw9EL1Q",
             "shortId": "",
             "fingerprint": "chrome"
           }
         }
       },
       {
-        "tag": "cheap-27",
+        "tag": "cheap-28",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1283,7 +1312,7 @@
         }
       },
       {
-        "tag": "cheap-28",
+        "tag": "cheap-29",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1316,7 +1345,7 @@
         }
       },
       {
-        "tag": "cheap-29",
+        "tag": "cheap-30",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1345,7 +1374,7 @@
         }
       },
       {
-        "tag": "cheap-30",
+        "tag": "cheap-31",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1374,7 +1403,7 @@
         }
       },
       {
-        "tag": "cheap-31",
+        "tag": "cheap-32",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -1398,6 +1427,35 @@
             "serverName": "yandex.ru",
             "publicKey": "HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo",
             "shortId": "ad7dab462a323acb",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "cheap-33",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "45.11.27.224",
+              "port": 5443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "yandex.ru",
+            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -2291,11 +2349,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
-              "port": 443,
+              "address": "84.201.161.24",
+              "port": 6443,
               "users": [
                 {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
                   "encryption": "none",
                   "flow": "xtls-rprx-vision"
                 }
@@ -2307,9 +2365,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "max.ru",
+            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -2336,8 +2394,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -2349,7 +2407,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "api-maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2365,8 +2423,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -2394,8 +2452,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -2407,7 +2465,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "api-maps.xwhiteness.site",
+              "address": "api-maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2423,9 +2481,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
-            "shortId": "",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
+            "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
         }
@@ -2452,7 +2510,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
             "shortId": "",
             "fingerprint": "chrome"
@@ -2465,7 +2523,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "neon.kaguya.sbs",
+              "address": "api-maps.xwhiteness.site",
               "port": 443,
               "users": [
                 {
@@ -2481,9 +2539,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "max.ru",
+            "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
+            "shortId": "",
             "fingerprint": "chrome"
           }
         }
@@ -2510,8 +2568,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -2523,7 +2581,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "thaelen.kaguya.sbs",
+              "address": "neon.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2539,8 +2597,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -2568,8 +2626,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -2581,7 +2639,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "cudo.whitevpn.sbs",
+              "address": "thaelen.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2597,8 +2655,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "4M0MuipxxSEwmR8SP9abBXGaCjc1hc6nq6ozxrkmABo",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -2626,8 +2684,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "4M0MuipxxSEwmR8SP9abBXGaCjc1hc6nq6ozxrkmABo",
+            "serverName": "ads.x5.ru",
+            "publicKey": "OkTN1XcsqPmT-dOl88X-kmQRi7h9EC1URQ5AajoI1xo",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -2635,6 +2693,35 @@
       },
       {
         "tag": "cheap-26",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "cudo.whitevpn.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "OkTN1XcsqPmT-dOl88X-kmQRi7h9EC1URQ5AajoI1xo",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "cheap-27",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2656,14 +2743,14 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "yandex.ru",
-            "publicKey": "jcLIzdc9eggEZZTEjGQ1VEweAbh3EOxTDObZTjMXAlE",
+            "publicKey": "yobxzjAuXrFW41o44zC0_Z81_P9vvm_huDJdzw9EL1Q",
             "shortId": "",
             "fingerprint": "chrome"
           }
         }
       },
       {
-        "tag": "cheap-27",
+        "tag": "cheap-28",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2696,7 +2783,7 @@
         }
       },
       {
-        "tag": "cheap-28",
+        "tag": "cheap-29",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2729,7 +2816,7 @@
         }
       },
       {
-        "tag": "cheap-29",
+        "tag": "cheap-30",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2758,7 +2845,7 @@
         }
       },
       {
-        "tag": "cheap-30",
+        "tag": "cheap-31",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2787,7 +2874,7 @@
         }
       },
       {
-        "tag": "cheap-31",
+        "tag": "cheap-32",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -2811,6 +2898,35 @@
             "serverName": "yandex.ru",
             "publicKey": "HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo",
             "shortId": "ad7dab462a323acb",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "cheap-33",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "45.11.27.224",
+              "port": 5443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "yandex.ru",
+            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -3704,11 +3820,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
-              "port": 443,
+              "address": "84.201.161.24",
+              "port": 6443,
               "users": [
                 {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
                   "encryption": "none",
                   "flow": "xtls-rprx-vision"
                 }
@@ -3720,9 +3836,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "max.ru",
+            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -3749,8 +3865,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -3762,7 +3878,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "api-maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3778,8 +3894,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -3807,8 +3923,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -3820,7 +3936,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "api-maps.xwhiteness.site",
+              "address": "api-maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3836,9 +3952,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
-            "shortId": "",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
+            "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
         }
@@ -3865,7 +3981,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
             "shortId": "",
             "fingerprint": "chrome"
@@ -3878,7 +3994,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "neon.kaguya.sbs",
+              "address": "api-maps.xwhiteness.site",
               "port": 443,
               "users": [
                 {
@@ -3894,9 +4010,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "max.ru",
+            "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
+            "shortId": "",
             "fingerprint": "chrome"
           }
         }
@@ -3923,8 +4039,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -3936,7 +4052,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "thaelen.kaguya.sbs",
+              "address": "neon.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3952,8 +4068,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -3981,8 +4097,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -3994,7 +4110,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "cudo.whitevpn.sbs",
+              "address": "thaelen.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -4010,8 +4126,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "4M0MuipxxSEwmR8SP9abBXGaCjc1hc6nq6ozxrkmABo",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -4039,8 +4155,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "4M0MuipxxSEwmR8SP9abBXGaCjc1hc6nq6ozxrkmABo",
+            "serverName": "ads.x5.ru",
+            "publicKey": "OkTN1XcsqPmT-dOl88X-kmQRi7h9EC1URQ5AajoI1xo",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -4048,6 +4164,35 @@
       },
       {
         "tag": "cheap-26",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "cudo.whitevpn.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "OkTN1XcsqPmT-dOl88X-kmQRi7h9EC1URQ5AajoI1xo",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "cheap-27",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4069,14 +4214,14 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "yandex.ru",
-            "publicKey": "jcLIzdc9eggEZZTEjGQ1VEweAbh3EOxTDObZTjMXAlE",
+            "publicKey": "yobxzjAuXrFW41o44zC0_Z81_P9vvm_huDJdzw9EL1Q",
             "shortId": "",
             "fingerprint": "chrome"
           }
         }
       },
       {
-        "tag": "cheap-27",
+        "tag": "cheap-28",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4109,7 +4254,7 @@
         }
       },
       {
-        "tag": "cheap-28",
+        "tag": "cheap-29",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4142,7 +4287,7 @@
         }
       },
       {
-        "tag": "cheap-29",
+        "tag": "cheap-30",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4171,7 +4316,7 @@
         }
       },
       {
-        "tag": "cheap-30",
+        "tag": "cheap-31",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4200,7 +4345,7 @@
         }
       },
       {
-        "tag": "cheap-31",
+        "tag": "cheap-32",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -4224,6 +4369,35 @@
             "serverName": "yandex.ru",
             "publicKey": "HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo",
             "shortId": "ad7dab462a323acb",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "cheap-33",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "45.11.27.224",
+              "port": 5443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "yandex.ru",
+            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -5117,11 +5291,11 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
-              "port": 443,
+              "address": "84.201.161.24",
+              "port": 6443,
               "users": [
                 {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
                   "encryption": "none",
                   "flow": "xtls-rprx-vision"
                 }
@@ -5133,9 +5307,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "max.ru",
+            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -5162,8 +5336,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -5175,7 +5349,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "api-maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -5191,8 +5365,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -5220,8 +5394,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -5233,7 +5407,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "api-maps.xwhiteness.site",
+              "address": "api-maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -5249,9 +5423,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
-            "shortId": "",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
+            "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
         }
@@ -5278,7 +5452,7 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
+            "serverName": "ads.x5.ru",
             "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
             "shortId": "",
             "fingerprint": "chrome"
@@ -5291,7 +5465,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "neon.kaguya.sbs",
+              "address": "api-maps.xwhiteness.site",
               "port": 443,
               "users": [
                 {
@@ -5307,9 +5481,9 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
-            "shortId": "dc4aa6635008a9ae",
+            "serverName": "max.ru",
+            "publicKey": "-MmLgQXUM0GieSxdWfD3uQtamjLhYZ9ee07zmtxlKWg",
+            "shortId": "",
             "fingerprint": "chrome"
           }
         }
@@ -5336,8 +5510,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -5349,7 +5523,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "thaelen.kaguya.sbs",
+              "address": "neon.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -5365,8 +5539,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -5394,8 +5568,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "serverName": "ads.x5.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -5407,7 +5581,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "cudo.whitevpn.sbs",
+              "address": "thaelen.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -5423,8 +5597,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "ads.x5.ru",
-            "publicKey": "4M0MuipxxSEwmR8SP9abBXGaCjc1hc6nq6ozxrkmABo",
+            "serverName": "max.ru",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -5452,8 +5626,8 @@
           "network": "tcp",
           "security": "reality",
           "realitySettings": {
-            "serverName": "max.ru",
-            "publicKey": "4M0MuipxxSEwmR8SP9abBXGaCjc1hc6nq6ozxrkmABo",
+            "serverName": "ads.x5.ru",
+            "publicKey": "OkTN1XcsqPmT-dOl88X-kmQRi7h9EC1URQ5AajoI1xo",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -5461,6 +5635,35 @@
       },
       {
         "tag": "cheap-26",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "cudo.whitevpn.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "OkTN1XcsqPmT-dOl88X-kmQRi7h9EC1URQ5AajoI1xo",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "tag": "cheap-27",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5482,14 +5685,14 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "yandex.ru",
-            "publicKey": "jcLIzdc9eggEZZTEjGQ1VEweAbh3EOxTDObZTjMXAlE",
+            "publicKey": "yobxzjAuXrFW41o44zC0_Z81_P9vvm_huDJdzw9EL1Q",
             "shortId": "",
             "fingerprint": "chrome"
           }
         }
       },
       {
-        "tag": "cheap-27",
+        "tag": "cheap-28",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5522,7 +5725,7 @@
         }
       },
       {
-        "tag": "cheap-28",
+        "tag": "cheap-29",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5555,7 +5758,7 @@
         }
       },
       {
-        "tag": "cheap-29",
+        "tag": "cheap-30",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5584,7 +5787,7 @@
         }
       },
       {
-        "tag": "cheap-30",
+        "tag": "cheap-31",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5613,7 +5816,7 @@
         }
       },
       {
-        "tag": "cheap-31",
+        "tag": "cheap-32",
         "protocol": "vless",
         "settings": {
           "vnext": [
@@ -5642,6 +5845,35 @@
         }
       },
       {
+        "tag": "cheap-33",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "45.11.27.224",
+              "port": 5443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "yandex.ru",
+            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
+            "shortId": "bad5722c72a038",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
         "protocol": "freedom",
         "tag": "direct"
       },
@@ -5652,7 +5884,7 @@
     ]
   },
   {
-    "remarks": "=== ↓ ОБХОДЫ ↓ === 25.04",
+    "remarks": "=== ↓ ОБХОДЫ ↓ === 26.04",
     "inbounds": [
       {
         "port": 10808,
@@ -11686,6 +11918,470 @@
     }
   },
   {
+    "remarks": "🇵🇱 Польша обход 5",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "84.201.161.24",
+              "port": 6443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "max.ru",
+            "publicKey": "NQHJZ88t5mdW_YiTrgzsCwoJO0tgK2CP8Cd1HP-_6Gw",
+            "shortId": "bad5722c72a038",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "oneme.ru",
+            "max.ru"
+          ],
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "avito.st",
+            "geosite:category-ru",
+            "regexp:.*\\.ru$",
+            "regexp:.*\\.xn--p1ai$",
+            "regexp:.*\\.xn--p1acf$",
+            "regexp:.*\\.xn--p1ag$",
+            "xn--80ajghhoc2aj1c8b.xn--p1ai",
+            "pptest.userapi.com",
+            "sun1-13.userapi.com",
+            "sun1-14.userapi.com",
+            "sun1-15.userapi.com",
+            "sun1-16.userapi.com",
+            "sun1-17.userapi.com",
+            "sun1-18.userapi.com",
+            "sun1-19.userapi.com",
+            "sun1-20.userapi.com",
+            "sun1-21.userapi.com",
+            "sun1-22.userapi.com",
+            "sun1-23.userapi.com",
+            "sun1-24.userapi.com",
+            "sun1-25.userapi.com",
+            "sun1-26.userapi.com",
+            "sun1-27.userapi.com",
+            "sun1-28.userapi.com",
+            "sun1-29.userapi.com",
+            "sun1-30.userapi.com",
+            "sun1-47.userapi.com",
+            "sun1-54.userapi.com",
+            "sun1-55.userapi.com",
+            "sun1-56.userapi.com",
+            "sun1-57.userapi.com",
+            "sun1-83.userapi.com",
+            "sun1-84.userapi.com",
+            "sun1-85.userapi.com",
+            "sun1-86.userapi.com",
+            "sun1-87.userapi.com",
+            "sun1-88.userapi.com",
+            "sun1-89.userapi.com",
+            "sun1-90.userapi.com",
+            "sun1-91.userapi.com",
+            "sun1-92.userapi.com",
+            "sun1-93.userapi.com",
+            "sun1-94.userapi.com",
+            "sun1-95.userapi.com",
+            "sun1-96.userapi.com",
+            "sun1-97.userapi.com",
+            "sun1-98.userapi.com",
+            "sun1-99.userapi.com",
+            "sun2-10.userapi.com",
+            "sun2-11.userapi.com",
+            "sun2-12.userapi.com",
+            "sun2-13.userapi.com",
+            "sun2-14.userapi.com",
+            "sun2-15.userapi.com",
+            "sun2-16.userapi.com",
+            "sun2-17.userapi.com",
+            "sun2-18.userapi.com",
+            "sun2-19.userapi.com",
+            "sun2-20.userapi.com",
+            "sun2-21.userapi.com",
+            "sun2-22.userapi.com",
+            "sun3-10.userapi.com",
+            "sun3-11.userapi.com",
+            "sun3-12.userapi.com",
+            "sun3-13.userapi.com",
+            "sun3-16.userapi.com",
+            "sun3-17.userapi.com",
+            "sun3-18.userapi.com",
+            "sun3-19.userapi.com",
+            "sun3-20.userapi.com",
+            "sun3-21.userapi.com",
+            "sun3-22.userapi.com",
+            "sun3-23.userapi.com",
+            "sun3-24.userapi.com",
+            "sun4-10.userapi.com",
+            "sun4-11.userapi.com",
+            "sun4-12.userapi.com",
+            "sun4-15.userapi.com",
+            "sun4-16.userapi.com",
+            "sun4-17.userapi.com",
+            "sun4-18.userapi.com",
+            "sun4-19.userapi.com",
+            "sun4-20.userapi.com",
+            "sun4-21.userapi.com",
+            "sun4-22.userapi.com",
+            "sun6-20.userapi.com",
+            "sun6-21.userapi.com",
+            "sun6-22.userapi.com",
+            "sun6-23.userapi.com",
+            "sun7-12.userapi.com",
+            "sun7-13.userapi.com",
+            "sun7-14.userapi.com",
+            "sun7-15.userapi.com",
+            "sun7-16.userapi.com",
+            "sun7-17.userapi.com",
+            "sun7-18.userapi.com",
+            "sun7-19.userapi.com",
+            "sun7-20.userapi.com",
+            "sun7-21.userapi.com",
+            "sun7-22.userapi.com",
+            "sun7-23.userapi.com",
+            "sun7-24.userapi.com",
+            "sun9-10.userapi.com",
+            "sun9-11.userapi.com",
+            "sun9-12.userapi.com",
+            "sun9-13.userapi.com",
+            "sun9-14.userapi.com",
+            "sun9-15.userapi.com",
+            "sun9-16.userapi.com",
+            "sun9-17.userapi.com",
+            "sun9-18.userapi.com",
+            "sun9-19.userapi.com",
+            "sun9-20.userapi.com",
+            "sun9-21.userapi.com",
+            "sun9-22.userapi.com",
+            "sun9-23.userapi.com",
+            "sun9-24.userapi.com",
+            "sun9-25.userapi.com",
+            "sun9-26.userapi.com",
+            "sun9-27.userapi.com",
+            "sun9-28.userapi.com",
+            "sun9-29.userapi.com",
+            "sun9-30.userapi.com",
+            "sun9-31.userapi.com",
+            "sun9-32.userapi.com",
+            "sun9-33.userapi.com",
+            "sun9-34.userapi.com",
+            "sun9-35.userapi.com",
+            "sun9-36.userapi.com",
+            "sun9-37.userapi.com",
+            "sun9-38.userapi.com",
+            "sun9-39.userapi.com",
+            "sun9-40.userapi.com",
+            "sun9-41.userapi.com",
+            "sun9-42.userapi.com",
+            "sun9-43.userapi.com",
+            "sun9-44.userapi.com",
+            "sun9-45.userapi.com",
+            "sun9-46.userapi.com",
+            "sun9-47.userapi.com",
+            "sun9-48.userapi.com",
+            "sun9-49.userapi.com",
+            "sun9-50.userapi.com",
+            "sun9-51.userapi.com",
+            "sun9-52.userapi.com",
+            "sun9-53.userapi.com",
+            "sun9-54.userapi.com",
+            "sun9-55.userapi.com",
+            "sun9-56.userapi.com",
+            "sun9-57.userapi.com",
+            "sun9-58.userapi.com",
+            "sun9-59.userapi.com",
+            "sun9-60.userapi.com",
+            "sun9-61.userapi.com",
+            "sun9-62.userapi.com",
+            "sun9-63.userapi.com",
+            "sun9-64.userapi.com",
+            "sun9-65.userapi.com",
+            "sun9-66.userapi.com",
+            "sun9-67.userapi.com",
+            "sun9-68.userapi.com",
+            "sun9-69.userapi.com",
+            "sun9-70.userapi.com",
+            "sun9-71.userapi.com",
+            "sun9-72.userapi.com",
+            "sun9-73.userapi.com",
+            "sun9-74.userapi.com",
+            "sun9-75.userapi.com",
+            "sun9-76.userapi.com",
+            "sun9-77.userapi.com",
+            "sun9-78.userapi.com",
+            "sun9-79.userapi.com",
+            "sun9-80.userapi.com",
+            "sun9-81.userapi.com",
+            "sun9-82.userapi.com",
+            "sun9-83.userapi.com",
+            "sun9-84.userapi.com",
+            "sun9-85.userapi.com",
+            "sun9-86.userapi.com",
+            "sun9-87.userapi.com",
+            "sun9-88.userapi.com",
+            "travel.yastatic.net",
+            "api.uxfeedback.yandex.net",
+            "api.s3.yandex.net",
+            "cdn.s3.yandex.net",
+            "uxfeedback-cdn.s3.yandex.net",
+            "cloudcdn-m9-15.cdn.yandex.net",
+            "cloudcdn-m9-14.cdn.yandex.net",
+            "cloudcdn-m9-13.cdn.yandex.net",
+            "cloudcdn-m9-12.cdn.yandex.net",
+            "cloudcdn-m9-10.cdn.yandex.net",
+            "cloudcdn-m9-9.cdn.yandex.net",
+            "cloudcdn-m9-7.cdn.yandex.net",
+            "cloudcdn-m9-6.cdn.yandex.net",
+            "cloudcdn-m9-5.cdn.yandex.net",
+            "cloudcdn-m9-4.cdn.yandex.net",
+            "cloudcdn-m9-3.cdn.yandex.net",
+            "cloudcdn-m9-2.cdn.yandex.net",
+            "avatars.mds.yandex.net",
+            "receive-sentry.lmru.tech",
+            "favicon.yandex.com",
+            "favicon.yandex.net",
+            "browser.yandex.com",
+            "api.browser.yandex.com",
+            "wap.yandex.com",
+            "kiks.yandex.com",
+            "mediafeeds.yandex.com",
+            "avatars.mds.yandex.com",
+            "mc.yandex.com",
+            "dr2.yandex.net",
+            "cloud.cdn.yandex.net",
+            "cloud.cdn.yandex.com",
+            "dr.yandex.net",
+            "mail.yandex.com",
+            "s3.yandex.net",
+            "vk-portal.net",
+            "zen.yandex.com",
+            "zen.yandex.net",
+            "queuev4.vk.com",
+            "r0.mradx.net",
+            "collections.yandex.com",
+            "bro-bg-store.s3.yandex.net",
+            "bro-bg-store.s3.yandex.com",
+            "static-mon.yandex.net",
+            "sync.browser.yandex.net",
+            "storage.ape.yandex.net",
+            "ams2-cdn.2gis.com",
+            "eh.vk.com",
+            "akashi.vk-portal.net",
+            "strm-rad-23.strm.yandex.net",
+            "strm.yandex.net",
+            "egress.yandex.net",
+            "cloudcdn-ams19.cdn.yandex.net",
+            "disk.2gis.com",
+            "sba.yandex.com",
+            "sba.yandex.net",
+            "login.vk.com",
+            "cloud.vk.com",
+            "keys.api.2gis.com",
+            "favorites.api.2gis.com",
+            "styles.api.2gis.com",
+            "tile0.maps.2gis.com",
+            "tile1.maps.2gis.com",
+            "tile2.maps.2gis.com",
+            "tile3.maps.2gis.com",
+            "tile4.maps.2gis.com",
+            "api.photo.2gis.com",
+            "2gis.com",
+            "filekeeper-vod.2gis.com",
+            "i0.photo.2gis.com",
+            "i1.photo.2gis.com",
+            "i2.photo.2gis.com",
+            "i3.photo.2gis.com",
+            "i4.photo.2gis.com",
+            "i5.photo.2gis.com",
+            "i6.photo.2gis.com",
+            "i7.photo.2gis.com",
+            "i8.photo.2gis.com",
+            "i9.photo.2gis.com",
+            "jam.api.2gis.com",
+            "catalog.api.2gis.com",
+            "api.reviews.2gis.com",
+            "public-api.reviews.2gis.com",
+            "mapgl.2gis.com",
+            "yastatic.net",
+            "csp.yandex.net",
+            "cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net",
+            "api.events.plus.yandex.net",
+            "speller.yandex.net",
+            "s0.bss.2gis.com",
+            "s1.bss.2gis.com",
+            "00.img.avito.st",
+            "01.img.avito.st",
+            "02.img.avito.st",
+            "03.img.avito.st",
+            "04.img.avito.st",
+            "05.img.avito.st",
+            "06.img.avito.st",
+            "07.img.avito.st",
+            "08.img.avito.st",
+            "09.img.avito.st",
+            "10.img.avito.st",
+            "11.img.avito.st",
+            "12.img.avito.st",
+            "13.img.avito.st",
+            "14.img.avito.st",
+            "15.img.avito.st",
+            "16.img.avito.st",
+            "17.img.avito.st",
+            "18.img.avito.st",
+            "19.img.avito.st",
+            "20.img.avito.st",
+            "21.img.avito.st",
+            "22.img.avito.st",
+            "23.img.avito.st",
+            "24.img.avito.st",
+            "25.img.avito.st",
+            "26.img.avito.st",
+            "27.img.avito.st",
+            "28.img.avito.st",
+            "29.img.avito.st",
+            "30.img.avito.st",
+            "31.img.avito.st",
+            "32.img.avito.st",
+            "33.img.avito.st",
+            "34.img.avito.st",
+            "35.img.avito.st",
+            "36.img.avito.st",
+            "37.img.avito.st",
+            "38.img.avito.st",
+            "39.img.avito.st",
+            "40.img.avito.st",
+            "41.img.avito.st",
+            "42.img.avito.st",
+            "43.img.avito.st",
+            "44.img.avito.st",
+            "45.img.avito.st",
+            "46.img.avito.st",
+            "47.img.avito.st",
+            "48.img.avito.st",
+            "49.img.avito.st",
+            "50.img.avito.st",
+            "51.img.avito.st",
+            "52.img.avito.st",
+            "53.img.avito.st",
+            "54.img.avito.st",
+            "55.img.avito.st",
+            "56.img.avito.st",
+            "57.img.avito.st",
+            "58.img.avito.st",
+            "59.img.avito.st",
+            "60.img.avito.st",
+            "61.img.avito.st",
+            "62.img.avito.st",
+            "63.img.avito.st",
+            "64.img.avito.st",
+            "65.img.avito.st",
+            "66.img.avito.st",
+            "67.img.avito.st",
+            "68.img.avito.st",
+            "69.img.avito.st",
+            "70.img.avito.st",
+            "71.img.avito.st",
+            "72.img.avito.st",
+            "73.img.avito.st",
+            "74.img.avito.st",
+            "75.img.avito.st",
+            "76.img.avito.st",
+            "77.img.avito.st",
+            "78.img.avito.st",
+            "79.img.avito.st",
+            "80.img.avito.st",
+            "81.img.avito.st",
+            "82.img.avito.st",
+            "83.img.avito.st",
+            "84.img.avito.st",
+            "85.img.avito.st",
+            "86.img.avito.st",
+            "87.img.avito.st",
+            "88.img.avito.st",
+            "89.img.avito.st",
+            "90.img.avito.st",
+            "91.img.avito.st",
+            "92.img.avito.st",
+            "93.img.avito.st",
+            "94.img.avito.st",
+            "95.img.avito.st",
+            "96.img.avito.st",
+            "97.img.avito.st",
+            "98.img.avito.st",
+            "99.img.avito.st",
+            "api.okko.tv",
+            "api.premier.one",
+            "auth.okko.tv",
+            "auth.premier.one",
+            "cdn.okko.tv",
+            "cdn.premier.one",
+            "gismeteo.com",
+            "img.okko.tv",
+            "img.premier.one",
+            "m.okko.tv",
+            "my.okko.tv",
+            "my.premier.one",
+            "push.okko.tv",
+            "push.premier.one",
+            "static.okko.tv",
+            "static.premier.one",
+            "stats.okko.tv",
+            "stream.okko.tv",
+            "stream.premier.one",
+            "supermarket.lenta.com",
+            "tv.okko.tv",
+            "www.gismeteo.com"
+          ],
+          "outboundTag": "direct"
+        }
+      ]
+    }
+  },
+  {
     "remarks": "🇷🇺 Россия обход 1",
     "inbounds": [
       {
@@ -11704,7 +12400,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -11721,7 +12417,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -12168,7 +12864,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -12185,7 +12881,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -12649,7 +13345,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -13113,7 +13809,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -14505,7 +15201,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -14969,7 +15665,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -15433,7 +16129,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "ads.x5.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -15897,7 +16593,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "max.ru",
-            "publicKey": "EVqjU31R63n2doDyGnPmlvqUP9I-DwvjUVHgLBihhTY",
+            "publicKey": "1ZNcu6FOn9xF-YfkFLhDI3vuO8w3VWq32zYVJ4JWBxQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -16361,7 +17057,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "ads.x5.ru",
-            "publicKey": "4M0MuipxxSEwmR8SP9abBXGaCjc1hc6nq6ozxrkmABo",
+            "publicKey": "OkTN1XcsqPmT-dOl88X-kmQRi7h9EC1URQ5AajoI1xo",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -16825,7 +17521,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "max.ru",
-            "publicKey": "4M0MuipxxSEwmR8SP9abBXGaCjc1hc6nq6ozxrkmABo",
+            "publicKey": "OkTN1XcsqPmT-dOl88X-kmQRi7h9EC1URQ5AajoI1xo",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -17289,7 +17985,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "yandex.ru",
-            "publicKey": "jcLIzdc9eggEZZTEjGQ1VEweAbh3EOxTDObZTjMXAlE",
+            "publicKey": "yobxzjAuXrFW41o44zC0_Z81_P9vvm_huDJdzw9EL1Q",
             "shortId": "",
             "fingerprint": "chrome"
           }
@@ -19619,6 +20315,470 @@
             "serverName": "yandex.ru",
             "publicKey": "HlY026ybIy--Y4D5IBGC-a3qNRIsq-uvKPRK9vawVyo",
             "shortId": "ad7dab462a323acb",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "oneme.ru",
+            "max.ru"
+          ],
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "avito.st",
+            "geosite:category-ru",
+            "regexp:.*\\.ru$",
+            "regexp:.*\\.xn--p1ai$",
+            "regexp:.*\\.xn--p1acf$",
+            "regexp:.*\\.xn--p1ag$",
+            "xn--80ajghhoc2aj1c8b.xn--p1ai",
+            "pptest.userapi.com",
+            "sun1-13.userapi.com",
+            "sun1-14.userapi.com",
+            "sun1-15.userapi.com",
+            "sun1-16.userapi.com",
+            "sun1-17.userapi.com",
+            "sun1-18.userapi.com",
+            "sun1-19.userapi.com",
+            "sun1-20.userapi.com",
+            "sun1-21.userapi.com",
+            "sun1-22.userapi.com",
+            "sun1-23.userapi.com",
+            "sun1-24.userapi.com",
+            "sun1-25.userapi.com",
+            "sun1-26.userapi.com",
+            "sun1-27.userapi.com",
+            "sun1-28.userapi.com",
+            "sun1-29.userapi.com",
+            "sun1-30.userapi.com",
+            "sun1-47.userapi.com",
+            "sun1-54.userapi.com",
+            "sun1-55.userapi.com",
+            "sun1-56.userapi.com",
+            "sun1-57.userapi.com",
+            "sun1-83.userapi.com",
+            "sun1-84.userapi.com",
+            "sun1-85.userapi.com",
+            "sun1-86.userapi.com",
+            "sun1-87.userapi.com",
+            "sun1-88.userapi.com",
+            "sun1-89.userapi.com",
+            "sun1-90.userapi.com",
+            "sun1-91.userapi.com",
+            "sun1-92.userapi.com",
+            "sun1-93.userapi.com",
+            "sun1-94.userapi.com",
+            "sun1-95.userapi.com",
+            "sun1-96.userapi.com",
+            "sun1-97.userapi.com",
+            "sun1-98.userapi.com",
+            "sun1-99.userapi.com",
+            "sun2-10.userapi.com",
+            "sun2-11.userapi.com",
+            "sun2-12.userapi.com",
+            "sun2-13.userapi.com",
+            "sun2-14.userapi.com",
+            "sun2-15.userapi.com",
+            "sun2-16.userapi.com",
+            "sun2-17.userapi.com",
+            "sun2-18.userapi.com",
+            "sun2-19.userapi.com",
+            "sun2-20.userapi.com",
+            "sun2-21.userapi.com",
+            "sun2-22.userapi.com",
+            "sun3-10.userapi.com",
+            "sun3-11.userapi.com",
+            "sun3-12.userapi.com",
+            "sun3-13.userapi.com",
+            "sun3-16.userapi.com",
+            "sun3-17.userapi.com",
+            "sun3-18.userapi.com",
+            "sun3-19.userapi.com",
+            "sun3-20.userapi.com",
+            "sun3-21.userapi.com",
+            "sun3-22.userapi.com",
+            "sun3-23.userapi.com",
+            "sun3-24.userapi.com",
+            "sun4-10.userapi.com",
+            "sun4-11.userapi.com",
+            "sun4-12.userapi.com",
+            "sun4-15.userapi.com",
+            "sun4-16.userapi.com",
+            "sun4-17.userapi.com",
+            "sun4-18.userapi.com",
+            "sun4-19.userapi.com",
+            "sun4-20.userapi.com",
+            "sun4-21.userapi.com",
+            "sun4-22.userapi.com",
+            "sun6-20.userapi.com",
+            "sun6-21.userapi.com",
+            "sun6-22.userapi.com",
+            "sun6-23.userapi.com",
+            "sun7-12.userapi.com",
+            "sun7-13.userapi.com",
+            "sun7-14.userapi.com",
+            "sun7-15.userapi.com",
+            "sun7-16.userapi.com",
+            "sun7-17.userapi.com",
+            "sun7-18.userapi.com",
+            "sun7-19.userapi.com",
+            "sun7-20.userapi.com",
+            "sun7-21.userapi.com",
+            "sun7-22.userapi.com",
+            "sun7-23.userapi.com",
+            "sun7-24.userapi.com",
+            "sun9-10.userapi.com",
+            "sun9-11.userapi.com",
+            "sun9-12.userapi.com",
+            "sun9-13.userapi.com",
+            "sun9-14.userapi.com",
+            "sun9-15.userapi.com",
+            "sun9-16.userapi.com",
+            "sun9-17.userapi.com",
+            "sun9-18.userapi.com",
+            "sun9-19.userapi.com",
+            "sun9-20.userapi.com",
+            "sun9-21.userapi.com",
+            "sun9-22.userapi.com",
+            "sun9-23.userapi.com",
+            "sun9-24.userapi.com",
+            "sun9-25.userapi.com",
+            "sun9-26.userapi.com",
+            "sun9-27.userapi.com",
+            "sun9-28.userapi.com",
+            "sun9-29.userapi.com",
+            "sun9-30.userapi.com",
+            "sun9-31.userapi.com",
+            "sun9-32.userapi.com",
+            "sun9-33.userapi.com",
+            "sun9-34.userapi.com",
+            "sun9-35.userapi.com",
+            "sun9-36.userapi.com",
+            "sun9-37.userapi.com",
+            "sun9-38.userapi.com",
+            "sun9-39.userapi.com",
+            "sun9-40.userapi.com",
+            "sun9-41.userapi.com",
+            "sun9-42.userapi.com",
+            "sun9-43.userapi.com",
+            "sun9-44.userapi.com",
+            "sun9-45.userapi.com",
+            "sun9-46.userapi.com",
+            "sun9-47.userapi.com",
+            "sun9-48.userapi.com",
+            "sun9-49.userapi.com",
+            "sun9-50.userapi.com",
+            "sun9-51.userapi.com",
+            "sun9-52.userapi.com",
+            "sun9-53.userapi.com",
+            "sun9-54.userapi.com",
+            "sun9-55.userapi.com",
+            "sun9-56.userapi.com",
+            "sun9-57.userapi.com",
+            "sun9-58.userapi.com",
+            "sun9-59.userapi.com",
+            "sun9-60.userapi.com",
+            "sun9-61.userapi.com",
+            "sun9-62.userapi.com",
+            "sun9-63.userapi.com",
+            "sun9-64.userapi.com",
+            "sun9-65.userapi.com",
+            "sun9-66.userapi.com",
+            "sun9-67.userapi.com",
+            "sun9-68.userapi.com",
+            "sun9-69.userapi.com",
+            "sun9-70.userapi.com",
+            "sun9-71.userapi.com",
+            "sun9-72.userapi.com",
+            "sun9-73.userapi.com",
+            "sun9-74.userapi.com",
+            "sun9-75.userapi.com",
+            "sun9-76.userapi.com",
+            "sun9-77.userapi.com",
+            "sun9-78.userapi.com",
+            "sun9-79.userapi.com",
+            "sun9-80.userapi.com",
+            "sun9-81.userapi.com",
+            "sun9-82.userapi.com",
+            "sun9-83.userapi.com",
+            "sun9-84.userapi.com",
+            "sun9-85.userapi.com",
+            "sun9-86.userapi.com",
+            "sun9-87.userapi.com",
+            "sun9-88.userapi.com",
+            "travel.yastatic.net",
+            "api.uxfeedback.yandex.net",
+            "api.s3.yandex.net",
+            "cdn.s3.yandex.net",
+            "uxfeedback-cdn.s3.yandex.net",
+            "cloudcdn-m9-15.cdn.yandex.net",
+            "cloudcdn-m9-14.cdn.yandex.net",
+            "cloudcdn-m9-13.cdn.yandex.net",
+            "cloudcdn-m9-12.cdn.yandex.net",
+            "cloudcdn-m9-10.cdn.yandex.net",
+            "cloudcdn-m9-9.cdn.yandex.net",
+            "cloudcdn-m9-7.cdn.yandex.net",
+            "cloudcdn-m9-6.cdn.yandex.net",
+            "cloudcdn-m9-5.cdn.yandex.net",
+            "cloudcdn-m9-4.cdn.yandex.net",
+            "cloudcdn-m9-3.cdn.yandex.net",
+            "cloudcdn-m9-2.cdn.yandex.net",
+            "avatars.mds.yandex.net",
+            "receive-sentry.lmru.tech",
+            "favicon.yandex.com",
+            "favicon.yandex.net",
+            "browser.yandex.com",
+            "api.browser.yandex.com",
+            "wap.yandex.com",
+            "kiks.yandex.com",
+            "mediafeeds.yandex.com",
+            "avatars.mds.yandex.com",
+            "mc.yandex.com",
+            "dr2.yandex.net",
+            "cloud.cdn.yandex.net",
+            "cloud.cdn.yandex.com",
+            "dr.yandex.net",
+            "mail.yandex.com",
+            "s3.yandex.net",
+            "vk-portal.net",
+            "zen.yandex.com",
+            "zen.yandex.net",
+            "queuev4.vk.com",
+            "r0.mradx.net",
+            "collections.yandex.com",
+            "bro-bg-store.s3.yandex.net",
+            "bro-bg-store.s3.yandex.com",
+            "static-mon.yandex.net",
+            "sync.browser.yandex.net",
+            "storage.ape.yandex.net",
+            "ams2-cdn.2gis.com",
+            "eh.vk.com",
+            "akashi.vk-portal.net",
+            "strm-rad-23.strm.yandex.net",
+            "strm.yandex.net",
+            "egress.yandex.net",
+            "cloudcdn-ams19.cdn.yandex.net",
+            "disk.2gis.com",
+            "sba.yandex.com",
+            "sba.yandex.net",
+            "login.vk.com",
+            "cloud.vk.com",
+            "keys.api.2gis.com",
+            "favorites.api.2gis.com",
+            "styles.api.2gis.com",
+            "tile0.maps.2gis.com",
+            "tile1.maps.2gis.com",
+            "tile2.maps.2gis.com",
+            "tile3.maps.2gis.com",
+            "tile4.maps.2gis.com",
+            "api.photo.2gis.com",
+            "2gis.com",
+            "filekeeper-vod.2gis.com",
+            "i0.photo.2gis.com",
+            "i1.photo.2gis.com",
+            "i2.photo.2gis.com",
+            "i3.photo.2gis.com",
+            "i4.photo.2gis.com",
+            "i5.photo.2gis.com",
+            "i6.photo.2gis.com",
+            "i7.photo.2gis.com",
+            "i8.photo.2gis.com",
+            "i9.photo.2gis.com",
+            "jam.api.2gis.com",
+            "catalog.api.2gis.com",
+            "api.reviews.2gis.com",
+            "public-api.reviews.2gis.com",
+            "mapgl.2gis.com",
+            "yastatic.net",
+            "csp.yandex.net",
+            "cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net",
+            "api.events.plus.yandex.net",
+            "speller.yandex.net",
+            "s0.bss.2gis.com",
+            "s1.bss.2gis.com",
+            "00.img.avito.st",
+            "01.img.avito.st",
+            "02.img.avito.st",
+            "03.img.avito.st",
+            "04.img.avito.st",
+            "05.img.avito.st",
+            "06.img.avito.st",
+            "07.img.avito.st",
+            "08.img.avito.st",
+            "09.img.avito.st",
+            "10.img.avito.st",
+            "11.img.avito.st",
+            "12.img.avito.st",
+            "13.img.avito.st",
+            "14.img.avito.st",
+            "15.img.avito.st",
+            "16.img.avito.st",
+            "17.img.avito.st",
+            "18.img.avito.st",
+            "19.img.avito.st",
+            "20.img.avito.st",
+            "21.img.avito.st",
+            "22.img.avito.st",
+            "23.img.avito.st",
+            "24.img.avito.st",
+            "25.img.avito.st",
+            "26.img.avito.st",
+            "27.img.avito.st",
+            "28.img.avito.st",
+            "29.img.avito.st",
+            "30.img.avito.st",
+            "31.img.avito.st",
+            "32.img.avito.st",
+            "33.img.avito.st",
+            "34.img.avito.st",
+            "35.img.avito.st",
+            "36.img.avito.st",
+            "37.img.avito.st",
+            "38.img.avito.st",
+            "39.img.avito.st",
+            "40.img.avito.st",
+            "41.img.avito.st",
+            "42.img.avito.st",
+            "43.img.avito.st",
+            "44.img.avito.st",
+            "45.img.avito.st",
+            "46.img.avito.st",
+            "47.img.avito.st",
+            "48.img.avito.st",
+            "49.img.avito.st",
+            "50.img.avito.st",
+            "51.img.avito.st",
+            "52.img.avito.st",
+            "53.img.avito.st",
+            "54.img.avito.st",
+            "55.img.avito.st",
+            "56.img.avito.st",
+            "57.img.avito.st",
+            "58.img.avito.st",
+            "59.img.avito.st",
+            "60.img.avito.st",
+            "61.img.avito.st",
+            "62.img.avito.st",
+            "63.img.avito.st",
+            "64.img.avito.st",
+            "65.img.avito.st",
+            "66.img.avito.st",
+            "67.img.avito.st",
+            "68.img.avito.st",
+            "69.img.avito.st",
+            "70.img.avito.st",
+            "71.img.avito.st",
+            "72.img.avito.st",
+            "73.img.avito.st",
+            "74.img.avito.st",
+            "75.img.avito.st",
+            "76.img.avito.st",
+            "77.img.avito.st",
+            "78.img.avito.st",
+            "79.img.avito.st",
+            "80.img.avito.st",
+            "81.img.avito.st",
+            "82.img.avito.st",
+            "83.img.avito.st",
+            "84.img.avito.st",
+            "85.img.avito.st",
+            "86.img.avito.st",
+            "87.img.avito.st",
+            "88.img.avito.st",
+            "89.img.avito.st",
+            "90.img.avito.st",
+            "91.img.avito.st",
+            "92.img.avito.st",
+            "93.img.avito.st",
+            "94.img.avito.st",
+            "95.img.avito.st",
+            "96.img.avito.st",
+            "97.img.avito.st",
+            "98.img.avito.st",
+            "99.img.avito.st",
+            "api.okko.tv",
+            "api.premier.one",
+            "auth.okko.tv",
+            "auth.premier.one",
+            "cdn.okko.tv",
+            "cdn.premier.one",
+            "gismeteo.com",
+            "img.okko.tv",
+            "img.premier.one",
+            "m.okko.tv",
+            "my.okko.tv",
+            "my.premier.one",
+            "push.okko.tv",
+            "push.premier.one",
+            "static.okko.tv",
+            "static.premier.one",
+            "stats.okko.tv",
+            "stream.okko.tv",
+            "stream.premier.one",
+            "supermarket.lenta.com",
+            "tv.okko.tv",
+            "www.gismeteo.com"
+          ],
+          "outboundTag": "direct"
+        }
+      ]
+    }
+  },
+  {
+    "remarks": "🇷🇺 Россия обход 19",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "45.11.27.224",
+              "port": 5443,
+              "users": [
+                {
+                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "yandex.ru",
+            "publicKey": "0y72WqjYlRKbU-VzinCglBJt6ZD7GvDhNnkwDHB8l0Q",
+            "shortId": "bad5722c72a038",
             "fingerprint": "chrome"
           }
         }
@@ -22841,7 +24001,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "apple.com",
-            "publicKey": "IWVzK4SRydzlSvRNH9Iob0jrpfSaQ8rBcnz6rlqXC2E",
+            "publicKey": "3oiuiJvmxPkjMcnDQkXCNC41nFwcYPxXkox1Dr3WE0c",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -27902,7 +29062,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "deeshak.kaguya.sbs",
+              "address": "aguzok1.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -27919,7 +29079,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "apple.com",
-            "publicKey": "1hwiiWVXiTdr8LPTfD71UMeXJ6YAYH4oqlIEiR2WRCk",
+            "publicKey": "42Du9D9zJ6Tjd7khBR5vnIQ_WO-yLBPdvz7NuvdeEHQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -28366,7 +29526,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "aguzok.kaguya.sbs",
+              "address": "deeshak.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -28383,7 +29543,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "apple.com",
-            "publicKey": "42Du9D9zJ6Tjd7khBR5vnIQ_WO-yLBPdvz7NuvdeEHQ",
+            "publicKey": "1hwiiWVXiTdr8LPTfD71UMeXJ6YAYH4oqlIEiR2WRCk",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -30216,470 +31376,6 @@
         "settings": {
           "vnext": [
             {
-              "address": "38.87.116.11",
-              "port": 443,
-              "users": [
-                {
-                  "id": "bb91dcce-035d-4759-b2d5-bd5bd63a283c",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "de-data-one.cloudload.org",
-            "publicKey": "MhsH2zjk4Y0liRFsZLOQwN-_9wZtaQE1fLW_5Wdf4Gk",
-            "shortId": "a1ab5a56bc11",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "IPIfNonMatch",
-      "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "oneme.ru",
-            "max.ru"
-          ],
-          "outboundTag": "block"
-        },
-        {
-          "type": "field",
-          "domain": [
-            "avito.st",
-            "geosite:category-ru",
-            "regexp:.*\\.ru$",
-            "regexp:.*\\.xn--p1ai$",
-            "regexp:.*\\.xn--p1acf$",
-            "regexp:.*\\.xn--p1ag$",
-            "xn--80ajghhoc2aj1c8b.xn--p1ai",
-            "pptest.userapi.com",
-            "sun1-13.userapi.com",
-            "sun1-14.userapi.com",
-            "sun1-15.userapi.com",
-            "sun1-16.userapi.com",
-            "sun1-17.userapi.com",
-            "sun1-18.userapi.com",
-            "sun1-19.userapi.com",
-            "sun1-20.userapi.com",
-            "sun1-21.userapi.com",
-            "sun1-22.userapi.com",
-            "sun1-23.userapi.com",
-            "sun1-24.userapi.com",
-            "sun1-25.userapi.com",
-            "sun1-26.userapi.com",
-            "sun1-27.userapi.com",
-            "sun1-28.userapi.com",
-            "sun1-29.userapi.com",
-            "sun1-30.userapi.com",
-            "sun1-47.userapi.com",
-            "sun1-54.userapi.com",
-            "sun1-55.userapi.com",
-            "sun1-56.userapi.com",
-            "sun1-57.userapi.com",
-            "sun1-83.userapi.com",
-            "sun1-84.userapi.com",
-            "sun1-85.userapi.com",
-            "sun1-86.userapi.com",
-            "sun1-87.userapi.com",
-            "sun1-88.userapi.com",
-            "sun1-89.userapi.com",
-            "sun1-90.userapi.com",
-            "sun1-91.userapi.com",
-            "sun1-92.userapi.com",
-            "sun1-93.userapi.com",
-            "sun1-94.userapi.com",
-            "sun1-95.userapi.com",
-            "sun1-96.userapi.com",
-            "sun1-97.userapi.com",
-            "sun1-98.userapi.com",
-            "sun1-99.userapi.com",
-            "sun2-10.userapi.com",
-            "sun2-11.userapi.com",
-            "sun2-12.userapi.com",
-            "sun2-13.userapi.com",
-            "sun2-14.userapi.com",
-            "sun2-15.userapi.com",
-            "sun2-16.userapi.com",
-            "sun2-17.userapi.com",
-            "sun2-18.userapi.com",
-            "sun2-19.userapi.com",
-            "sun2-20.userapi.com",
-            "sun2-21.userapi.com",
-            "sun2-22.userapi.com",
-            "sun3-10.userapi.com",
-            "sun3-11.userapi.com",
-            "sun3-12.userapi.com",
-            "sun3-13.userapi.com",
-            "sun3-16.userapi.com",
-            "sun3-17.userapi.com",
-            "sun3-18.userapi.com",
-            "sun3-19.userapi.com",
-            "sun3-20.userapi.com",
-            "sun3-21.userapi.com",
-            "sun3-22.userapi.com",
-            "sun3-23.userapi.com",
-            "sun3-24.userapi.com",
-            "sun4-10.userapi.com",
-            "sun4-11.userapi.com",
-            "sun4-12.userapi.com",
-            "sun4-15.userapi.com",
-            "sun4-16.userapi.com",
-            "sun4-17.userapi.com",
-            "sun4-18.userapi.com",
-            "sun4-19.userapi.com",
-            "sun4-20.userapi.com",
-            "sun4-21.userapi.com",
-            "sun4-22.userapi.com",
-            "sun6-20.userapi.com",
-            "sun6-21.userapi.com",
-            "sun6-22.userapi.com",
-            "sun6-23.userapi.com",
-            "sun7-12.userapi.com",
-            "sun7-13.userapi.com",
-            "sun7-14.userapi.com",
-            "sun7-15.userapi.com",
-            "sun7-16.userapi.com",
-            "sun7-17.userapi.com",
-            "sun7-18.userapi.com",
-            "sun7-19.userapi.com",
-            "sun7-20.userapi.com",
-            "sun7-21.userapi.com",
-            "sun7-22.userapi.com",
-            "sun7-23.userapi.com",
-            "sun7-24.userapi.com",
-            "sun9-10.userapi.com",
-            "sun9-11.userapi.com",
-            "sun9-12.userapi.com",
-            "sun9-13.userapi.com",
-            "sun9-14.userapi.com",
-            "sun9-15.userapi.com",
-            "sun9-16.userapi.com",
-            "sun9-17.userapi.com",
-            "sun9-18.userapi.com",
-            "sun9-19.userapi.com",
-            "sun9-20.userapi.com",
-            "sun9-21.userapi.com",
-            "sun9-22.userapi.com",
-            "sun9-23.userapi.com",
-            "sun9-24.userapi.com",
-            "sun9-25.userapi.com",
-            "sun9-26.userapi.com",
-            "sun9-27.userapi.com",
-            "sun9-28.userapi.com",
-            "sun9-29.userapi.com",
-            "sun9-30.userapi.com",
-            "sun9-31.userapi.com",
-            "sun9-32.userapi.com",
-            "sun9-33.userapi.com",
-            "sun9-34.userapi.com",
-            "sun9-35.userapi.com",
-            "sun9-36.userapi.com",
-            "sun9-37.userapi.com",
-            "sun9-38.userapi.com",
-            "sun9-39.userapi.com",
-            "sun9-40.userapi.com",
-            "sun9-41.userapi.com",
-            "sun9-42.userapi.com",
-            "sun9-43.userapi.com",
-            "sun9-44.userapi.com",
-            "sun9-45.userapi.com",
-            "sun9-46.userapi.com",
-            "sun9-47.userapi.com",
-            "sun9-48.userapi.com",
-            "sun9-49.userapi.com",
-            "sun9-50.userapi.com",
-            "sun9-51.userapi.com",
-            "sun9-52.userapi.com",
-            "sun9-53.userapi.com",
-            "sun9-54.userapi.com",
-            "sun9-55.userapi.com",
-            "sun9-56.userapi.com",
-            "sun9-57.userapi.com",
-            "sun9-58.userapi.com",
-            "sun9-59.userapi.com",
-            "sun9-60.userapi.com",
-            "sun9-61.userapi.com",
-            "sun9-62.userapi.com",
-            "sun9-63.userapi.com",
-            "sun9-64.userapi.com",
-            "sun9-65.userapi.com",
-            "sun9-66.userapi.com",
-            "sun9-67.userapi.com",
-            "sun9-68.userapi.com",
-            "sun9-69.userapi.com",
-            "sun9-70.userapi.com",
-            "sun9-71.userapi.com",
-            "sun9-72.userapi.com",
-            "sun9-73.userapi.com",
-            "sun9-74.userapi.com",
-            "sun9-75.userapi.com",
-            "sun9-76.userapi.com",
-            "sun9-77.userapi.com",
-            "sun9-78.userapi.com",
-            "sun9-79.userapi.com",
-            "sun9-80.userapi.com",
-            "sun9-81.userapi.com",
-            "sun9-82.userapi.com",
-            "sun9-83.userapi.com",
-            "sun9-84.userapi.com",
-            "sun9-85.userapi.com",
-            "sun9-86.userapi.com",
-            "sun9-87.userapi.com",
-            "sun9-88.userapi.com",
-            "travel.yastatic.net",
-            "api.uxfeedback.yandex.net",
-            "api.s3.yandex.net",
-            "cdn.s3.yandex.net",
-            "uxfeedback-cdn.s3.yandex.net",
-            "cloudcdn-m9-15.cdn.yandex.net",
-            "cloudcdn-m9-14.cdn.yandex.net",
-            "cloudcdn-m9-13.cdn.yandex.net",
-            "cloudcdn-m9-12.cdn.yandex.net",
-            "cloudcdn-m9-10.cdn.yandex.net",
-            "cloudcdn-m9-9.cdn.yandex.net",
-            "cloudcdn-m9-7.cdn.yandex.net",
-            "cloudcdn-m9-6.cdn.yandex.net",
-            "cloudcdn-m9-5.cdn.yandex.net",
-            "cloudcdn-m9-4.cdn.yandex.net",
-            "cloudcdn-m9-3.cdn.yandex.net",
-            "cloudcdn-m9-2.cdn.yandex.net",
-            "avatars.mds.yandex.net",
-            "receive-sentry.lmru.tech",
-            "favicon.yandex.com",
-            "favicon.yandex.net",
-            "browser.yandex.com",
-            "api.browser.yandex.com",
-            "wap.yandex.com",
-            "kiks.yandex.com",
-            "mediafeeds.yandex.com",
-            "avatars.mds.yandex.com",
-            "mc.yandex.com",
-            "dr2.yandex.net",
-            "cloud.cdn.yandex.net",
-            "cloud.cdn.yandex.com",
-            "dr.yandex.net",
-            "mail.yandex.com",
-            "s3.yandex.net",
-            "vk-portal.net",
-            "zen.yandex.com",
-            "zen.yandex.net",
-            "queuev4.vk.com",
-            "r0.mradx.net",
-            "collections.yandex.com",
-            "bro-bg-store.s3.yandex.net",
-            "bro-bg-store.s3.yandex.com",
-            "static-mon.yandex.net",
-            "sync.browser.yandex.net",
-            "storage.ape.yandex.net",
-            "ams2-cdn.2gis.com",
-            "eh.vk.com",
-            "akashi.vk-portal.net",
-            "strm-rad-23.strm.yandex.net",
-            "strm.yandex.net",
-            "egress.yandex.net",
-            "cloudcdn-ams19.cdn.yandex.net",
-            "disk.2gis.com",
-            "sba.yandex.com",
-            "sba.yandex.net",
-            "login.vk.com",
-            "cloud.vk.com",
-            "keys.api.2gis.com",
-            "favorites.api.2gis.com",
-            "styles.api.2gis.com",
-            "tile0.maps.2gis.com",
-            "tile1.maps.2gis.com",
-            "tile2.maps.2gis.com",
-            "tile3.maps.2gis.com",
-            "tile4.maps.2gis.com",
-            "api.photo.2gis.com",
-            "2gis.com",
-            "filekeeper-vod.2gis.com",
-            "i0.photo.2gis.com",
-            "i1.photo.2gis.com",
-            "i2.photo.2gis.com",
-            "i3.photo.2gis.com",
-            "i4.photo.2gis.com",
-            "i5.photo.2gis.com",
-            "i6.photo.2gis.com",
-            "i7.photo.2gis.com",
-            "i8.photo.2gis.com",
-            "i9.photo.2gis.com",
-            "jam.api.2gis.com",
-            "catalog.api.2gis.com",
-            "api.reviews.2gis.com",
-            "public-api.reviews.2gis.com",
-            "mapgl.2gis.com",
-            "yastatic.net",
-            "csp.yandex.net",
-            "cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net",
-            "api.events.plus.yandex.net",
-            "speller.yandex.net",
-            "s0.bss.2gis.com",
-            "s1.bss.2gis.com",
-            "00.img.avito.st",
-            "01.img.avito.st",
-            "02.img.avito.st",
-            "03.img.avito.st",
-            "04.img.avito.st",
-            "05.img.avito.st",
-            "06.img.avito.st",
-            "07.img.avito.st",
-            "08.img.avito.st",
-            "09.img.avito.st",
-            "10.img.avito.st",
-            "11.img.avito.st",
-            "12.img.avito.st",
-            "13.img.avito.st",
-            "14.img.avito.st",
-            "15.img.avito.st",
-            "16.img.avito.st",
-            "17.img.avito.st",
-            "18.img.avito.st",
-            "19.img.avito.st",
-            "20.img.avito.st",
-            "21.img.avito.st",
-            "22.img.avito.st",
-            "23.img.avito.st",
-            "24.img.avito.st",
-            "25.img.avito.st",
-            "26.img.avito.st",
-            "27.img.avito.st",
-            "28.img.avito.st",
-            "29.img.avito.st",
-            "30.img.avito.st",
-            "31.img.avito.st",
-            "32.img.avito.st",
-            "33.img.avito.st",
-            "34.img.avito.st",
-            "35.img.avito.st",
-            "36.img.avito.st",
-            "37.img.avito.st",
-            "38.img.avito.st",
-            "39.img.avito.st",
-            "40.img.avito.st",
-            "41.img.avito.st",
-            "42.img.avito.st",
-            "43.img.avito.st",
-            "44.img.avito.st",
-            "45.img.avito.st",
-            "46.img.avito.st",
-            "47.img.avito.st",
-            "48.img.avito.st",
-            "49.img.avito.st",
-            "50.img.avito.st",
-            "51.img.avito.st",
-            "52.img.avito.st",
-            "53.img.avito.st",
-            "54.img.avito.st",
-            "55.img.avito.st",
-            "56.img.avito.st",
-            "57.img.avito.st",
-            "58.img.avito.st",
-            "59.img.avito.st",
-            "60.img.avito.st",
-            "61.img.avito.st",
-            "62.img.avito.st",
-            "63.img.avito.st",
-            "64.img.avito.st",
-            "65.img.avito.st",
-            "66.img.avito.st",
-            "67.img.avito.st",
-            "68.img.avito.st",
-            "69.img.avito.st",
-            "70.img.avito.st",
-            "71.img.avito.st",
-            "72.img.avito.st",
-            "73.img.avito.st",
-            "74.img.avito.st",
-            "75.img.avito.st",
-            "76.img.avito.st",
-            "77.img.avito.st",
-            "78.img.avito.st",
-            "79.img.avito.st",
-            "80.img.avito.st",
-            "81.img.avito.st",
-            "82.img.avito.st",
-            "83.img.avito.st",
-            "84.img.avito.st",
-            "85.img.avito.st",
-            "86.img.avito.st",
-            "87.img.avito.st",
-            "88.img.avito.st",
-            "89.img.avito.st",
-            "90.img.avito.st",
-            "91.img.avito.st",
-            "92.img.avito.st",
-            "93.img.avito.st",
-            "94.img.avito.st",
-            "95.img.avito.st",
-            "96.img.avito.st",
-            "97.img.avito.st",
-            "98.img.avito.st",
-            "99.img.avito.st",
-            "api.okko.tv",
-            "api.premier.one",
-            "auth.okko.tv",
-            "auth.premier.one",
-            "cdn.okko.tv",
-            "cdn.premier.one",
-            "gismeteo.com",
-            "img.okko.tv",
-            "img.premier.one",
-            "m.okko.tv",
-            "my.okko.tv",
-            "my.premier.one",
-            "push.okko.tv",
-            "push.premier.one",
-            "static.okko.tv",
-            "static.premier.one",
-            "stats.okko.tv",
-            "stream.okko.tv",
-            "stream.premier.one",
-            "supermarket.lenta.com",
-            "tv.okko.tv",
-            "www.gismeteo.com"
-          ],
-          "outboundTag": "direct"
-        }
-      ]
-    }
-  },
-  {
-    "remarks": "🇩🇪 Германия 7",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
               "address": "api.cheapgo.cc",
               "port": 443,
               "users": [
@@ -31124,7 +31820,7 @@
     }
   },
   {
-    "remarks": "🇩🇪 Германия 8",
+    "remarks": "🇩🇪 Германия 7",
     "inbounds": [
       {
         "port": 10808,
@@ -31582,7 +32278,7 @@
     }
   },
   {
-    "remarks": "🇩🇪 Германия 9",
+    "remarks": "🇩🇪 Германия 8",
     "inbounds": [
       {
         "port": 10808,
@@ -31601,6 +32297,464 @@
           "vnext": [
             {
               "address": "cl-de-1.edgeflux.ru",
+              "port": 52006,
+              "users": [
+                {
+                  "id": "af6b7f2f-6d90-03e8-80c1-bed2faeabcfa",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "tls"
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "oneme.ru",
+            "max.ru"
+          ],
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "avito.st",
+            "geosite:category-ru",
+            "regexp:.*\\.ru$",
+            "regexp:.*\\.xn--p1ai$",
+            "regexp:.*\\.xn--p1acf$",
+            "regexp:.*\\.xn--p1ag$",
+            "xn--80ajghhoc2aj1c8b.xn--p1ai",
+            "pptest.userapi.com",
+            "sun1-13.userapi.com",
+            "sun1-14.userapi.com",
+            "sun1-15.userapi.com",
+            "sun1-16.userapi.com",
+            "sun1-17.userapi.com",
+            "sun1-18.userapi.com",
+            "sun1-19.userapi.com",
+            "sun1-20.userapi.com",
+            "sun1-21.userapi.com",
+            "sun1-22.userapi.com",
+            "sun1-23.userapi.com",
+            "sun1-24.userapi.com",
+            "sun1-25.userapi.com",
+            "sun1-26.userapi.com",
+            "sun1-27.userapi.com",
+            "sun1-28.userapi.com",
+            "sun1-29.userapi.com",
+            "sun1-30.userapi.com",
+            "sun1-47.userapi.com",
+            "sun1-54.userapi.com",
+            "sun1-55.userapi.com",
+            "sun1-56.userapi.com",
+            "sun1-57.userapi.com",
+            "sun1-83.userapi.com",
+            "sun1-84.userapi.com",
+            "sun1-85.userapi.com",
+            "sun1-86.userapi.com",
+            "sun1-87.userapi.com",
+            "sun1-88.userapi.com",
+            "sun1-89.userapi.com",
+            "sun1-90.userapi.com",
+            "sun1-91.userapi.com",
+            "sun1-92.userapi.com",
+            "sun1-93.userapi.com",
+            "sun1-94.userapi.com",
+            "sun1-95.userapi.com",
+            "sun1-96.userapi.com",
+            "sun1-97.userapi.com",
+            "sun1-98.userapi.com",
+            "sun1-99.userapi.com",
+            "sun2-10.userapi.com",
+            "sun2-11.userapi.com",
+            "sun2-12.userapi.com",
+            "sun2-13.userapi.com",
+            "sun2-14.userapi.com",
+            "sun2-15.userapi.com",
+            "sun2-16.userapi.com",
+            "sun2-17.userapi.com",
+            "sun2-18.userapi.com",
+            "sun2-19.userapi.com",
+            "sun2-20.userapi.com",
+            "sun2-21.userapi.com",
+            "sun2-22.userapi.com",
+            "sun3-10.userapi.com",
+            "sun3-11.userapi.com",
+            "sun3-12.userapi.com",
+            "sun3-13.userapi.com",
+            "sun3-16.userapi.com",
+            "sun3-17.userapi.com",
+            "sun3-18.userapi.com",
+            "sun3-19.userapi.com",
+            "sun3-20.userapi.com",
+            "sun3-21.userapi.com",
+            "sun3-22.userapi.com",
+            "sun3-23.userapi.com",
+            "sun3-24.userapi.com",
+            "sun4-10.userapi.com",
+            "sun4-11.userapi.com",
+            "sun4-12.userapi.com",
+            "sun4-15.userapi.com",
+            "sun4-16.userapi.com",
+            "sun4-17.userapi.com",
+            "sun4-18.userapi.com",
+            "sun4-19.userapi.com",
+            "sun4-20.userapi.com",
+            "sun4-21.userapi.com",
+            "sun4-22.userapi.com",
+            "sun6-20.userapi.com",
+            "sun6-21.userapi.com",
+            "sun6-22.userapi.com",
+            "sun6-23.userapi.com",
+            "sun7-12.userapi.com",
+            "sun7-13.userapi.com",
+            "sun7-14.userapi.com",
+            "sun7-15.userapi.com",
+            "sun7-16.userapi.com",
+            "sun7-17.userapi.com",
+            "sun7-18.userapi.com",
+            "sun7-19.userapi.com",
+            "sun7-20.userapi.com",
+            "sun7-21.userapi.com",
+            "sun7-22.userapi.com",
+            "sun7-23.userapi.com",
+            "sun7-24.userapi.com",
+            "sun9-10.userapi.com",
+            "sun9-11.userapi.com",
+            "sun9-12.userapi.com",
+            "sun9-13.userapi.com",
+            "sun9-14.userapi.com",
+            "sun9-15.userapi.com",
+            "sun9-16.userapi.com",
+            "sun9-17.userapi.com",
+            "sun9-18.userapi.com",
+            "sun9-19.userapi.com",
+            "sun9-20.userapi.com",
+            "sun9-21.userapi.com",
+            "sun9-22.userapi.com",
+            "sun9-23.userapi.com",
+            "sun9-24.userapi.com",
+            "sun9-25.userapi.com",
+            "sun9-26.userapi.com",
+            "sun9-27.userapi.com",
+            "sun9-28.userapi.com",
+            "sun9-29.userapi.com",
+            "sun9-30.userapi.com",
+            "sun9-31.userapi.com",
+            "sun9-32.userapi.com",
+            "sun9-33.userapi.com",
+            "sun9-34.userapi.com",
+            "sun9-35.userapi.com",
+            "sun9-36.userapi.com",
+            "sun9-37.userapi.com",
+            "sun9-38.userapi.com",
+            "sun9-39.userapi.com",
+            "sun9-40.userapi.com",
+            "sun9-41.userapi.com",
+            "sun9-42.userapi.com",
+            "sun9-43.userapi.com",
+            "sun9-44.userapi.com",
+            "sun9-45.userapi.com",
+            "sun9-46.userapi.com",
+            "sun9-47.userapi.com",
+            "sun9-48.userapi.com",
+            "sun9-49.userapi.com",
+            "sun9-50.userapi.com",
+            "sun9-51.userapi.com",
+            "sun9-52.userapi.com",
+            "sun9-53.userapi.com",
+            "sun9-54.userapi.com",
+            "sun9-55.userapi.com",
+            "sun9-56.userapi.com",
+            "sun9-57.userapi.com",
+            "sun9-58.userapi.com",
+            "sun9-59.userapi.com",
+            "sun9-60.userapi.com",
+            "sun9-61.userapi.com",
+            "sun9-62.userapi.com",
+            "sun9-63.userapi.com",
+            "sun9-64.userapi.com",
+            "sun9-65.userapi.com",
+            "sun9-66.userapi.com",
+            "sun9-67.userapi.com",
+            "sun9-68.userapi.com",
+            "sun9-69.userapi.com",
+            "sun9-70.userapi.com",
+            "sun9-71.userapi.com",
+            "sun9-72.userapi.com",
+            "sun9-73.userapi.com",
+            "sun9-74.userapi.com",
+            "sun9-75.userapi.com",
+            "sun9-76.userapi.com",
+            "sun9-77.userapi.com",
+            "sun9-78.userapi.com",
+            "sun9-79.userapi.com",
+            "sun9-80.userapi.com",
+            "sun9-81.userapi.com",
+            "sun9-82.userapi.com",
+            "sun9-83.userapi.com",
+            "sun9-84.userapi.com",
+            "sun9-85.userapi.com",
+            "sun9-86.userapi.com",
+            "sun9-87.userapi.com",
+            "sun9-88.userapi.com",
+            "travel.yastatic.net",
+            "api.uxfeedback.yandex.net",
+            "api.s3.yandex.net",
+            "cdn.s3.yandex.net",
+            "uxfeedback-cdn.s3.yandex.net",
+            "cloudcdn-m9-15.cdn.yandex.net",
+            "cloudcdn-m9-14.cdn.yandex.net",
+            "cloudcdn-m9-13.cdn.yandex.net",
+            "cloudcdn-m9-12.cdn.yandex.net",
+            "cloudcdn-m9-10.cdn.yandex.net",
+            "cloudcdn-m9-9.cdn.yandex.net",
+            "cloudcdn-m9-7.cdn.yandex.net",
+            "cloudcdn-m9-6.cdn.yandex.net",
+            "cloudcdn-m9-5.cdn.yandex.net",
+            "cloudcdn-m9-4.cdn.yandex.net",
+            "cloudcdn-m9-3.cdn.yandex.net",
+            "cloudcdn-m9-2.cdn.yandex.net",
+            "avatars.mds.yandex.net",
+            "receive-sentry.lmru.tech",
+            "favicon.yandex.com",
+            "favicon.yandex.net",
+            "browser.yandex.com",
+            "api.browser.yandex.com",
+            "wap.yandex.com",
+            "kiks.yandex.com",
+            "mediafeeds.yandex.com",
+            "avatars.mds.yandex.com",
+            "mc.yandex.com",
+            "dr2.yandex.net",
+            "cloud.cdn.yandex.net",
+            "cloud.cdn.yandex.com",
+            "dr.yandex.net",
+            "mail.yandex.com",
+            "s3.yandex.net",
+            "vk-portal.net",
+            "zen.yandex.com",
+            "zen.yandex.net",
+            "queuev4.vk.com",
+            "r0.mradx.net",
+            "collections.yandex.com",
+            "bro-bg-store.s3.yandex.net",
+            "bro-bg-store.s3.yandex.com",
+            "static-mon.yandex.net",
+            "sync.browser.yandex.net",
+            "storage.ape.yandex.net",
+            "ams2-cdn.2gis.com",
+            "eh.vk.com",
+            "akashi.vk-portal.net",
+            "strm-rad-23.strm.yandex.net",
+            "strm.yandex.net",
+            "egress.yandex.net",
+            "cloudcdn-ams19.cdn.yandex.net",
+            "disk.2gis.com",
+            "sba.yandex.com",
+            "sba.yandex.net",
+            "login.vk.com",
+            "cloud.vk.com",
+            "keys.api.2gis.com",
+            "favorites.api.2gis.com",
+            "styles.api.2gis.com",
+            "tile0.maps.2gis.com",
+            "tile1.maps.2gis.com",
+            "tile2.maps.2gis.com",
+            "tile3.maps.2gis.com",
+            "tile4.maps.2gis.com",
+            "api.photo.2gis.com",
+            "2gis.com",
+            "filekeeper-vod.2gis.com",
+            "i0.photo.2gis.com",
+            "i1.photo.2gis.com",
+            "i2.photo.2gis.com",
+            "i3.photo.2gis.com",
+            "i4.photo.2gis.com",
+            "i5.photo.2gis.com",
+            "i6.photo.2gis.com",
+            "i7.photo.2gis.com",
+            "i8.photo.2gis.com",
+            "i9.photo.2gis.com",
+            "jam.api.2gis.com",
+            "catalog.api.2gis.com",
+            "api.reviews.2gis.com",
+            "public-api.reviews.2gis.com",
+            "mapgl.2gis.com",
+            "yastatic.net",
+            "csp.yandex.net",
+            "cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net",
+            "api.events.plus.yandex.net",
+            "speller.yandex.net",
+            "s0.bss.2gis.com",
+            "s1.bss.2gis.com",
+            "00.img.avito.st",
+            "01.img.avito.st",
+            "02.img.avito.st",
+            "03.img.avito.st",
+            "04.img.avito.st",
+            "05.img.avito.st",
+            "06.img.avito.st",
+            "07.img.avito.st",
+            "08.img.avito.st",
+            "09.img.avito.st",
+            "10.img.avito.st",
+            "11.img.avito.st",
+            "12.img.avito.st",
+            "13.img.avito.st",
+            "14.img.avito.st",
+            "15.img.avito.st",
+            "16.img.avito.st",
+            "17.img.avito.st",
+            "18.img.avito.st",
+            "19.img.avito.st",
+            "20.img.avito.st",
+            "21.img.avito.st",
+            "22.img.avito.st",
+            "23.img.avito.st",
+            "24.img.avito.st",
+            "25.img.avito.st",
+            "26.img.avito.st",
+            "27.img.avito.st",
+            "28.img.avito.st",
+            "29.img.avito.st",
+            "30.img.avito.st",
+            "31.img.avito.st",
+            "32.img.avito.st",
+            "33.img.avito.st",
+            "34.img.avito.st",
+            "35.img.avito.st",
+            "36.img.avito.st",
+            "37.img.avito.st",
+            "38.img.avito.st",
+            "39.img.avito.st",
+            "40.img.avito.st",
+            "41.img.avito.st",
+            "42.img.avito.st",
+            "43.img.avito.st",
+            "44.img.avito.st",
+            "45.img.avito.st",
+            "46.img.avito.st",
+            "47.img.avito.st",
+            "48.img.avito.st",
+            "49.img.avito.st",
+            "50.img.avito.st",
+            "51.img.avito.st",
+            "52.img.avito.st",
+            "53.img.avito.st",
+            "54.img.avito.st",
+            "55.img.avito.st",
+            "56.img.avito.st",
+            "57.img.avito.st",
+            "58.img.avito.st",
+            "59.img.avito.st",
+            "60.img.avito.st",
+            "61.img.avito.st",
+            "62.img.avito.st",
+            "63.img.avito.st",
+            "64.img.avito.st",
+            "65.img.avito.st",
+            "66.img.avito.st",
+            "67.img.avito.st",
+            "68.img.avito.st",
+            "69.img.avito.st",
+            "70.img.avito.st",
+            "71.img.avito.st",
+            "72.img.avito.st",
+            "73.img.avito.st",
+            "74.img.avito.st",
+            "75.img.avito.st",
+            "76.img.avito.st",
+            "77.img.avito.st",
+            "78.img.avito.st",
+            "79.img.avito.st",
+            "80.img.avito.st",
+            "81.img.avito.st",
+            "82.img.avito.st",
+            "83.img.avito.st",
+            "84.img.avito.st",
+            "85.img.avito.st",
+            "86.img.avito.st",
+            "87.img.avito.st",
+            "88.img.avito.st",
+            "89.img.avito.st",
+            "90.img.avito.st",
+            "91.img.avito.st",
+            "92.img.avito.st",
+            "93.img.avito.st",
+            "94.img.avito.st",
+            "95.img.avito.st",
+            "96.img.avito.st",
+            "97.img.avito.st",
+            "98.img.avito.st",
+            "99.img.avito.st",
+            "api.okko.tv",
+            "api.premier.one",
+            "auth.okko.tv",
+            "auth.premier.one",
+            "cdn.okko.tv",
+            "cdn.premier.one",
+            "gismeteo.com",
+            "img.okko.tv",
+            "img.premier.one",
+            "m.okko.tv",
+            "my.okko.tv",
+            "my.premier.one",
+            "push.okko.tv",
+            "push.premier.one",
+            "static.okko.tv",
+            "static.premier.one",
+            "stats.okko.tv",
+            "stream.okko.tv",
+            "stream.premier.one",
+            "supermarket.lenta.com",
+            "tv.okko.tv",
+            "www.gismeteo.com"
+          ],
+          "outboundTag": "direct"
+        }
+      ]
+    }
+  },
+  {
+    "remarks": "🇩🇪 Германия 9",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "cl-de-2.edgeflux.ru",
               "port": 52006,
               "users": [
                 {
@@ -32058,7 +33212,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "cl-de-2.edgeflux.ru",
+              "address": "82.202.197.68",
               "port": 52006,
               "users": [
                 {
@@ -32516,7 +33670,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "82.202.197.68",
+              "address": "212.41.30.45",
               "port": 52006,
               "users": [
                 {
@@ -32974,7 +34128,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "212.41.30.45",
+              "address": "178.72.181.103",
               "port": 52006,
               "users": [
                 {
@@ -33432,7 +34586,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "178.72.181.103",
+              "address": "178.72.181.49",
               "port": 52006,
               "users": [
                 {
@@ -33890,7 +35044,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "178.72.181.49",
+              "address": "178.72.132.46",
               "port": 52006,
               "users": [
                 {
@@ -34348,464 +35502,6 @@
         "settings": {
           "vnext": [
             {
-              "address": "178.72.132.46",
-              "port": 52006,
-              "users": [
-                {
-                  "id": "af6b7f2f-6d90-03e8-80c1-bed2faeabcfa",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "tls"
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "IPIfNonMatch",
-      "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "oneme.ru",
-            "max.ru"
-          ],
-          "outboundTag": "block"
-        },
-        {
-          "type": "field",
-          "domain": [
-            "avito.st",
-            "geosite:category-ru",
-            "regexp:.*\\.ru$",
-            "regexp:.*\\.xn--p1ai$",
-            "regexp:.*\\.xn--p1acf$",
-            "regexp:.*\\.xn--p1ag$",
-            "xn--80ajghhoc2aj1c8b.xn--p1ai",
-            "pptest.userapi.com",
-            "sun1-13.userapi.com",
-            "sun1-14.userapi.com",
-            "sun1-15.userapi.com",
-            "sun1-16.userapi.com",
-            "sun1-17.userapi.com",
-            "sun1-18.userapi.com",
-            "sun1-19.userapi.com",
-            "sun1-20.userapi.com",
-            "sun1-21.userapi.com",
-            "sun1-22.userapi.com",
-            "sun1-23.userapi.com",
-            "sun1-24.userapi.com",
-            "sun1-25.userapi.com",
-            "sun1-26.userapi.com",
-            "sun1-27.userapi.com",
-            "sun1-28.userapi.com",
-            "sun1-29.userapi.com",
-            "sun1-30.userapi.com",
-            "sun1-47.userapi.com",
-            "sun1-54.userapi.com",
-            "sun1-55.userapi.com",
-            "sun1-56.userapi.com",
-            "sun1-57.userapi.com",
-            "sun1-83.userapi.com",
-            "sun1-84.userapi.com",
-            "sun1-85.userapi.com",
-            "sun1-86.userapi.com",
-            "sun1-87.userapi.com",
-            "sun1-88.userapi.com",
-            "sun1-89.userapi.com",
-            "sun1-90.userapi.com",
-            "sun1-91.userapi.com",
-            "sun1-92.userapi.com",
-            "sun1-93.userapi.com",
-            "sun1-94.userapi.com",
-            "sun1-95.userapi.com",
-            "sun1-96.userapi.com",
-            "sun1-97.userapi.com",
-            "sun1-98.userapi.com",
-            "sun1-99.userapi.com",
-            "sun2-10.userapi.com",
-            "sun2-11.userapi.com",
-            "sun2-12.userapi.com",
-            "sun2-13.userapi.com",
-            "sun2-14.userapi.com",
-            "sun2-15.userapi.com",
-            "sun2-16.userapi.com",
-            "sun2-17.userapi.com",
-            "sun2-18.userapi.com",
-            "sun2-19.userapi.com",
-            "sun2-20.userapi.com",
-            "sun2-21.userapi.com",
-            "sun2-22.userapi.com",
-            "sun3-10.userapi.com",
-            "sun3-11.userapi.com",
-            "sun3-12.userapi.com",
-            "sun3-13.userapi.com",
-            "sun3-16.userapi.com",
-            "sun3-17.userapi.com",
-            "sun3-18.userapi.com",
-            "sun3-19.userapi.com",
-            "sun3-20.userapi.com",
-            "sun3-21.userapi.com",
-            "sun3-22.userapi.com",
-            "sun3-23.userapi.com",
-            "sun3-24.userapi.com",
-            "sun4-10.userapi.com",
-            "sun4-11.userapi.com",
-            "sun4-12.userapi.com",
-            "sun4-15.userapi.com",
-            "sun4-16.userapi.com",
-            "sun4-17.userapi.com",
-            "sun4-18.userapi.com",
-            "sun4-19.userapi.com",
-            "sun4-20.userapi.com",
-            "sun4-21.userapi.com",
-            "sun4-22.userapi.com",
-            "sun6-20.userapi.com",
-            "sun6-21.userapi.com",
-            "sun6-22.userapi.com",
-            "sun6-23.userapi.com",
-            "sun7-12.userapi.com",
-            "sun7-13.userapi.com",
-            "sun7-14.userapi.com",
-            "sun7-15.userapi.com",
-            "sun7-16.userapi.com",
-            "sun7-17.userapi.com",
-            "sun7-18.userapi.com",
-            "sun7-19.userapi.com",
-            "sun7-20.userapi.com",
-            "sun7-21.userapi.com",
-            "sun7-22.userapi.com",
-            "sun7-23.userapi.com",
-            "sun7-24.userapi.com",
-            "sun9-10.userapi.com",
-            "sun9-11.userapi.com",
-            "sun9-12.userapi.com",
-            "sun9-13.userapi.com",
-            "sun9-14.userapi.com",
-            "sun9-15.userapi.com",
-            "sun9-16.userapi.com",
-            "sun9-17.userapi.com",
-            "sun9-18.userapi.com",
-            "sun9-19.userapi.com",
-            "sun9-20.userapi.com",
-            "sun9-21.userapi.com",
-            "sun9-22.userapi.com",
-            "sun9-23.userapi.com",
-            "sun9-24.userapi.com",
-            "sun9-25.userapi.com",
-            "sun9-26.userapi.com",
-            "sun9-27.userapi.com",
-            "sun9-28.userapi.com",
-            "sun9-29.userapi.com",
-            "sun9-30.userapi.com",
-            "sun9-31.userapi.com",
-            "sun9-32.userapi.com",
-            "sun9-33.userapi.com",
-            "sun9-34.userapi.com",
-            "sun9-35.userapi.com",
-            "sun9-36.userapi.com",
-            "sun9-37.userapi.com",
-            "sun9-38.userapi.com",
-            "sun9-39.userapi.com",
-            "sun9-40.userapi.com",
-            "sun9-41.userapi.com",
-            "sun9-42.userapi.com",
-            "sun9-43.userapi.com",
-            "sun9-44.userapi.com",
-            "sun9-45.userapi.com",
-            "sun9-46.userapi.com",
-            "sun9-47.userapi.com",
-            "sun9-48.userapi.com",
-            "sun9-49.userapi.com",
-            "sun9-50.userapi.com",
-            "sun9-51.userapi.com",
-            "sun9-52.userapi.com",
-            "sun9-53.userapi.com",
-            "sun9-54.userapi.com",
-            "sun9-55.userapi.com",
-            "sun9-56.userapi.com",
-            "sun9-57.userapi.com",
-            "sun9-58.userapi.com",
-            "sun9-59.userapi.com",
-            "sun9-60.userapi.com",
-            "sun9-61.userapi.com",
-            "sun9-62.userapi.com",
-            "sun9-63.userapi.com",
-            "sun9-64.userapi.com",
-            "sun9-65.userapi.com",
-            "sun9-66.userapi.com",
-            "sun9-67.userapi.com",
-            "sun9-68.userapi.com",
-            "sun9-69.userapi.com",
-            "sun9-70.userapi.com",
-            "sun9-71.userapi.com",
-            "sun9-72.userapi.com",
-            "sun9-73.userapi.com",
-            "sun9-74.userapi.com",
-            "sun9-75.userapi.com",
-            "sun9-76.userapi.com",
-            "sun9-77.userapi.com",
-            "sun9-78.userapi.com",
-            "sun9-79.userapi.com",
-            "sun9-80.userapi.com",
-            "sun9-81.userapi.com",
-            "sun9-82.userapi.com",
-            "sun9-83.userapi.com",
-            "sun9-84.userapi.com",
-            "sun9-85.userapi.com",
-            "sun9-86.userapi.com",
-            "sun9-87.userapi.com",
-            "sun9-88.userapi.com",
-            "travel.yastatic.net",
-            "api.uxfeedback.yandex.net",
-            "api.s3.yandex.net",
-            "cdn.s3.yandex.net",
-            "uxfeedback-cdn.s3.yandex.net",
-            "cloudcdn-m9-15.cdn.yandex.net",
-            "cloudcdn-m9-14.cdn.yandex.net",
-            "cloudcdn-m9-13.cdn.yandex.net",
-            "cloudcdn-m9-12.cdn.yandex.net",
-            "cloudcdn-m9-10.cdn.yandex.net",
-            "cloudcdn-m9-9.cdn.yandex.net",
-            "cloudcdn-m9-7.cdn.yandex.net",
-            "cloudcdn-m9-6.cdn.yandex.net",
-            "cloudcdn-m9-5.cdn.yandex.net",
-            "cloudcdn-m9-4.cdn.yandex.net",
-            "cloudcdn-m9-3.cdn.yandex.net",
-            "cloudcdn-m9-2.cdn.yandex.net",
-            "avatars.mds.yandex.net",
-            "receive-sentry.lmru.tech",
-            "favicon.yandex.com",
-            "favicon.yandex.net",
-            "browser.yandex.com",
-            "api.browser.yandex.com",
-            "wap.yandex.com",
-            "kiks.yandex.com",
-            "mediafeeds.yandex.com",
-            "avatars.mds.yandex.com",
-            "mc.yandex.com",
-            "dr2.yandex.net",
-            "cloud.cdn.yandex.net",
-            "cloud.cdn.yandex.com",
-            "dr.yandex.net",
-            "mail.yandex.com",
-            "s3.yandex.net",
-            "vk-portal.net",
-            "zen.yandex.com",
-            "zen.yandex.net",
-            "queuev4.vk.com",
-            "r0.mradx.net",
-            "collections.yandex.com",
-            "bro-bg-store.s3.yandex.net",
-            "bro-bg-store.s3.yandex.com",
-            "static-mon.yandex.net",
-            "sync.browser.yandex.net",
-            "storage.ape.yandex.net",
-            "ams2-cdn.2gis.com",
-            "eh.vk.com",
-            "akashi.vk-portal.net",
-            "strm-rad-23.strm.yandex.net",
-            "strm.yandex.net",
-            "egress.yandex.net",
-            "cloudcdn-ams19.cdn.yandex.net",
-            "disk.2gis.com",
-            "sba.yandex.com",
-            "sba.yandex.net",
-            "login.vk.com",
-            "cloud.vk.com",
-            "keys.api.2gis.com",
-            "favorites.api.2gis.com",
-            "styles.api.2gis.com",
-            "tile0.maps.2gis.com",
-            "tile1.maps.2gis.com",
-            "tile2.maps.2gis.com",
-            "tile3.maps.2gis.com",
-            "tile4.maps.2gis.com",
-            "api.photo.2gis.com",
-            "2gis.com",
-            "filekeeper-vod.2gis.com",
-            "i0.photo.2gis.com",
-            "i1.photo.2gis.com",
-            "i2.photo.2gis.com",
-            "i3.photo.2gis.com",
-            "i4.photo.2gis.com",
-            "i5.photo.2gis.com",
-            "i6.photo.2gis.com",
-            "i7.photo.2gis.com",
-            "i8.photo.2gis.com",
-            "i9.photo.2gis.com",
-            "jam.api.2gis.com",
-            "catalog.api.2gis.com",
-            "api.reviews.2gis.com",
-            "public-api.reviews.2gis.com",
-            "mapgl.2gis.com",
-            "yastatic.net",
-            "csp.yandex.net",
-            "cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net",
-            "api.events.plus.yandex.net",
-            "speller.yandex.net",
-            "s0.bss.2gis.com",
-            "s1.bss.2gis.com",
-            "00.img.avito.st",
-            "01.img.avito.st",
-            "02.img.avito.st",
-            "03.img.avito.st",
-            "04.img.avito.st",
-            "05.img.avito.st",
-            "06.img.avito.st",
-            "07.img.avito.st",
-            "08.img.avito.st",
-            "09.img.avito.st",
-            "10.img.avito.st",
-            "11.img.avito.st",
-            "12.img.avito.st",
-            "13.img.avito.st",
-            "14.img.avito.st",
-            "15.img.avito.st",
-            "16.img.avito.st",
-            "17.img.avito.st",
-            "18.img.avito.st",
-            "19.img.avito.st",
-            "20.img.avito.st",
-            "21.img.avito.st",
-            "22.img.avito.st",
-            "23.img.avito.st",
-            "24.img.avito.st",
-            "25.img.avito.st",
-            "26.img.avito.st",
-            "27.img.avito.st",
-            "28.img.avito.st",
-            "29.img.avito.st",
-            "30.img.avito.st",
-            "31.img.avito.st",
-            "32.img.avito.st",
-            "33.img.avito.st",
-            "34.img.avito.st",
-            "35.img.avito.st",
-            "36.img.avito.st",
-            "37.img.avito.st",
-            "38.img.avito.st",
-            "39.img.avito.st",
-            "40.img.avito.st",
-            "41.img.avito.st",
-            "42.img.avito.st",
-            "43.img.avito.st",
-            "44.img.avito.st",
-            "45.img.avito.st",
-            "46.img.avito.st",
-            "47.img.avito.st",
-            "48.img.avito.st",
-            "49.img.avito.st",
-            "50.img.avito.st",
-            "51.img.avito.st",
-            "52.img.avito.st",
-            "53.img.avito.st",
-            "54.img.avito.st",
-            "55.img.avito.st",
-            "56.img.avito.st",
-            "57.img.avito.st",
-            "58.img.avito.st",
-            "59.img.avito.st",
-            "60.img.avito.st",
-            "61.img.avito.st",
-            "62.img.avito.st",
-            "63.img.avito.st",
-            "64.img.avito.st",
-            "65.img.avito.st",
-            "66.img.avito.st",
-            "67.img.avito.st",
-            "68.img.avito.st",
-            "69.img.avito.st",
-            "70.img.avito.st",
-            "71.img.avito.st",
-            "72.img.avito.st",
-            "73.img.avito.st",
-            "74.img.avito.st",
-            "75.img.avito.st",
-            "76.img.avito.st",
-            "77.img.avito.st",
-            "78.img.avito.st",
-            "79.img.avito.st",
-            "80.img.avito.st",
-            "81.img.avito.st",
-            "82.img.avito.st",
-            "83.img.avito.st",
-            "84.img.avito.st",
-            "85.img.avito.st",
-            "86.img.avito.st",
-            "87.img.avito.st",
-            "88.img.avito.st",
-            "89.img.avito.st",
-            "90.img.avito.st",
-            "91.img.avito.st",
-            "92.img.avito.st",
-            "93.img.avito.st",
-            "94.img.avito.st",
-            "95.img.avito.st",
-            "96.img.avito.st",
-            "97.img.avito.st",
-            "98.img.avito.st",
-            "99.img.avito.st",
-            "api.okko.tv",
-            "api.premier.one",
-            "auth.okko.tv",
-            "auth.premier.one",
-            "cdn.okko.tv",
-            "cdn.premier.one",
-            "gismeteo.com",
-            "img.okko.tv",
-            "img.premier.one",
-            "m.okko.tv",
-            "my.okko.tv",
-            "my.premier.one",
-            "push.okko.tv",
-            "push.premier.one",
-            "static.okko.tv",
-            "static.premier.one",
-            "stats.okko.tv",
-            "stream.okko.tv",
-            "stream.premier.one",
-            "supermarket.lenta.com",
-            "tv.okko.tv",
-            "www.gismeteo.com"
-          ],
-          "outboundTag": "direct"
-        }
-      ]
-    }
-  },
-  {
-    "remarks": "🇩🇪 Германия 16",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
               "address": "cl-de-1.edgeflux.ru",
               "port": 52006,
               "users": [
@@ -35246,7 +35942,7 @@
     }
   },
   {
-    "remarks": "🇩🇪 Германия 17",
+    "remarks": "🇩🇪 Германия 16",
     "inbounds": [
       {
         "port": 10808,
@@ -35704,7 +36400,7 @@
     }
   },
   {
-    "remarks": "🇩🇪 Германия 18",
+    "remarks": "🇩🇪 Германия 17",
     "inbounds": [
       {
         "port": 10808,
@@ -36162,7 +36858,7 @@
     }
   },
   {
-    "remarks": "🇩🇪 Германия 19",
+    "remarks": "🇩🇪 Германия 18",
     "inbounds": [
       {
         "port": 10808,
@@ -36620,7 +37316,7 @@
     }
   },
   {
-    "remarks": "🇩🇪 Германия 20",
+    "remarks": "🇩🇪 Германия 19",
     "inbounds": [
       {
         "port": 10808,
@@ -37078,7 +37774,7 @@
     }
   },
   {
-    "remarks": "🇩🇪 Германия 21",
+    "remarks": "🇩🇪 Германия 20",
     "inbounds": [
       {
         "port": 10808,
@@ -37536,7 +38232,7 @@
     }
   },
   {
-    "remarks": "🇩🇪 Германия 22",
+    "remarks": "🇩🇪 Германия 21",
     "inbounds": [
       {
         "port": 10808,
@@ -38029,7 +38725,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "apple.com",
-            "publicKey": "1iRTZOPrxXoDubXA-RyRrdPK1pBlK-BP8BjENZ3V6Qk",
+            "publicKey": "iropo7HQhXPrJT0ACLnr2Xc-3CZP6H0thNzaUzpDGhc",
             "shortId": "",
             "fingerprint": "chrome"
           }
@@ -42140,7 +42836,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "finak.kaguya.sbs",
+              "address": "newfin2.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -42157,7 +42853,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "apple.com",
-            "publicKey": "E3p-T8sCvanHEFDkYXfajArxu8jMEtYKK59N_R1FtnE",
+            "publicKey": "42Du9D9zJ6Tjd7khBR5vnIQ_WO-yLBPdvz7NuvdeEHQ",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -42587,6 +43283,470 @@
   },
   {
     "remarks": "🇫🇮 Финляндия 2",
+    "inbounds": [
+      {
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "finak.kaguya.sbs",
+              "port": 443,
+              "users": [
+                {
+                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "apple.com",
+            "publicKey": "tOMbFb2oUrNQpS5RQyDOS4YFsy9xeI4ji4MeaAXJ-nQ",
+            "shortId": "dc4aa6635008a9ae",
+            "fingerprint": "chrome"
+          }
+        }
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "IPIfNonMatch",
+      "rules": [
+        {
+          "type": "field",
+          "domain": [
+            "oneme.ru",
+            "max.ru"
+          ],
+          "outboundTag": "block"
+        },
+        {
+          "type": "field",
+          "domain": [
+            "avito.st",
+            "geosite:category-ru",
+            "regexp:.*\\.ru$",
+            "regexp:.*\\.xn--p1ai$",
+            "regexp:.*\\.xn--p1acf$",
+            "regexp:.*\\.xn--p1ag$",
+            "xn--80ajghhoc2aj1c8b.xn--p1ai",
+            "pptest.userapi.com",
+            "sun1-13.userapi.com",
+            "sun1-14.userapi.com",
+            "sun1-15.userapi.com",
+            "sun1-16.userapi.com",
+            "sun1-17.userapi.com",
+            "sun1-18.userapi.com",
+            "sun1-19.userapi.com",
+            "sun1-20.userapi.com",
+            "sun1-21.userapi.com",
+            "sun1-22.userapi.com",
+            "sun1-23.userapi.com",
+            "sun1-24.userapi.com",
+            "sun1-25.userapi.com",
+            "sun1-26.userapi.com",
+            "sun1-27.userapi.com",
+            "sun1-28.userapi.com",
+            "sun1-29.userapi.com",
+            "sun1-30.userapi.com",
+            "sun1-47.userapi.com",
+            "sun1-54.userapi.com",
+            "sun1-55.userapi.com",
+            "sun1-56.userapi.com",
+            "sun1-57.userapi.com",
+            "sun1-83.userapi.com",
+            "sun1-84.userapi.com",
+            "sun1-85.userapi.com",
+            "sun1-86.userapi.com",
+            "sun1-87.userapi.com",
+            "sun1-88.userapi.com",
+            "sun1-89.userapi.com",
+            "sun1-90.userapi.com",
+            "sun1-91.userapi.com",
+            "sun1-92.userapi.com",
+            "sun1-93.userapi.com",
+            "sun1-94.userapi.com",
+            "sun1-95.userapi.com",
+            "sun1-96.userapi.com",
+            "sun1-97.userapi.com",
+            "sun1-98.userapi.com",
+            "sun1-99.userapi.com",
+            "sun2-10.userapi.com",
+            "sun2-11.userapi.com",
+            "sun2-12.userapi.com",
+            "sun2-13.userapi.com",
+            "sun2-14.userapi.com",
+            "sun2-15.userapi.com",
+            "sun2-16.userapi.com",
+            "sun2-17.userapi.com",
+            "sun2-18.userapi.com",
+            "sun2-19.userapi.com",
+            "sun2-20.userapi.com",
+            "sun2-21.userapi.com",
+            "sun2-22.userapi.com",
+            "sun3-10.userapi.com",
+            "sun3-11.userapi.com",
+            "sun3-12.userapi.com",
+            "sun3-13.userapi.com",
+            "sun3-16.userapi.com",
+            "sun3-17.userapi.com",
+            "sun3-18.userapi.com",
+            "sun3-19.userapi.com",
+            "sun3-20.userapi.com",
+            "sun3-21.userapi.com",
+            "sun3-22.userapi.com",
+            "sun3-23.userapi.com",
+            "sun3-24.userapi.com",
+            "sun4-10.userapi.com",
+            "sun4-11.userapi.com",
+            "sun4-12.userapi.com",
+            "sun4-15.userapi.com",
+            "sun4-16.userapi.com",
+            "sun4-17.userapi.com",
+            "sun4-18.userapi.com",
+            "sun4-19.userapi.com",
+            "sun4-20.userapi.com",
+            "sun4-21.userapi.com",
+            "sun4-22.userapi.com",
+            "sun6-20.userapi.com",
+            "sun6-21.userapi.com",
+            "sun6-22.userapi.com",
+            "sun6-23.userapi.com",
+            "sun7-12.userapi.com",
+            "sun7-13.userapi.com",
+            "sun7-14.userapi.com",
+            "sun7-15.userapi.com",
+            "sun7-16.userapi.com",
+            "sun7-17.userapi.com",
+            "sun7-18.userapi.com",
+            "sun7-19.userapi.com",
+            "sun7-20.userapi.com",
+            "sun7-21.userapi.com",
+            "sun7-22.userapi.com",
+            "sun7-23.userapi.com",
+            "sun7-24.userapi.com",
+            "sun9-10.userapi.com",
+            "sun9-11.userapi.com",
+            "sun9-12.userapi.com",
+            "sun9-13.userapi.com",
+            "sun9-14.userapi.com",
+            "sun9-15.userapi.com",
+            "sun9-16.userapi.com",
+            "sun9-17.userapi.com",
+            "sun9-18.userapi.com",
+            "sun9-19.userapi.com",
+            "sun9-20.userapi.com",
+            "sun9-21.userapi.com",
+            "sun9-22.userapi.com",
+            "sun9-23.userapi.com",
+            "sun9-24.userapi.com",
+            "sun9-25.userapi.com",
+            "sun9-26.userapi.com",
+            "sun9-27.userapi.com",
+            "sun9-28.userapi.com",
+            "sun9-29.userapi.com",
+            "sun9-30.userapi.com",
+            "sun9-31.userapi.com",
+            "sun9-32.userapi.com",
+            "sun9-33.userapi.com",
+            "sun9-34.userapi.com",
+            "sun9-35.userapi.com",
+            "sun9-36.userapi.com",
+            "sun9-37.userapi.com",
+            "sun9-38.userapi.com",
+            "sun9-39.userapi.com",
+            "sun9-40.userapi.com",
+            "sun9-41.userapi.com",
+            "sun9-42.userapi.com",
+            "sun9-43.userapi.com",
+            "sun9-44.userapi.com",
+            "sun9-45.userapi.com",
+            "sun9-46.userapi.com",
+            "sun9-47.userapi.com",
+            "sun9-48.userapi.com",
+            "sun9-49.userapi.com",
+            "sun9-50.userapi.com",
+            "sun9-51.userapi.com",
+            "sun9-52.userapi.com",
+            "sun9-53.userapi.com",
+            "sun9-54.userapi.com",
+            "sun9-55.userapi.com",
+            "sun9-56.userapi.com",
+            "sun9-57.userapi.com",
+            "sun9-58.userapi.com",
+            "sun9-59.userapi.com",
+            "sun9-60.userapi.com",
+            "sun9-61.userapi.com",
+            "sun9-62.userapi.com",
+            "sun9-63.userapi.com",
+            "sun9-64.userapi.com",
+            "sun9-65.userapi.com",
+            "sun9-66.userapi.com",
+            "sun9-67.userapi.com",
+            "sun9-68.userapi.com",
+            "sun9-69.userapi.com",
+            "sun9-70.userapi.com",
+            "sun9-71.userapi.com",
+            "sun9-72.userapi.com",
+            "sun9-73.userapi.com",
+            "sun9-74.userapi.com",
+            "sun9-75.userapi.com",
+            "sun9-76.userapi.com",
+            "sun9-77.userapi.com",
+            "sun9-78.userapi.com",
+            "sun9-79.userapi.com",
+            "sun9-80.userapi.com",
+            "sun9-81.userapi.com",
+            "sun9-82.userapi.com",
+            "sun9-83.userapi.com",
+            "sun9-84.userapi.com",
+            "sun9-85.userapi.com",
+            "sun9-86.userapi.com",
+            "sun9-87.userapi.com",
+            "sun9-88.userapi.com",
+            "travel.yastatic.net",
+            "api.uxfeedback.yandex.net",
+            "api.s3.yandex.net",
+            "cdn.s3.yandex.net",
+            "uxfeedback-cdn.s3.yandex.net",
+            "cloudcdn-m9-15.cdn.yandex.net",
+            "cloudcdn-m9-14.cdn.yandex.net",
+            "cloudcdn-m9-13.cdn.yandex.net",
+            "cloudcdn-m9-12.cdn.yandex.net",
+            "cloudcdn-m9-10.cdn.yandex.net",
+            "cloudcdn-m9-9.cdn.yandex.net",
+            "cloudcdn-m9-7.cdn.yandex.net",
+            "cloudcdn-m9-6.cdn.yandex.net",
+            "cloudcdn-m9-5.cdn.yandex.net",
+            "cloudcdn-m9-4.cdn.yandex.net",
+            "cloudcdn-m9-3.cdn.yandex.net",
+            "cloudcdn-m9-2.cdn.yandex.net",
+            "avatars.mds.yandex.net",
+            "receive-sentry.lmru.tech",
+            "favicon.yandex.com",
+            "favicon.yandex.net",
+            "browser.yandex.com",
+            "api.browser.yandex.com",
+            "wap.yandex.com",
+            "kiks.yandex.com",
+            "mediafeeds.yandex.com",
+            "avatars.mds.yandex.com",
+            "mc.yandex.com",
+            "dr2.yandex.net",
+            "cloud.cdn.yandex.net",
+            "cloud.cdn.yandex.com",
+            "dr.yandex.net",
+            "mail.yandex.com",
+            "s3.yandex.net",
+            "vk-portal.net",
+            "zen.yandex.com",
+            "zen.yandex.net",
+            "queuev4.vk.com",
+            "r0.mradx.net",
+            "collections.yandex.com",
+            "bro-bg-store.s3.yandex.net",
+            "bro-bg-store.s3.yandex.com",
+            "static-mon.yandex.net",
+            "sync.browser.yandex.net",
+            "storage.ape.yandex.net",
+            "ams2-cdn.2gis.com",
+            "eh.vk.com",
+            "akashi.vk-portal.net",
+            "strm-rad-23.strm.yandex.net",
+            "strm.yandex.net",
+            "egress.yandex.net",
+            "cloudcdn-ams19.cdn.yandex.net",
+            "disk.2gis.com",
+            "sba.yandex.com",
+            "sba.yandex.net",
+            "login.vk.com",
+            "cloud.vk.com",
+            "keys.api.2gis.com",
+            "favorites.api.2gis.com",
+            "styles.api.2gis.com",
+            "tile0.maps.2gis.com",
+            "tile1.maps.2gis.com",
+            "tile2.maps.2gis.com",
+            "tile3.maps.2gis.com",
+            "tile4.maps.2gis.com",
+            "api.photo.2gis.com",
+            "2gis.com",
+            "filekeeper-vod.2gis.com",
+            "i0.photo.2gis.com",
+            "i1.photo.2gis.com",
+            "i2.photo.2gis.com",
+            "i3.photo.2gis.com",
+            "i4.photo.2gis.com",
+            "i5.photo.2gis.com",
+            "i6.photo.2gis.com",
+            "i7.photo.2gis.com",
+            "i8.photo.2gis.com",
+            "i9.photo.2gis.com",
+            "jam.api.2gis.com",
+            "catalog.api.2gis.com",
+            "api.reviews.2gis.com",
+            "public-api.reviews.2gis.com",
+            "mapgl.2gis.com",
+            "yastatic.net",
+            "csp.yandex.net",
+            "cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net",
+            "api.events.plus.yandex.net",
+            "speller.yandex.net",
+            "s0.bss.2gis.com",
+            "s1.bss.2gis.com",
+            "00.img.avito.st",
+            "01.img.avito.st",
+            "02.img.avito.st",
+            "03.img.avito.st",
+            "04.img.avito.st",
+            "05.img.avito.st",
+            "06.img.avito.st",
+            "07.img.avito.st",
+            "08.img.avito.st",
+            "09.img.avito.st",
+            "10.img.avito.st",
+            "11.img.avito.st",
+            "12.img.avito.st",
+            "13.img.avito.st",
+            "14.img.avito.st",
+            "15.img.avito.st",
+            "16.img.avito.st",
+            "17.img.avito.st",
+            "18.img.avito.st",
+            "19.img.avito.st",
+            "20.img.avito.st",
+            "21.img.avito.st",
+            "22.img.avito.st",
+            "23.img.avito.st",
+            "24.img.avito.st",
+            "25.img.avito.st",
+            "26.img.avito.st",
+            "27.img.avito.st",
+            "28.img.avito.st",
+            "29.img.avito.st",
+            "30.img.avito.st",
+            "31.img.avito.st",
+            "32.img.avito.st",
+            "33.img.avito.st",
+            "34.img.avito.st",
+            "35.img.avito.st",
+            "36.img.avito.st",
+            "37.img.avito.st",
+            "38.img.avito.st",
+            "39.img.avito.st",
+            "40.img.avito.st",
+            "41.img.avito.st",
+            "42.img.avito.st",
+            "43.img.avito.st",
+            "44.img.avito.st",
+            "45.img.avito.st",
+            "46.img.avito.st",
+            "47.img.avito.st",
+            "48.img.avito.st",
+            "49.img.avito.st",
+            "50.img.avito.st",
+            "51.img.avito.st",
+            "52.img.avito.st",
+            "53.img.avito.st",
+            "54.img.avito.st",
+            "55.img.avito.st",
+            "56.img.avito.st",
+            "57.img.avito.st",
+            "58.img.avito.st",
+            "59.img.avito.st",
+            "60.img.avito.st",
+            "61.img.avito.st",
+            "62.img.avito.st",
+            "63.img.avito.st",
+            "64.img.avito.st",
+            "65.img.avito.st",
+            "66.img.avito.st",
+            "67.img.avito.st",
+            "68.img.avito.st",
+            "69.img.avito.st",
+            "70.img.avito.st",
+            "71.img.avito.st",
+            "72.img.avito.st",
+            "73.img.avito.st",
+            "74.img.avito.st",
+            "75.img.avito.st",
+            "76.img.avito.st",
+            "77.img.avito.st",
+            "78.img.avito.st",
+            "79.img.avito.st",
+            "80.img.avito.st",
+            "81.img.avito.st",
+            "82.img.avito.st",
+            "83.img.avito.st",
+            "84.img.avito.st",
+            "85.img.avito.st",
+            "86.img.avito.st",
+            "87.img.avito.st",
+            "88.img.avito.st",
+            "89.img.avito.st",
+            "90.img.avito.st",
+            "91.img.avito.st",
+            "92.img.avito.st",
+            "93.img.avito.st",
+            "94.img.avito.st",
+            "95.img.avito.st",
+            "96.img.avito.st",
+            "97.img.avito.st",
+            "98.img.avito.st",
+            "99.img.avito.st",
+            "api.okko.tv",
+            "api.premier.one",
+            "auth.okko.tv",
+            "auth.premier.one",
+            "cdn.okko.tv",
+            "cdn.premier.one",
+            "gismeteo.com",
+            "img.okko.tv",
+            "img.premier.one",
+            "m.okko.tv",
+            "my.okko.tv",
+            "my.premier.one",
+            "push.okko.tv",
+            "push.premier.one",
+            "static.okko.tv",
+            "static.premier.one",
+            "stats.okko.tv",
+            "stream.okko.tv",
+            "stream.premier.one",
+            "supermarket.lenta.com",
+            "tv.okko.tv",
+            "www.gismeteo.com"
+          ],
+          "outboundTag": "direct"
+        }
+      ]
+    }
+  },
+  {
+    "remarks": "🇫🇮 Финляндия 3",
     "inbounds": [
       {
         "port": 10808,
@@ -43050,7 +44210,7 @@
     }
   },
   {
-    "remarks": "🇫🇮 Финляндия 3",
+    "remarks": "🇫🇮 Финляндия 4",
     "inbounds": [
       {
         "port": 10808,
@@ -43518,7 +44678,7 @@
     }
   },
   {
-    "remarks": "🇫🇮 Финляндия 4",
+    "remarks": "🇫🇮 Финляндия 5",
     "inbounds": [
       {
         "port": 10808,
@@ -43976,7 +45136,7 @@
     }
   },
   {
-    "remarks": "🇫🇮 Финляндия 5",
+    "remarks": "🇫🇮 Финляндия 6",
     "inbounds": [
       {
         "port": 10808,
@@ -44440,7 +45600,7 @@
     }
   },
   {
-    "remarks": "🇫🇮 Финляндия 6",
+    "remarks": "🇫🇮 Финляндия 7",
     "inbounds": [
       {
         "port": 10808,
@@ -44902,7 +46062,7 @@
     }
   },
   {
-    "remarks": "🇫🇮 Финляндия 7",
+    "remarks": "🇫🇮 Финляндия 8",
     "inbounds": [
       {
         "port": 10808,
@@ -45360,7 +46520,7 @@
     }
   },
   {
-    "remarks": "🇫🇮 Финляндия 8",
+    "remarks": "🇫🇮 Финляндия 9",
     "inbounds": [
       {
         "port": 10808,
@@ -45818,7 +46978,7 @@
     }
   },
   {
-    "remarks": "🇫🇮 Финляндия 9",
+    "remarks": "🇫🇮 Финляндия 10",
     "inbounds": [
       {
         "port": 10808,
@@ -46276,7 +47436,7 @@
     }
   },
   {
-    "remarks": "🇫🇮 Финляндия 10",
+    "remarks": "🇫🇮 Финляндия 11",
     "inbounds": [
       {
         "port": 10808,
@@ -46734,7 +47894,7 @@
     }
   },
   {
-    "remarks": "🇫🇮 Финляндия 11",
+    "remarks": "🇫🇮 Финляндия 12",
     "inbounds": [
       {
         "port": 10808,
@@ -47192,7 +48352,7 @@
     }
   },
   {
-    "remarks": "🇫🇮 Финляндия 12",
+    "remarks": "🇫🇮 Финляндия 13",
     "inbounds": [
       {
         "port": 10808,
@@ -47650,7 +48810,7 @@
     }
   },
   {
-    "remarks": "🇫🇮 Финляндия 13",
+    "remarks": "🇫🇮 Финляндия 14",
     "inbounds": [
       {
         "port": 10808,
@@ -53182,7 +54342,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "lithua.kaguya.sbs",
+              "address": "lithuan.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -53663,7 +54823,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "apple.com",
-            "publicKey": "0kjN_wTcYu-tvTA-N71TUrqGT1d_a_CGCTqeQbmTwAU",
+            "publicKey": "y9ds-Hk_bsuyYyt5i3Gtc_0J4LdDWuDmMwjl-yrjYy4",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
@@ -55954,7 +57114,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "cnetha.kaguya.sbs",
+              "address": "cneth.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -56418,7 +57578,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "neruk.kaguya.sbs",
+              "address": "neru.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -56882,470 +58042,6 @@
         "settings": {
           "vnext": [
             {
-              "address": "neru.kaguya.sbs",
-              "port": 443,
-              "users": [
-                {
-                  "id": "e0e8cb01-bfa7-4587-bc74-2eeacf703f03",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "apple.com",
-            "publicKey": "i3xg5OZqqQp0w3Bb6jB_0RAJ2-5Ds2yEa4xca5zEax4",
-            "shortId": "dc4aa6635008a9ae",
-            "fingerprint": "chrome"
-          }
-        }
-      },
-      {
-        "protocol": "freedom",
-        "tag": "direct"
-      },
-      {
-        "protocol": "blackhole",
-        "tag": "block"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "IPIfNonMatch",
-      "rules": [
-        {
-          "type": "field",
-          "domain": [
-            "oneme.ru",
-            "max.ru"
-          ],
-          "outboundTag": "block"
-        },
-        {
-          "type": "field",
-          "domain": [
-            "avito.st",
-            "geosite:category-ru",
-            "regexp:.*\\.ru$",
-            "regexp:.*\\.xn--p1ai$",
-            "regexp:.*\\.xn--p1acf$",
-            "regexp:.*\\.xn--p1ag$",
-            "xn--80ajghhoc2aj1c8b.xn--p1ai",
-            "pptest.userapi.com",
-            "sun1-13.userapi.com",
-            "sun1-14.userapi.com",
-            "sun1-15.userapi.com",
-            "sun1-16.userapi.com",
-            "sun1-17.userapi.com",
-            "sun1-18.userapi.com",
-            "sun1-19.userapi.com",
-            "sun1-20.userapi.com",
-            "sun1-21.userapi.com",
-            "sun1-22.userapi.com",
-            "sun1-23.userapi.com",
-            "sun1-24.userapi.com",
-            "sun1-25.userapi.com",
-            "sun1-26.userapi.com",
-            "sun1-27.userapi.com",
-            "sun1-28.userapi.com",
-            "sun1-29.userapi.com",
-            "sun1-30.userapi.com",
-            "sun1-47.userapi.com",
-            "sun1-54.userapi.com",
-            "sun1-55.userapi.com",
-            "sun1-56.userapi.com",
-            "sun1-57.userapi.com",
-            "sun1-83.userapi.com",
-            "sun1-84.userapi.com",
-            "sun1-85.userapi.com",
-            "sun1-86.userapi.com",
-            "sun1-87.userapi.com",
-            "sun1-88.userapi.com",
-            "sun1-89.userapi.com",
-            "sun1-90.userapi.com",
-            "sun1-91.userapi.com",
-            "sun1-92.userapi.com",
-            "sun1-93.userapi.com",
-            "sun1-94.userapi.com",
-            "sun1-95.userapi.com",
-            "sun1-96.userapi.com",
-            "sun1-97.userapi.com",
-            "sun1-98.userapi.com",
-            "sun1-99.userapi.com",
-            "sun2-10.userapi.com",
-            "sun2-11.userapi.com",
-            "sun2-12.userapi.com",
-            "sun2-13.userapi.com",
-            "sun2-14.userapi.com",
-            "sun2-15.userapi.com",
-            "sun2-16.userapi.com",
-            "sun2-17.userapi.com",
-            "sun2-18.userapi.com",
-            "sun2-19.userapi.com",
-            "sun2-20.userapi.com",
-            "sun2-21.userapi.com",
-            "sun2-22.userapi.com",
-            "sun3-10.userapi.com",
-            "sun3-11.userapi.com",
-            "sun3-12.userapi.com",
-            "sun3-13.userapi.com",
-            "sun3-16.userapi.com",
-            "sun3-17.userapi.com",
-            "sun3-18.userapi.com",
-            "sun3-19.userapi.com",
-            "sun3-20.userapi.com",
-            "sun3-21.userapi.com",
-            "sun3-22.userapi.com",
-            "sun3-23.userapi.com",
-            "sun3-24.userapi.com",
-            "sun4-10.userapi.com",
-            "sun4-11.userapi.com",
-            "sun4-12.userapi.com",
-            "sun4-15.userapi.com",
-            "sun4-16.userapi.com",
-            "sun4-17.userapi.com",
-            "sun4-18.userapi.com",
-            "sun4-19.userapi.com",
-            "sun4-20.userapi.com",
-            "sun4-21.userapi.com",
-            "sun4-22.userapi.com",
-            "sun6-20.userapi.com",
-            "sun6-21.userapi.com",
-            "sun6-22.userapi.com",
-            "sun6-23.userapi.com",
-            "sun7-12.userapi.com",
-            "sun7-13.userapi.com",
-            "sun7-14.userapi.com",
-            "sun7-15.userapi.com",
-            "sun7-16.userapi.com",
-            "sun7-17.userapi.com",
-            "sun7-18.userapi.com",
-            "sun7-19.userapi.com",
-            "sun7-20.userapi.com",
-            "sun7-21.userapi.com",
-            "sun7-22.userapi.com",
-            "sun7-23.userapi.com",
-            "sun7-24.userapi.com",
-            "sun9-10.userapi.com",
-            "sun9-11.userapi.com",
-            "sun9-12.userapi.com",
-            "sun9-13.userapi.com",
-            "sun9-14.userapi.com",
-            "sun9-15.userapi.com",
-            "sun9-16.userapi.com",
-            "sun9-17.userapi.com",
-            "sun9-18.userapi.com",
-            "sun9-19.userapi.com",
-            "sun9-20.userapi.com",
-            "sun9-21.userapi.com",
-            "sun9-22.userapi.com",
-            "sun9-23.userapi.com",
-            "sun9-24.userapi.com",
-            "sun9-25.userapi.com",
-            "sun9-26.userapi.com",
-            "sun9-27.userapi.com",
-            "sun9-28.userapi.com",
-            "sun9-29.userapi.com",
-            "sun9-30.userapi.com",
-            "sun9-31.userapi.com",
-            "sun9-32.userapi.com",
-            "sun9-33.userapi.com",
-            "sun9-34.userapi.com",
-            "sun9-35.userapi.com",
-            "sun9-36.userapi.com",
-            "sun9-37.userapi.com",
-            "sun9-38.userapi.com",
-            "sun9-39.userapi.com",
-            "sun9-40.userapi.com",
-            "sun9-41.userapi.com",
-            "sun9-42.userapi.com",
-            "sun9-43.userapi.com",
-            "sun9-44.userapi.com",
-            "sun9-45.userapi.com",
-            "sun9-46.userapi.com",
-            "sun9-47.userapi.com",
-            "sun9-48.userapi.com",
-            "sun9-49.userapi.com",
-            "sun9-50.userapi.com",
-            "sun9-51.userapi.com",
-            "sun9-52.userapi.com",
-            "sun9-53.userapi.com",
-            "sun9-54.userapi.com",
-            "sun9-55.userapi.com",
-            "sun9-56.userapi.com",
-            "sun9-57.userapi.com",
-            "sun9-58.userapi.com",
-            "sun9-59.userapi.com",
-            "sun9-60.userapi.com",
-            "sun9-61.userapi.com",
-            "sun9-62.userapi.com",
-            "sun9-63.userapi.com",
-            "sun9-64.userapi.com",
-            "sun9-65.userapi.com",
-            "sun9-66.userapi.com",
-            "sun9-67.userapi.com",
-            "sun9-68.userapi.com",
-            "sun9-69.userapi.com",
-            "sun9-70.userapi.com",
-            "sun9-71.userapi.com",
-            "sun9-72.userapi.com",
-            "sun9-73.userapi.com",
-            "sun9-74.userapi.com",
-            "sun9-75.userapi.com",
-            "sun9-76.userapi.com",
-            "sun9-77.userapi.com",
-            "sun9-78.userapi.com",
-            "sun9-79.userapi.com",
-            "sun9-80.userapi.com",
-            "sun9-81.userapi.com",
-            "sun9-82.userapi.com",
-            "sun9-83.userapi.com",
-            "sun9-84.userapi.com",
-            "sun9-85.userapi.com",
-            "sun9-86.userapi.com",
-            "sun9-87.userapi.com",
-            "sun9-88.userapi.com",
-            "travel.yastatic.net",
-            "api.uxfeedback.yandex.net",
-            "api.s3.yandex.net",
-            "cdn.s3.yandex.net",
-            "uxfeedback-cdn.s3.yandex.net",
-            "cloudcdn-m9-15.cdn.yandex.net",
-            "cloudcdn-m9-14.cdn.yandex.net",
-            "cloudcdn-m9-13.cdn.yandex.net",
-            "cloudcdn-m9-12.cdn.yandex.net",
-            "cloudcdn-m9-10.cdn.yandex.net",
-            "cloudcdn-m9-9.cdn.yandex.net",
-            "cloudcdn-m9-7.cdn.yandex.net",
-            "cloudcdn-m9-6.cdn.yandex.net",
-            "cloudcdn-m9-5.cdn.yandex.net",
-            "cloudcdn-m9-4.cdn.yandex.net",
-            "cloudcdn-m9-3.cdn.yandex.net",
-            "cloudcdn-m9-2.cdn.yandex.net",
-            "avatars.mds.yandex.net",
-            "receive-sentry.lmru.tech",
-            "favicon.yandex.com",
-            "favicon.yandex.net",
-            "browser.yandex.com",
-            "api.browser.yandex.com",
-            "wap.yandex.com",
-            "kiks.yandex.com",
-            "mediafeeds.yandex.com",
-            "avatars.mds.yandex.com",
-            "mc.yandex.com",
-            "dr2.yandex.net",
-            "cloud.cdn.yandex.net",
-            "cloud.cdn.yandex.com",
-            "dr.yandex.net",
-            "mail.yandex.com",
-            "s3.yandex.net",
-            "vk-portal.net",
-            "zen.yandex.com",
-            "zen.yandex.net",
-            "queuev4.vk.com",
-            "r0.mradx.net",
-            "collections.yandex.com",
-            "bro-bg-store.s3.yandex.net",
-            "bro-bg-store.s3.yandex.com",
-            "static-mon.yandex.net",
-            "sync.browser.yandex.net",
-            "storage.ape.yandex.net",
-            "ams2-cdn.2gis.com",
-            "eh.vk.com",
-            "akashi.vk-portal.net",
-            "strm-rad-23.strm.yandex.net",
-            "strm.yandex.net",
-            "egress.yandex.net",
-            "cloudcdn-ams19.cdn.yandex.net",
-            "disk.2gis.com",
-            "sba.yandex.com",
-            "sba.yandex.net",
-            "login.vk.com",
-            "cloud.vk.com",
-            "keys.api.2gis.com",
-            "favorites.api.2gis.com",
-            "styles.api.2gis.com",
-            "tile0.maps.2gis.com",
-            "tile1.maps.2gis.com",
-            "tile2.maps.2gis.com",
-            "tile3.maps.2gis.com",
-            "tile4.maps.2gis.com",
-            "api.photo.2gis.com",
-            "2gis.com",
-            "filekeeper-vod.2gis.com",
-            "i0.photo.2gis.com",
-            "i1.photo.2gis.com",
-            "i2.photo.2gis.com",
-            "i3.photo.2gis.com",
-            "i4.photo.2gis.com",
-            "i5.photo.2gis.com",
-            "i6.photo.2gis.com",
-            "i7.photo.2gis.com",
-            "i8.photo.2gis.com",
-            "i9.photo.2gis.com",
-            "jam.api.2gis.com",
-            "catalog.api.2gis.com",
-            "api.reviews.2gis.com",
-            "public-api.reviews.2gis.com",
-            "mapgl.2gis.com",
-            "yastatic.net",
-            "csp.yandex.net",
-            "cdnrhkgfkkpupuotntfj.svc.cdn.yandex.net",
-            "api.events.plus.yandex.net",
-            "speller.yandex.net",
-            "s0.bss.2gis.com",
-            "s1.bss.2gis.com",
-            "00.img.avito.st",
-            "01.img.avito.st",
-            "02.img.avito.st",
-            "03.img.avito.st",
-            "04.img.avito.st",
-            "05.img.avito.st",
-            "06.img.avito.st",
-            "07.img.avito.st",
-            "08.img.avito.st",
-            "09.img.avito.st",
-            "10.img.avito.st",
-            "11.img.avito.st",
-            "12.img.avito.st",
-            "13.img.avito.st",
-            "14.img.avito.st",
-            "15.img.avito.st",
-            "16.img.avito.st",
-            "17.img.avito.st",
-            "18.img.avito.st",
-            "19.img.avito.st",
-            "20.img.avito.st",
-            "21.img.avito.st",
-            "22.img.avito.st",
-            "23.img.avito.st",
-            "24.img.avito.st",
-            "25.img.avito.st",
-            "26.img.avito.st",
-            "27.img.avito.st",
-            "28.img.avito.st",
-            "29.img.avito.st",
-            "30.img.avito.st",
-            "31.img.avito.st",
-            "32.img.avito.st",
-            "33.img.avito.st",
-            "34.img.avito.st",
-            "35.img.avito.st",
-            "36.img.avito.st",
-            "37.img.avito.st",
-            "38.img.avito.st",
-            "39.img.avito.st",
-            "40.img.avito.st",
-            "41.img.avito.st",
-            "42.img.avito.st",
-            "43.img.avito.st",
-            "44.img.avito.st",
-            "45.img.avito.st",
-            "46.img.avito.st",
-            "47.img.avito.st",
-            "48.img.avito.st",
-            "49.img.avito.st",
-            "50.img.avito.st",
-            "51.img.avito.st",
-            "52.img.avito.st",
-            "53.img.avito.st",
-            "54.img.avito.st",
-            "55.img.avito.st",
-            "56.img.avito.st",
-            "57.img.avito.st",
-            "58.img.avito.st",
-            "59.img.avito.st",
-            "60.img.avito.st",
-            "61.img.avito.st",
-            "62.img.avito.st",
-            "63.img.avito.st",
-            "64.img.avito.st",
-            "65.img.avito.st",
-            "66.img.avito.st",
-            "67.img.avito.st",
-            "68.img.avito.st",
-            "69.img.avito.st",
-            "70.img.avito.st",
-            "71.img.avito.st",
-            "72.img.avito.st",
-            "73.img.avito.st",
-            "74.img.avito.st",
-            "75.img.avito.st",
-            "76.img.avito.st",
-            "77.img.avito.st",
-            "78.img.avito.st",
-            "79.img.avito.st",
-            "80.img.avito.st",
-            "81.img.avito.st",
-            "82.img.avito.st",
-            "83.img.avito.st",
-            "84.img.avito.st",
-            "85.img.avito.st",
-            "86.img.avito.st",
-            "87.img.avito.st",
-            "88.img.avito.st",
-            "89.img.avito.st",
-            "90.img.avito.st",
-            "91.img.avito.st",
-            "92.img.avito.st",
-            "93.img.avito.st",
-            "94.img.avito.st",
-            "95.img.avito.st",
-            "96.img.avito.st",
-            "97.img.avito.st",
-            "98.img.avito.st",
-            "99.img.avito.st",
-            "api.okko.tv",
-            "api.premier.one",
-            "auth.okko.tv",
-            "auth.premier.one",
-            "cdn.okko.tv",
-            "cdn.premier.one",
-            "gismeteo.com",
-            "img.okko.tv",
-            "img.premier.one",
-            "m.okko.tv",
-            "my.okko.tv",
-            "my.premier.one",
-            "push.okko.tv",
-            "push.premier.one",
-            "static.okko.tv",
-            "static.premier.one",
-            "stats.okko.tv",
-            "stream.okko.tv",
-            "stream.premier.one",
-            "supermarket.lenta.com",
-            "tv.okko.tv",
-            "www.gismeteo.com"
-          ],
-          "outboundTag": "direct"
-        }
-      ]
-    }
-  },
-  {
-    "remarks": "🇳🇱 Нидерланды 4",
-    "inbounds": [
-      {
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
               "address": "82.27.0.111",
               "port": 443,
               "users": [
@@ -57792,7 +58488,7 @@
     }
   },
   {
-    "remarks": "🇳🇱 Нидерланды 5",
+    "remarks": "🇳🇱 Нидерланды 4",
     "inbounds": [
       {
         "port": 10808,
@@ -58254,7 +58950,7 @@
     }
   },
   {
-    "remarks": "🇳🇱 Нидерланды 6",
+    "remarks": "🇳🇱 Нидерланды 5",
     "inbounds": [
       {
         "port": 10808,
@@ -58712,7 +59408,7 @@
     }
   },
   {
-    "remarks": "🇳🇱 Нидерланды 7",
+    "remarks": "🇳🇱 Нидерланды 6",
     "inbounds": [
       {
         "port": 10808,
@@ -59170,7 +59866,7 @@
     }
   },
   {
-    "remarks": "🇳🇱 Нидерланды 8",
+    "remarks": "🇳🇱 Нидерланды 7",
     "inbounds": [
       {
         "port": 10808,
@@ -59628,7 +60324,7 @@
     }
   },
   {
-    "remarks": "🇳🇱 Нидерланды 9",
+    "remarks": "🇳🇱 Нидерланды 8",
     "inbounds": [
       {
         "port": 10808,
@@ -60086,7 +60782,7 @@
     }
   },
   {
-    "remarks": "🇳🇱 Нидерланды 10",
+    "remarks": "🇳🇱 Нидерланды 9",
     "inbounds": [
       {
         "port": 10808,
@@ -61501,7 +62197,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "deepl.com",
-            "publicKey": "AaF-UE8VHGokMoloILrLk5AO5qykFUCP-dSkFmLCcnM",
+            "publicKey": "4QuV7fR8XKKj7O-HzXgoGgupF6KEqjpNHLzFqs4h1zY",
             "shortId": "",
             "fingerprint": "chrome"
           }
@@ -70693,7 +71389,7 @@
           "security": "reality",
           "realitySettings": {
             "serverName": "apple.com",
-            "publicKey": "MDXzzxBlFwb_7hyPEK_87Adz5YGHa0My6Ysouz7_oUc",
+            "publicKey": "XrxWre44KaiaPHhWzYWW9mwS3Xo0A9RFNOtNb3r1ZSY",
             "shortId": "dc4aa6635008a9ae",
             "fingerprint": "chrome"
           }
