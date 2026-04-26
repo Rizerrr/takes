@@ -41829,7 +41829,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "fink.kaguya.sbs",
+              "address": "finak.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -52871,7 +52871,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "lithuan.kaguya.sbs",
+              "address": "lithua.kaguya.sbs",
               "port": 443,
               "users": [
                 {
