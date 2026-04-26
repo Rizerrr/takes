@@ -936,7 +936,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2407,7 +2407,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3878,7 +3878,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -5349,7 +5349,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -12864,7 +12864,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -29062,7 +29062,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "aguzok4.kaguya.sbs",
+              "address": "aguzok3.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -29526,7 +29526,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "deeshak.kaguya.sbs",
+              "address": "deesha.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -42836,7 +42836,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "newfin1.kaguya.sbs",
+              "address": "newfin4.kaguya.sbs",
               "port": 443,
               "users": [
                 {
