@@ -907,7 +907,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -936,7 +936,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2378,7 +2378,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2407,7 +2407,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3849,7 +3849,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3878,7 +3878,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -10929,7 +10929,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -11393,7 +11393,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "mts.kaguya.sbs",
+              "address": "maps.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -27591,7 +27591,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "aguzok3.kaguya.sbs",
+              "address": "aguzok.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -41365,7 +41365,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "newfin.kaguya.sbs",
+              "address": "newfin4.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -55643,7 +55643,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "cneth.kaguya.sbs",
+              "address": "cnetha.kaguya.sbs",
               "port": 443,
               "users": [
                 {
