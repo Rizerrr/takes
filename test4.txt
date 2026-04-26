@@ -907,7 +907,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -2378,7 +2378,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -3849,7 +3849,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -10929,7 +10929,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "maps.kaguya.sbs",
+              "address": "mts.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -27591,7 +27591,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "aguzok.kaguya.sbs",
+              "address": "aguzok2.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -28055,7 +28055,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "deeshak.kaguya.sbs",
+              "address": "deesha.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -52871,7 +52871,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "lithuan.kaguya.sbs",
+              "address": "lithua.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -55643,7 +55643,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "cnetha.kaguya.sbs",
+              "address": "cneth.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -60251,7 +60251,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "nork.kaguya.sbs",
+              "address": "nor.kaguya.sbs",
               "port": 443,
               "users": [
                 {
