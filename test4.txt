@@ -907,7 +907,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "84.201.143.37",
+              "address": "84.201.170.45",
               "port": 6443,
               "users": [
                 {
@@ -2382,7 +2382,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "84.201.143.37",
+              "address": "84.201.170.45",
               "port": 6443,
               "users": [
                 {
@@ -3857,7 +3857,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "84.201.143.37",
+              "address": "84.201.170.45",
               "port": 6443,
               "users": [
                 {
@@ -10941,7 +10941,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "84.201.143.37",
+              "address": "84.201.170.45",
               "port": 6443,
               "users": [
                 {
@@ -28071,7 +28071,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "aguzok.kaguya.sbs",
+              "address": "aguzok3.kaguya.sbs",
               "port": 443,
               "users": [
                 {
@@ -41851,7 +41851,7 @@
         "settings": {
           "vnext": [
             {
-              "address": "fink.kaguya.sbs",
+              "address": "finak.kaguya.sbs",
               "port": 443,
               "users": [
                 {
